@@ -7,7 +7,7 @@ const fs = require('fs');
  const errors=[],failed=[],overflow=[];
  page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()})});
- page.on('requestfailed',r=>failed.push({url:r.url(),error:r.failure().errorText}));
+ page.on('requestfailed',r=>{if(r.failure().errorText!=='net::ERR_ABORTED')failed.push({url:r.url(),error:r.failure().errorText})});
  page.setDefaultTimeout(15000);
  const urls=[...fs.readFileSync('book/sitemap.xml','utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1].replace('https://waikizashi.github.io/russian-rustbook/',base));
  for(const url of urls){await page.goto(url,{waitUntil:'load'});const size=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));if(size.scroll>size.width+1)overflow.push({url,...size});}
@@ -21,8 +21,9 @@ const fs = require('fs');
  await page.locator('#mdbook-theme-toggle').click();
  await page.getByRole('menuitem',{name:'Navy',exact:true}).click();
  const darkTheme=await page.locator('html').getAttribute('class');
- await page.locator('#mdbook-theme-toggle').click();
+ // mdBook keeps the theme menu open after selecting a theme.
  await page.getByRole('menuitem',{name:'Light',exact:true}).click();
+ await page.getByRole('menuitem',{name:'Light',exact:true}).press('Escape');
  const github=await page.locator('a[href="https://github.com/Waikizashi/russian-rustbook"]').count();
  const edit=await page.locator('a[href$="/edit/main/src/title-page.md"]').count();
  await page.locator('a.mobile-nav-chapters.next').click();
