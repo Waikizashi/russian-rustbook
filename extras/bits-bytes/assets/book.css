@@ -22,3 +22,9 @@
   display: inline-flex; min-width: 32px; min-height: 44px;
   align-items: center; justify-content: center; box-sizing: border-box;
 }
+
+/* System fonts avoid downloading large all-charset font files on mobile. */
+:root {
+  --mono-font: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+html { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
