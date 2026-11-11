@@ -7,3 +7,10 @@
 .content pre { border-radius: 8px; }
 .content :not(pre) > code { border-radius: 4px; padding: .1em .25em; }
 .content img { border-radius: 12px; }
+/* Keep wide code/tables scrollable inside the reading column on mobile. */
+.content { min-width: 0; overflow-wrap: anywhere; }
+.content pre { max-width: 100%; overflow-x: auto; overflow-wrap: normal; }
+.content table { display: block; max-width: 100%; overflow-x: auto; }
+.content img, .content svg { max-width: 100%; height: auto; }
+.menu-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+:focus-visible { outline: 2px solid var(--links); outline-offset: 3px; }

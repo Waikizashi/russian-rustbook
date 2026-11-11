@@ -1,35 +1,14 @@
-name: Сайт книги
+name: Публикация GitHub Pages
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
-permissions:
-  contents: read
+  workflow_call:
+permissions: {}
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  build:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      - run: bash scripts/install_mdbook.sh
-      - run: .tools/mdbook build
-      - name: Сайт дополнения
-        run: |
-          cd extras/bits-bytes
-          python3 scripts/prepare_book.py
-          ../../.tools/mdbook build --dest-dir ../../book/extras/bits-bytes
-          cd ../..
-          mkdir -p dist
-          python3 scripts/check_site.py
-      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: book
   deploy:
-    needs: build
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     permissions:
       pages: write
       id-token: write
@@ -37,5 +16,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

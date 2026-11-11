@@ -1,3 +1,5 @@
+**[Читать Russian Rust Book онлайн →](https://waikizashi.github.io/russian-rustbook/)** · [Биты и байты](https://waikizashi.github.io/russian-rustbook/extras/bits-bytes/)
+
 <p align="center"><img src="assets/banner.svg" alt="Russian Rustbook — полная книга о Rust на русском" width="100%"></p>
 
 # Russian Rustbook — полная Rust Book на русском
@@ -11,7 +13,7 @@
 [![Rust 2024](https://img.shields.io/badge/Rust-2024-b7410e?logo=rust)](upstream.json)
 [![MIT / Apache-2.0](https://img.shields.io/badge/лицензия-MIT%20%2F%20Apache--2.0-708b53)](NOTICE.md)
 
-[**Начать читать →**](src/title-page.md) · [Полное оглавление](src/SUMMARY.md) · [Скачать EPUB/PDF](downloads/) · [Биты и байты](extras/bits-bytes/README.md) · [Как помочь](CONTRIBUTING.md)
+[**Начать читать →**](https://waikizashi.github.io/russian-rustbook/) · [Полное оглавление](src/SUMMARY.md) · [Сборки и выпуски](https://github.com/Waikizashi/russian-rustbook/releases) · [Биты и байты](extras/bits-bytes/README.md) · [Как помочь](CONTRIBUTING.md)
 
 ## Что внутри
 
@@ -23,7 +25,7 @@
 | Полная глава об async/await, futures и задачах | Упражнения с решениями |
 | Unsafe Rust, макросы и финальный веб-сервер | Byte Note: кодировщик, декодировщик и тесты |
 
-Текст читается прямо на GitHub. Сайт собирается через mdBook: с поиском, боковым оглавлением и светлой/тёмной темой. Для офлайн-чтения доступны единый EPUB и PDF без DRM.
+Текст читается прямо на GitHub. Сайт собирается через mdBook: с поиском, боковым оглавлением и светлой/тёмной темой. Для офлайн-чтения предусмотрена сборка EPUB и PDF без DRM.
 
 ## Версия и источники
 
@@ -58,9 +60,9 @@
 
 ## Офлайн-чтение
 
-- [EPUB — единый файл с оглавлением](downloads/The_Rust_Programming_Language_RU_2026.epub).
-- [PDF — для фиксированного оформления](downloads/The_Rust_Programming_Language_RU_2026.pdf).
-- [Главы в Markdown](src/) — для чтения и исправлений в репозитории.
+Офлайн-файлы публикуются в [GitHub Releases](https://github.com/Waikizashi/russian-rustbook/releases) после создания проверенного тега `v*`. Пока релиза нет, EPUB и Markdown успешной сборки доступны в артефакте `russian-rustbook-offline` на вкладке [Actions](https://github.com/Waikizashi/russian-rustbook/actions/workflows/ci.yml) (для скачивания нужен вход в GitHub). PDF можно собрать локально по [BUILDING.md](BUILDING.md).
+
+[Главы в Markdown](src/) доступны для чтения и исправлений в репозитории. Большие готовые файлы не хранятся в Git.
 
 EPUB содержит кириллицу, иллюстрации, код, сведения об авторах, дату сборки и точный commit оригинала. Внутренние переходы работают офлайн; внешняя документация требует интернета. Для Kindle EPUB можно передать через Send to Kindle.
 
@@ -77,11 +79,12 @@ cargo run --manifest-path extras/bits-bytes/Cargo.toml -p byte-note --example de
 
 ## Собрать и проверить
 
-Нужны Python 3.11.8+, Pandoc 3.x и mdBook 0.5.4. Для PDF дополнительно нужен PyMuPDF; для запуска примеров дополнения — стабильный Rust с Cargo.
+Для общего сайта нужны Python 3.11.8+ и mdBook 0.5.4; для проверки исходников и EPUB — Pandoc 3.13. Для PDF дополнительно нужен PyMuPDF; для запуска примеров дополнения — стабильный Rust с Cargo.
 
 ```sh
 python3 scripts/check_book.py
-mdbook build
+bash scripts/install_mdbook.sh
+python3 scripts/build_site.py
 python3 scripts/build_ebooks.py
 python3 scripts/verify_epub.py
 ```
@@ -101,11 +104,13 @@ python3 scripts/upstream.py accept --plan .updates/next
 
 Подготовка не перезаписывает русский текст. Новая версия принимается только после проверки всех затронутых глав; количество разделов не зашито в скрипты. Еженедельная проверка GitHub Actions подготавливает отчёт при изменении оригинала.
 
+[SEO и поисковые системы](docs/SEO.md) · [Публикация и откат](docs/DEPLOYMENT.md) · [Сопровождение](docs/MAINTENANCE.md)
+
 [Порядок обновления](docs/UPDATING.md) · [Архитектура и расширение](docs/ARCHITECTURE.md). Название, авторы и имя выпускных файлов задаются в [конфигурации публикации](config/publication.json); дополнения находятся отдельно в `extras/`.
 
 ## Участие в проекте
 
-Вопросы, issues и pull requests можно писать по-русски. Полезны исправления терминологии, более естественные формулировки, проверка примеров и сверка новых изменений оригинала. [CONTRIBUTING.md](CONTRIBUTING.md) объясняет, где находятся исходники и как проверить изменения.
+Вопросы, [сообщения об ошибках](https://github.com/Waikizashi/russian-rustbook/issues/new/choose) и pull requests можно писать по-русски. Книга подойдёт начинающим и разработчикам других языков; дополнение расширяет практику работы с двоичными данными. Полезны исправления терминологии, более естественные формулировки, проверка примеров и сверка новых изменений оригинала. [CONTRIBUTING.md](CONTRIBUTING.md) объясняет, где находятся исходники и как проверить изменения.
 
 CI проверяет книгу и дополнение. Отдельный workflow отслеживает новый commit оригинала; перенос содержательных изменений требует проверки перевода. Теги версий позволяют публиковать проверенные EPUB/PDF в GitHub Releases.
 

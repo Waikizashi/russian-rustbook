@@ -6,31 +6,78 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 jobs:
-  book:
+  site:
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: bash scripts/install_mdbook.sh
+      - run: python3 -m unittest discover -s tests -p test_site.py -v
+      - run: python3 scripts/build_site.py
+      - uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
+        with:
+          node-version: '24.11.1'
+      - name: Браузер и Lighthouse
+        env:
+          QA_NODE_MODULES: ${{ runner.temp }}/site-audit/node_modules
+        run: |
+          npm install --prefix "$RUNNER_TEMP/site-audit" --no-audit --no-fund lighthouse@13.6.0 playwright@1.56.1
+          export CHROME_PATH="$(command -v google-chrome || command -v chromium)"
+          mkdir -p "$RUNNER_TEMP/site-preview"
+          ln -s "$PWD/book" "$RUNNER_TEMP/site-preview/russian-rustbook"
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory "$RUNNER_TEMP/site-preview" > "$RUNNER_TEMP/site-preview.log" 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          node scripts/browser_check.cjs
+          "$QA_NODE_MODULES/.bin/lighthouse" http://127.0.0.1:8765/russian-rustbook/ --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage" --output=json --output=html --output-path=dist/lighthouse-mobile --quiet
+          python3 scripts/check_lighthouse.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: site-validation
+          path: |
+            dist/*verification.json
+            dist/lighthouse-mobile.*
+            dist/*home.png
+            dist/desktop-borrowing.png
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        with:
+          path: book
+  book:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+        id: tools
+        with:
+          path: .tools
+          key: ${{ runner.os }}-x64-${{ hashFiles('scripts/install_mdbook.sh', 'scripts/install_ebook_tools.py') }}
       - name: Инструменты
+        if: steps.tools.outputs.cache-hit != 'true'
         run: |
           python3 scripts/install_ebook_tools.py
-          echo "$PWD/.tools/bin" >> "$GITHUB_PATH"
           bash scripts/install_mdbook.sh
+      - run: echo "$PWD/.tools/bin" >> "$GITHUB_PATH"
       - name: Структура, ссылки и код основной книги
         run: |
           python3 -m unittest discover -s tests -v
           python3 scripts/check_book.py
           python3 scripts/check_language.py
-      - name: Сайт
+      - name: Примеры mdBook дополнения
         run: |
-          .tools/mdbook build
           cd extras/bits-bytes
           python3 scripts/prepare_book.py
-          ../../.tools/mdbook build --dest-dir ../../book/extras/bits-bytes
           ../../.tools/mdbook test
-          cd ../..
-          mkdir -p dist
-          python3 scripts/check_site.py
       - name: EPUB
         run: |
           python3 scripts/build_ebooks.py
@@ -51,6 +98,7 @@ jobs:
             extras/bits-bytes/dist/*.md
   supplement:
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     strategy:
       matrix:
         rust: ["1.85.0", stable]
@@ -59,6 +107,8 @@ jobs:
         working-directory: extras/bits-bytes
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - run: |
           rustup toolchain install "${{ matrix.rust }}" --profile minimal --component rustfmt --component clippy
           rustup override set "${{ matrix.rust }}"
@@ -68,3 +118,10 @@ jobs:
       - run: cargo test --workspace --all-targets --locked
       - run: python3 scripts/run_examples.py
       - run: python3 scripts/run_examples.py --release
+  deploy:
+    needs: [site, book, supplement]
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    permissions:
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
