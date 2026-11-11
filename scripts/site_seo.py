@@ -164,6 +164,17 @@ def build():
         text = path.read_text()
         # mdBook 0.5 includes the configured source directory in {path}.
         text = text.replace("/edit/main/extras/bits-bytes/docs/.book-src/", "/edit/main/extras/bits-bytes/docs/")
+        # Use a real keyboard-operable button; retain the checkbox/label
+        # fallback for readers with JavaScript disabled.
+        def sidebar_button(m):
+            attrs = m[1].replace(' for="mdbook-sidebar-toggle-anchor"', '')
+            return '<button type="button"' + attrs + '>' + m[2] + '</button><noscript><label class="icon-button" for="mdbook-sidebar-toggle-anchor">Оглавление</label></noscript>'
+        text = re.sub(r'<label([^>]*id="mdbook-sidebar-toggle"[^>]*)>(.*?)</label>', sidebar_button, text, flags=re.S)
+        # Defer external scripts in their original order; content can paint
+        # without waiting for syntax highlighting and the search UI.
+        text = re.sub(r'<script src="([^"]+)"', r'<script defer src="\1"', text)
+        text = re.sub(r'\s*<!-- NAV:START -->.*?<!-- NAV:END -->', '', text, flags=re.S)
+        text = text.replace('</body>', '<!-- NAV:START --><script>\n' + (ROOT / "assets/navigation.js").read_text() + '\n</script><!-- NAV:END -->\n</body>')
         if path.name not in TECHNICAL:
             text = normalize_headings(text)
         head, canonical = metadata(path, text, cfg, aliases)

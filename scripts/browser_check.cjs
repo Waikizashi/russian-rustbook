@@ -15,6 +15,10 @@ let lastPage;
  for(const url of urls){await page.goto(url,{waitUntil:'load'});const size=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));if(size.scroll>size.width+1)overflow.push({url,...size});}
  await page.goto(base,{waitUntil:'networkidle'});
  await page.screenshot({path:'dist/mobile-home.png',fullPage:true});
+ await page.locator('#mdbook-sidebar-toggle').press('Enter');
+ const sidebarKeyboardOpen=await page.locator('#mdbook-sidebar-toggle').getAttribute('aria-expanded');
+ await page.locator('#mdbook-sidebar-toggle').press('Space');
+ const sidebarKeyboardClosed=await page.locator('#mdbook-sidebar-toggle').getAttribute('aria-expanded');
  await page.locator('#mdbook-search-toggle').click();
  const input=page.locator('#mdbook-searchbar');await input.pressSequentially('владение');
  await page.locator('#mdbook-searchresults a').first().waitFor();
@@ -30,6 +34,8 @@ let lastPage;
  const edit=await page.locator('a[href$="/edit/main/src/title-page.md"]').count();
  await page.locator('a.mobile-nav-chapters.next').click();
  const navigation=page.url().endsWith('/foreword.html');
+ await page.goBack();
+ const backNavigation=new URL(page.url()).pathname==='/russian-rustbook/';
  await page.goto(base+'extras/bits-bytes/',{waitUntil:'networkidle'});
  await page.locator('#mdbook-search-toggle').click();await input.pressSequentially('байты');
  await page.locator('#mdbook-searchresults a').first().waitFor();
@@ -47,9 +53,9 @@ let lastPage;
  await page.screenshot({path:'dist/desktop-borrowing.png',fullPage:false});
  await page.keyboard.press('Tab');
  const keyboardFocus=await page.evaluate(()=>document.activeElement.tagName);
- const report={keyboardFocus,pages:urls.length,mobileViewport:390,overflow,errors,failed,mainSearch,extraSearch,darkTheme,github,edit,navigation};
+ const report={sidebarKeyboardOpen,sidebarKeyboardClosed,backNavigation,keyboardFocus,pages:urls.length,mobileViewport:390,overflow,errors,failed,mainSearch,extraSearch,darkTheme,github,edit,navigation};
  fs.writeFileSync('dist/browser-verification.json',JSON.stringify(report,null,2)+'\n'); console.log(report);
- await browser.close(); if(!darkTheme.includes('navy')||errors.length||failed.length||overflow.length||!navigation||!mainSearch||!extraSearch||!github||!edit)process.exitCode=1;
+ await browser.close(); if(sidebarKeyboardOpen!=='true'||sidebarKeyboardClosed!=='false'||!backNavigation||!darkTheme.includes('navy')||errors.length||failed.length||overflow.length||!navigation||!mainSearch||!extraSearch||!github||!edit)process.exitCode=1;
 })().catch(async e=>{
  console.error(e);
  if(lastPage){

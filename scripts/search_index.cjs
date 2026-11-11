@@ -15,6 +15,15 @@ for (const folder of ['book', 'book/extras/bits-bytes']) {
     const engineFile = files.find(f => /^elasticlunr-.*\.js$/.test(f));
     const indexFile = files.find(f => /^searchindex-.*\.js$/.test(f));
     if (!engineFile || !indexFile) throw Error(`Missing mdBook search assets: ${folder}`);
+    const bookFile = files.find(f => /^book-[a-f0-9]+\.js$/.test(f));
+    if (!bookFile) throw Error('Missing mdBook UI script');
+    const bookText = fs.readFileSync(path.join(dir, bookFile), 'utf8');
+    // mdBook 0.5.4's empty unload listener only disables the back/forward
+    // cache and uses a deprecated browser event. Modern navigation needs none.
+    if (!bookText.includes('window.onunload = function() { };')) throw Error('Review mdBook unload compatibility patch');
+    const newBookText = bookText.replace('window.onunload = function() { };', '// No unload listener: allow the browser back/forward cache.');
+    const newBookFile = 'book-' + crypto.createHash('sha256').update(newBookText).digest('hex').slice(0, 8) + '.js';
+    fs.writeFileSync(path.join(dir, newBookFile), newBookText);
     const engineText = fs.readFileSync(path.join(dir, engineFile), 'utf8');
     const engineScope = {module: {exports: {}}, exports: {}, console};
     vm.createContext(engineScope);
@@ -48,9 +57,10 @@ for (const folder of ['book', 'book/extras/bits-bytes']) {
     fs.writeFileSync(path.join(dir, newIndex), indexText);
     for (const file of files.filter(f => f.endsWith('.html'))) {
         let html = fs.readFileSync(path.join(dir, file), 'utf8');
-        html = html.replaceAll(engineFile, newEngine).replaceAll(indexFile, newIndex);
+        html = html.replaceAll(engineFile, newEngine).replaceAll(indexFile, newIndex).replaceAll(bookFile, newBookFile);
         fs.writeFileSync(path.join(dir, file), html);
     }
+    if (bookFile !== newBookFile) fs.unlinkSync(path.join(dir, bookFile));
     if (engineFile !== newEngine) fs.unlinkSync(path.join(dir, engineFile));
     if (indexFile !== newIndex) fs.unlinkSync(path.join(dir, indexFile));
 }
