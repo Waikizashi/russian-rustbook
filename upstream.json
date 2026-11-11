@@ -1,0 +1,14 @@
+{
+  "official_repository": "https://github.com/rust-lang/book",
+  "official_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+  "russian_repository": "https://github.com/rust-lang-ru/book",
+  "russian_commit": "1bec6512e7475b20919b6266dc8596ba71298ff9",
+  "checked_at": "2026-11-11",
+  "rust": "1.99.1",
+  "edition": "2024",
+  "official_files": 111,
+  "official_headings": 542,
+  "official_code_blocks": 958,
+  "translation_updated_files": 102,
+  "translation_added_files": 7
+}

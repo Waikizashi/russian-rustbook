@@ -1,0 +1,56 @@
+{
+  "previous_commit": "1500248d8f230566e4ec9f27fcbb8fe9e2898ab1",
+  "official_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+  "date": "2026-11-10",
+  "changed_upstream_output_files": [
+    "listings/ch02-guessing-game-tutorial/listing-02-04/output.txt",
+    "listings/ch03-common-programming-concepts/output-only-01-no-type-annotations/output.txt",
+    "listings/ch05-using-structs-to-structure-related-data/listing-05-11/output.txt",
+    "listings/ch06-enums-and-pattern-matching/no-listing-07-cant-use-option-directly/output.txt",
+    "listings/ch06-enums-and-pattern-matching/no-listing-10-non-exhaustive-match/output.txt",
+    "listings/ch08-common-collections/listing-08-19/output.txt",
+    "listings/ch12-an-io-project/listing-12-19/output.txt",
+    "listings/ch13-functional-features/listing-13-08/output.txt",
+    "listings/ch16-fearless-concurrency/listing-16-14/output.txt",
+    "listings/ch21-web-server/listing-21-22/output.txt"
+  ],
+  "changed_displayed_blocks": [
+    {
+      "file": "ch02-00-guessing-game-tutorial.md",
+      "block": 26
+    },
+    {
+      "file": "ch03-02-data-types.md",
+      "block": 1
+    },
+    {
+      "file": "ch06-01-defining-an-enum.md",
+      "block": 14
+    },
+    {
+      "file": "ch06-02-match.md",
+      "block": 9
+    },
+    {
+      "file": "ch08-02-strings.md",
+      "block": 12
+    },
+    {
+      "file": "ch12-04-testing-the-librarys-functionality.md",
+      "block": 6
+    },
+    {
+      "file": "ch13-01-closures.md",
+      "block": 15
+    },
+    {
+      "file": "ch16-03-shared-state.md",
+      "block": 4
+    },
+    {
+      "file": "ch21-03-graceful-shutdown-and-cleanup.md",
+      "block": 1
+    }
+  ],
+  "rust_source_changes": 0
+}

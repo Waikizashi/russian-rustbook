@@ -1,0 +1,11 @@
+[package]
+name = "byte-note"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Учебный двоичный формат из дополнения к Rust Book"
+
+publish = false
+license = "MIT"
+
+[dependencies]

@@ -1,0 +1,137 @@
+[
+  {
+    "name": "lesson01_01",
+    "chapter": "01-bits.md",
+    "example": "examples/lesson01_01.rs"
+  },
+  {
+    "name": "lesson02_01",
+    "chapter": "02-numbers.md",
+    "example": "examples/lesson02_01.rs"
+  },
+  {
+    "name": "lesson02_02",
+    "chapter": "02-numbers.md",
+    "example": "examples/lesson02_02.rs"
+  },
+  {
+    "name": "lesson02_03",
+    "chapter": "02-numbers.md",
+    "example": "examples/lesson02_03.rs"
+  },
+  {
+    "name": "lesson02_04",
+    "chapter": "02-numbers.md",
+    "example": "examples/lesson02_04.rs"
+  },
+  {
+    "name": "lesson03_01",
+    "chapter": "03-masks.md",
+    "example": "examples/lesson03_01.rs"
+  },
+  {
+    "name": "lesson03_02",
+    "chapter": "03-masks.md",
+    "example": "examples/lesson03_02.rs"
+  },
+  {
+    "name": "lesson03_03",
+    "chapter": "03-masks.md",
+    "example": "examples/lesson03_03.rs"
+  },
+  {
+    "name": "lesson03_04",
+    "chapter": "03-masks.md",
+    "example": "examples/lesson03_04.rs"
+  },
+  {
+    "name": "lesson04_01",
+    "chapter": "04-endian.md",
+    "example": "examples/lesson04_01.rs"
+  },
+  {
+    "name": "lesson04_02",
+    "chapter": "04-endian.md",
+    "example": "examples/lesson04_02.rs"
+  },
+  {
+    "name": "lesson04_03",
+    "chapter": "04-endian.md",
+    "example": "examples/lesson04_03.rs"
+  },
+  {
+    "name": "lesson05_01",
+    "chapter": "05-buffers.md",
+    "example": "examples/lesson05_01.rs"
+  },
+  {
+    "name": "lesson05_02",
+    "chapter": "05-buffers.md",
+    "example": "examples/lesson05_02.rs"
+  },
+  {
+    "name": "lesson05_03",
+    "chapter": "05-buffers.md",
+    "example": "examples/lesson05_03.rs"
+  },
+  {
+    "name": "lesson06_01",
+    "chapter": "06-text.md",
+    "example": "examples/lesson06_01.rs"
+  },
+  {
+    "name": "lesson06_02",
+    "chapter": "06-text.md",
+    "example": "examples/lesson06_02.rs"
+  },
+  {
+    "name": "lesson06_03",
+    "chapter": "06-text.md",
+    "example": "examples/lesson06_03.rs"
+  },
+  {
+    "name": "lesson07_01",
+    "chapter": "07-parser.md",
+    "example": "examples/lesson07_01.rs"
+  },
+  {
+    "name": "lesson08_01",
+    "chapter": "08-varint.md",
+    "example": "examples/lesson08_01.rs"
+  },
+  {
+    "name": "lesson09_01",
+    "chapter": "09-streams.md",
+    "example": "examples/lesson09_01.rs"
+  },
+  {
+    "name": "lesson10_01",
+    "chapter": "10-memory.md",
+    "example": "examples/lesson10_01.rs"
+  },
+  {
+    "name": "lesson10_02",
+    "chapter": "10-memory.md",
+    "example": "examples/lesson10_02.rs"
+  },
+  {
+    "name": "lesson12_01",
+    "chapter": "12-answers.md",
+    "example": "examples/lesson12_01.rs"
+  },
+  {
+    "name": "lesson12_02",
+    "chapter": "12-answers.md",
+    "example": "examples/lesson12_02.rs"
+  },
+  {
+    "name": "lesson12_03",
+    "chapter": "12-answers.md",
+    "example": "examples/lesson12_03.rs"
+  },
+  {
+    "name": "lesson12_04",
+    "chapter": "12-answers.md",
+    "example": "examples/lesson12_04.rs"
+  }
+]

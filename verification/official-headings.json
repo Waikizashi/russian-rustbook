@@ -1,0 +1,2934 @@
+{
+  "title-page.md": [
+    [
+      1,
+      "the-rust-programming-language",
+      "The Rust Programming Language"
+    ]
+  ],
+  "foreword.md": [
+    [
+      1,
+      "foreword",
+      "Foreword"
+    ]
+  ],
+  "ch00-00-introduction.md": [
+    [
+      1,
+      "introduction",
+      "Introduction"
+    ],
+    [
+      2,
+      "who-rust-is-for",
+      "Who Rust Is For"
+    ],
+    [
+      3,
+      "teams-of-developers",
+      "Teams of Developers"
+    ],
+    [
+      3,
+      "students",
+      "Students"
+    ],
+    [
+      3,
+      "companies",
+      "Companies"
+    ],
+    [
+      3,
+      "open-source-developers",
+      "Open Source Developers"
+    ],
+    [
+      3,
+      "people-who-value-speed-and-stability",
+      "People Who Value Speed and Stability"
+    ],
+    [
+      2,
+      "who-this-book-is-for",
+      "Who This Book Is For"
+    ],
+    [
+      2,
+      "how-to-use-this-book",
+      "How to Use This Book"
+    ],
+    [
+      2,
+      "source-code",
+      "Source Code"
+    ]
+  ],
+  "ch01-00-getting-started.md": [
+    [
+      1,
+      "getting-started",
+      "Getting Started"
+    ]
+  ],
+  "ch01-01-installation.md": [
+    [
+      2,
+      "installation",
+      "Installation"
+    ],
+    [
+      3,
+      "command-line-notation",
+      "Command Line Notation"
+    ],
+    [
+      3,
+      "installing-rustup-on-linux-or-macos",
+      "Installing rustup on Linux or macOS"
+    ],
+    [
+      3,
+      "installing-rustup-on-windows",
+      "Installing rustup on Windows"
+    ],
+    [
+      3,
+      "troubleshooting",
+      "Troubleshooting"
+    ],
+    [
+      3,
+      "updating-and-uninstalling",
+      "Updating and Uninstalling"
+    ],
+    [
+      3,
+      "reading-the-local-documentation",
+      "Reading the Local Documentation"
+    ],
+    [
+      3,
+      "using-text-editors-and-ides",
+      "Using Text Editors and IDEs"
+    ],
+    [
+      3,
+      "working-offline-with-this-book",
+      "Working Offline with This Book"
+    ]
+  ],
+  "ch01-02-hello-world.md": [
+    [
+      2,
+      "hello-world",
+      "Hello, World!"
+    ],
+    [
+      3,
+      "project-directory-setup",
+      "Project Directory Setup"
+    ],
+    [
+      3,
+      "rust-program-basics",
+      "Rust Program Basics"
+    ],
+    [
+      3,
+      "the-anatomy-of-a-rust-program",
+      "The Anatomy of a Rust Program"
+    ],
+    [
+      3,
+      "compilation-and-execution",
+      "Compilation and Execution"
+    ]
+  ],
+  "ch01-03-hello-cargo.md": [
+    [
+      2,
+      "hello-cargo",
+      "Hello, Cargo!"
+    ],
+    [
+      3,
+      "creating-a-project-with-cargo",
+      "Creating a Project with Cargo"
+    ],
+    [
+      3,
+      "building-and-running-a-cargo-project",
+      "Building and Running a Cargo Project"
+    ],
+    [
+      3,
+      "building-for-release",
+      "Building for Release"
+    ],
+    [
+      3,
+      "leveraging-cargos-conventions",
+      "Leveraging Cargo’s Conventions"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch02-00-guessing-game-tutorial.md": [
+    [
+      1,
+      "programming-a-guessing-game",
+      "Programming a Guessing Game"
+    ],
+    [
+      2,
+      "setting-up-a-new-project",
+      "Setting Up a New Project"
+    ],
+    [
+      2,
+      "processing-a-guess",
+      "Processing a Guess"
+    ],
+    [
+      3,
+      "storing-values-with-variables",
+      "Storing Values with Variables"
+    ],
+    [
+      3,
+      "receiving-user-input",
+      "Receiving User Input"
+    ],
+    [
+      3,
+      "handling-potential-failure-with-result",
+      "Handling Potential Failure with Result"
+    ],
+    [
+      3,
+      "printing-values-with-println-placeholders",
+      "Printing Values with println! Placeholders"
+    ],
+    [
+      3,
+      "testing-the-first-part",
+      "Testing the First Part"
+    ],
+    [
+      2,
+      "generating-a-secret-number",
+      "Generating a Secret Number"
+    ],
+    [
+      3,
+      "increasing-functionality-with-a-crate",
+      "Increasing Functionality with a Crate"
+    ],
+    [
+      4,
+      "ensuring-reproducible-builds",
+      "Ensuring Reproducible Builds"
+    ],
+    [
+      4,
+      "updating-a-crate-to-get-a-new-version",
+      "Updating a Crate to Get a New Version"
+    ],
+    [
+      3,
+      "generating-a-random-number",
+      "Generating a Random Number"
+    ],
+    [
+      2,
+      "comparing-the-guess-to-the-secret-number",
+      "Comparing the Guess to the Secret Number"
+    ],
+    [
+      2,
+      "allowing-multiple-guesses-with-looping",
+      "Allowing Multiple Guesses with Looping"
+    ],
+    [
+      3,
+      "quitting-after-a-correct-guess",
+      "Quitting After a Correct Guess"
+    ],
+    [
+      3,
+      "handling-invalid-input",
+      "Handling Invalid Input"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch03-00-common-programming-concepts.md": [
+    [
+      1,
+      "common-programming-concepts",
+      "Common Programming Concepts"
+    ],
+    [
+      4,
+      "keywords",
+      "Keywords"
+    ]
+  ],
+  "ch03-01-variables-and-mutability.md": [
+    [
+      2,
+      "variables-and-mutability",
+      "Variables and Mutability"
+    ],
+    [
+      3,
+      "declaring-constants",
+      "Declaring Constants"
+    ],
+    [
+      3,
+      "shadowing",
+      "Shadowing"
+    ]
+  ],
+  "ch03-02-data-types.md": [
+    [
+      2,
+      "data-types",
+      "Data Types"
+    ],
+    [
+      3,
+      "scalar-types",
+      "Scalar Types"
+    ],
+    [
+      4,
+      "integer-types",
+      "Integer Types"
+    ],
+    [
+      5,
+      "integer-overflow",
+      "Integer Overflow"
+    ],
+    [
+      4,
+      "floating-point-types",
+      "Floating-Point Types"
+    ],
+    [
+      4,
+      "numeric-operations",
+      "Numeric Operations"
+    ],
+    [
+      4,
+      "the-boolean-type",
+      "The Boolean Type"
+    ],
+    [
+      4,
+      "the-character-type",
+      "The Character Type"
+    ],
+    [
+      3,
+      "compound-types",
+      "Compound Types"
+    ],
+    [
+      4,
+      "the-tuple-type",
+      "The Tuple Type"
+    ],
+    [
+      4,
+      "the-array-type",
+      "The Array Type"
+    ],
+    [
+      4,
+      "array-element-access",
+      "Array Element Access"
+    ],
+    [
+      4,
+      "invalid-array-element-access",
+      "Invalid Array Element Access"
+    ]
+  ],
+  "ch03-03-how-functions-work.md": [
+    [
+      2,
+      "functions",
+      "Functions"
+    ],
+    [
+      3,
+      "parameters",
+      "Parameters"
+    ],
+    [
+      3,
+      "statements-and-expressions",
+      "Statements and Expressions"
+    ],
+    [
+      3,
+      "functions-with-return-values",
+      "Functions with Return Values"
+    ]
+  ],
+  "ch03-04-comments.md": [
+    [
+      2,
+      "comments",
+      "Comments"
+    ]
+  ],
+  "ch03-05-control-flow.md": [
+    [
+      2,
+      "control-flow",
+      "Control Flow"
+    ],
+    [
+      3,
+      "if-expressions",
+      "if Expressions"
+    ],
+    [
+      4,
+      "handling-multiple-conditions-with-else-if",
+      "Handling Multiple Conditions with else if"
+    ],
+    [
+      4,
+      "using-if-in-a-let-statement",
+      "Using if in a let Statement"
+    ],
+    [
+      3,
+      "repetition-with-loops",
+      "Repetition with Loops"
+    ],
+    [
+      4,
+      "repeating-code-with-loop",
+      "Repeating Code with loop"
+    ],
+    [
+      4,
+      "returning-values-from-loops",
+      "Returning Values from Loops"
+    ],
+    [
+      4,
+      "disambiguating-with-loop-labels",
+      "Disambiguating with Loop Labels"
+    ],
+    [
+      4,
+      "streamlining-conditional-loops-with-while",
+      "Streamlining Conditional Loops with while"
+    ],
+    [
+      4,
+      "looping-through-a-collection-with-for",
+      "Looping Through a Collection with for"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch04-00-understanding-ownership.md": [
+    [
+      1,
+      "understanding-ownership",
+      "Understanding Ownership"
+    ]
+  ],
+  "ch04-01-what-is-ownership.md": [
+    [
+      2,
+      "what-is-ownership",
+      "What Is Ownership?"
+    ],
+    [
+      3,
+      "the-stack-and-the-heap",
+      "The Stack and the Heap"
+    ],
+    [
+      3,
+      "ownership-rules",
+      "Ownership Rules"
+    ],
+    [
+      3,
+      "variable-scope",
+      "Variable Scope"
+    ],
+    [
+      3,
+      "the-string-type",
+      "The String Type"
+    ],
+    [
+      3,
+      "memory-and-allocation",
+      "Memory and Allocation"
+    ],
+    [
+      4,
+      "variables-and-data-interacting-with-move",
+      "Variables and Data Interacting with Move"
+    ],
+    [
+      4,
+      "scope-and-assignment",
+      "Scope and Assignment"
+    ],
+    [
+      4,
+      "variables-and-data-interacting-with-clone",
+      "Variables and Data Interacting with Clone"
+    ],
+    [
+      4,
+      "stack-only-data-copy",
+      "Stack-Only Data: Copy"
+    ],
+    [
+      3,
+      "ownership-and-functions",
+      "Ownership and Functions"
+    ],
+    [
+      3,
+      "return-values-and-scope",
+      "Return Values and Scope"
+    ]
+  ],
+  "ch04-02-references-and-borrowing.md": [
+    [
+      2,
+      "references-and-borrowing",
+      "References and Borrowing"
+    ],
+    [
+      3,
+      "mutable-references",
+      "Mutable References"
+    ],
+    [
+      3,
+      "dangling-references",
+      "Dangling References"
+    ],
+    [
+      3,
+      "the-rules-of-references",
+      "The Rules of References"
+    ]
+  ],
+  "ch04-03-slices.md": [
+    [
+      2,
+      "the-slice-type",
+      "The Slice Type"
+    ],
+    [
+      3,
+      "string-slices",
+      "String Slices"
+    ],
+    [
+      4,
+      "string-literals-as-slices",
+      "String Literals as Slices"
+    ],
+    [
+      4,
+      "string-slices-as-parameters",
+      "String Slices as Parameters"
+    ],
+    [
+      3,
+      "other-slices",
+      "Other Slices"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch05-00-structs.md": [
+    [
+      1,
+      "using-structs-to-structure-related-data",
+      "Using Structs to Structure Related Data"
+    ]
+  ],
+  "ch05-01-defining-structs.md": [
+    [
+      2,
+      "defining-and-instantiating-structs",
+      "Defining and Instantiating Structs"
+    ],
+    [
+      3,
+      "using-the-field-init-shorthand",
+      "Using the Field Init Shorthand"
+    ],
+    [
+      3,
+      "creating-instances-with-struct-update-syntax",
+      "Creating Instances with Struct Update Syntax"
+    ],
+    [
+      3,
+      "creating-different-types-with-tuple-structs",
+      "Creating Different Types with Tuple Structs"
+    ],
+    [
+      3,
+      "defining-unit-like-structs",
+      "Defining Unit-Like Structs"
+    ],
+    [
+      3,
+      "ownership-of-struct-data",
+      "Ownership of Struct Data"
+    ]
+  ],
+  "ch05-02-example-structs.md": [
+    [
+      2,
+      "an-example-program-using-structs",
+      "An Example Program Using Structs"
+    ],
+    [
+      3,
+      "refactoring-with-tuples",
+      "Refactoring with Tuples"
+    ],
+    [
+      3,
+      "refactoring-with-structs",
+      "Refactoring with Structs"
+    ],
+    [
+      3,
+      "adding-functionality-with-derived-traits",
+      "Adding Functionality with Derived Traits"
+    ]
+  ],
+  "ch05-03-method-syntax.md": [
+    [
+      2,
+      "methods",
+      "Methods"
+    ],
+    [
+      3,
+      "method-syntax",
+      "Method Syntax"
+    ],
+    [
+      3,
+      "wheres-the---operator",
+      "Where’s the -> Operator?"
+    ],
+    [
+      3,
+      "methods-with-more-parameters",
+      "Methods with More Parameters"
+    ],
+    [
+      3,
+      "associated-functions",
+      "Associated Functions"
+    ],
+    [
+      3,
+      "multiple-impl-blocks",
+      "Multiple impl Blocks"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch06-00-enums.md": [
+    [
+      1,
+      "enums-and-pattern-matching",
+      "Enums and Pattern Matching"
+    ]
+  ],
+  "ch06-01-defining-an-enum.md": [
+    [
+      2,
+      "defining-an-enum",
+      "Defining an Enum"
+    ],
+    [
+      3,
+      "enum-values",
+      "Enum Values"
+    ],
+    [
+      3,
+      "the-option-enum",
+      "The Option Enum"
+    ]
+  ],
+  "ch06-02-match.md": [
+    [
+      2,
+      "the-match-control-flow-construct",
+      "The match Control Flow Construct"
+    ],
+    [
+      3,
+      "patterns-that-bind-to-values",
+      "Patterns That Bind to Values"
+    ],
+    [
+      3,
+      "the-optiont-match-pattern",
+      "The Option<T> match Pattern"
+    ],
+    [
+      3,
+      "matches-are-exhaustive",
+      "Matches Are Exhaustive"
+    ],
+    [
+      3,
+      "catch-all-patterns-and-the-_-placeholder",
+      "Catch-All Patterns and the _ Placeholder"
+    ]
+  ],
+  "ch06-03-if-let.md": [
+    [
+      2,
+      "concise-control-flow-with-if-let-and-let...else",
+      "Concise Control Flow with if let and let...else"
+    ],
+    [
+      2,
+      "staying-on-the-happy-path-with-let...else",
+      "Staying on the Happy Path with let...else"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md": [
+    [
+      1,
+      "packages-crates-and-modules",
+      "Packages, Crates, and Modules"
+    ]
+  ],
+  "ch07-01-packages-and-crates.md": [
+    [
+      2,
+      "packages-and-crates",
+      "Packages and Crates"
+    ]
+  ],
+  "ch07-02-defining-modules-to-control-scope-and-privacy.md": [
+    [
+      2,
+      "control-scope-and-privacy-with-modules",
+      "Control Scope and Privacy with Modules"
+    ],
+    [
+      3,
+      "modules-cheat-sheet",
+      "Modules Cheat Sheet"
+    ],
+    [
+      3,
+      "grouping-related-code-in-modules",
+      "Grouping Related Code in Modules"
+    ]
+  ],
+  "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md": [
+    [
+      2,
+      "paths-for-referring-to-an-item-in-the-module-tree",
+      "Paths for Referring to an Item in the Module Tree"
+    ],
+    [
+      3,
+      "exposing-paths-with-the-pub-keyword",
+      "Exposing Paths with the pub Keyword"
+    ],
+    [
+      4,
+      "best-practices-for-packages-with-a-binary-and-a-library",
+      "Best Practices for Packages with a Binary and a Library"
+    ],
+    [
+      3,
+      "starting-relative-paths-with-super",
+      "Starting Relative Paths with super"
+    ],
+    [
+      3,
+      "making-structs-and-enums-public",
+      "Making Structs and Enums Public"
+    ]
+  ],
+  "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md": [
+    [
+      2,
+      "bringing-paths-into-scope-with-the-use-keyword",
+      "Bringing Paths into Scope with the use Keyword"
+    ],
+    [
+      3,
+      "creating-idiomatic-use-paths",
+      "Creating Idiomatic use Paths"
+    ],
+    [
+      3,
+      "providing-new-names-with-the-as-keyword",
+      "Providing New Names with the as Keyword"
+    ],
+    [
+      3,
+      "re-exporting-names-with-pub-use",
+      "Re-exporting Names with pub use"
+    ],
+    [
+      3,
+      "using-external-packages",
+      "Using External Packages"
+    ],
+    [
+      3,
+      "using-nested-paths-to-clean-up-use-lists",
+      "Using Nested Paths to Clean Up use Lists"
+    ],
+    [
+      3,
+      "importing-items-with-the-glob-operator",
+      "Importing Items with the Glob Operator"
+    ]
+  ],
+  "ch07-05-separating-modules-into-different-files.md": [
+    [
+      2,
+      "separating-modules-into-different-files",
+      "Separating Modules into Different Files"
+    ],
+    [
+      3,
+      "alternate-file-paths",
+      "Alternate File Paths"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch08-00-common-collections.md": [
+    [
+      1,
+      "common-collections",
+      "Common Collections"
+    ]
+  ],
+  "ch08-01-vectors.md": [
+    [
+      2,
+      "storing-lists-of-values-with-vectors",
+      "Storing Lists of Values with Vectors"
+    ],
+    [
+      3,
+      "creating-a-new-vector",
+      "Creating a New Vector"
+    ],
+    [
+      3,
+      "updating-a-vector",
+      "Updating a Vector"
+    ],
+    [
+      3,
+      "reading-elements-of-vectors",
+      "Reading Elements of Vectors"
+    ],
+    [
+      3,
+      "iterating-over-the-values-in-a-vector",
+      "Iterating Over the Values in a Vector"
+    ],
+    [
+      3,
+      "using-an-enum-to-store-multiple-types",
+      "Using an Enum to Store Multiple Types"
+    ],
+    [
+      3,
+      "dropping-a-vector-drops-its-elements",
+      "Dropping a Vector Drops Its Elements"
+    ]
+  ],
+  "ch08-02-strings.md": [
+    [
+      2,
+      "storing-utf-8-encoded-text-with-strings",
+      "Storing UTF-8 Encoded Text with Strings"
+    ],
+    [
+      3,
+      "defining-strings",
+      "Defining Strings"
+    ],
+    [
+      3,
+      "creating-a-new-string",
+      "Creating a New String"
+    ],
+    [
+      3,
+      "updating-a-string",
+      "Updating a String"
+    ],
+    [
+      4,
+      "appending-with-push_str-or-push",
+      "Appending with push_str or push"
+    ],
+    [
+      4,
+      "concatenating-with-or-format",
+      "Concatenating with + or format!"
+    ],
+    [
+      3,
+      "indexing-into-strings",
+      "Indexing into Strings"
+    ],
+    [
+      4,
+      "internal-representation",
+      "Internal Representation"
+    ],
+    [
+      4,
+      "bytes-scalar-values-and-grapheme-clusters",
+      "Bytes, Scalar Values, and Grapheme Clusters"
+    ],
+    [
+      3,
+      "slicing-strings",
+      "Slicing Strings"
+    ],
+    [
+      3,
+      "iterating-over-strings",
+      "Iterating Over Strings"
+    ],
+    [
+      3,
+      "handling-the-complexities-of-strings",
+      "Handling the Complexities of Strings"
+    ]
+  ],
+  "ch08-03-hash-maps.md": [
+    [
+      2,
+      "storing-keys-with-associated-values-in-hash-maps",
+      "Storing Keys with Associated Values in Hash Maps"
+    ],
+    [
+      3,
+      "creating-a-new-hash-map",
+      "Creating a New Hash Map"
+    ],
+    [
+      3,
+      "accessing-values-in-a-hash-map",
+      "Accessing Values in a Hash Map"
+    ],
+    [
+      3,
+      "managing-ownership-in-hash-maps",
+      "Managing Ownership in Hash Maps"
+    ],
+    [
+      3,
+      "updating-a-hash-map",
+      "Updating a Hash Map"
+    ],
+    [
+      4,
+      "overwriting-a-value",
+      "Overwriting a Value"
+    ],
+    [
+      4,
+      "adding-a-key-and-value-only-if-a-key-isnt-present",
+      "Adding a Key and Value Only If a Key Isn’t Present"
+    ],
+    [
+      4,
+      "updating-a-value-based-on-the-old-value",
+      "Updating a Value Based on the Old Value"
+    ],
+    [
+      3,
+      "hashing-functions",
+      "Hashing Functions"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch09-00-error-handling.md": [
+    [
+      1,
+      "error-handling",
+      "Error Handling"
+    ]
+  ],
+  "ch09-01-unrecoverable-errors-with-panic.md": [
+    [
+      2,
+      "unrecoverable-errors-with-panic",
+      "Unrecoverable Errors with panic!"
+    ],
+    [
+      3,
+      "unwinding-the-stack-or-aborting-in-response-to-a-panic",
+      "Unwinding the Stack or Aborting in Response to a Panic"
+    ]
+  ],
+  "ch09-02-recoverable-errors-with-result.md": [
+    [
+      2,
+      "recoverable-errors-with-result",
+      "Recoverable Errors with Result"
+    ],
+    [
+      3,
+      "matching-on-different-errors",
+      "Matching on Different Errors"
+    ],
+    [
+      4,
+      "alternatives-to-using-match-with-resultt-e",
+      "Alternatives to Using match with Result<T, E>"
+    ],
+    [
+      4,
+      "shortcuts-for-panic-on-error",
+      "Shortcuts for Panic on Error"
+    ],
+    [
+      3,
+      "propagating-errors",
+      "Propagating Errors"
+    ],
+    [
+      4,
+      "the-operator-shortcut",
+      "The ? Operator Shortcut"
+    ],
+    [
+      4,
+      "where-to-use-the-operator",
+      "Where to Use the ? Operator"
+    ]
+  ],
+  "ch09-03-to-panic-or-not-to-panic.md": [
+    [
+      2,
+      "to-panic-or-not-to-panic",
+      "To panic! or Not to panic!"
+    ],
+    [
+      3,
+      "examples-prototype-code-and-tests",
+      "Examples, Prototype Code, and Tests"
+    ],
+    [
+      3,
+      "when-you-have-more-information-than-the-compiler",
+      "When You Have More Information Than the Compiler"
+    ],
+    [
+      3,
+      "guidelines-for-error-handling",
+      "Guidelines for Error Handling"
+    ],
+    [
+      3,
+      "custom-types-for-validation",
+      "Custom Types for Validation"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch10-00-generics.md": [
+    [
+      1,
+      "generic-types-traits-and-lifetimes",
+      "Generic Types, Traits, and Lifetimes"
+    ],
+    [
+      2,
+      "removing-duplication-by-extracting-a-function",
+      "Removing Duplication by Extracting a Function"
+    ]
+  ],
+  "ch10-01-syntax.md": [
+    [
+      2,
+      "generic-data-types",
+      "Generic Data Types"
+    ],
+    [
+      3,
+      "in-function-definitions",
+      "In Function Definitions"
+    ],
+    [
+      3,
+      "in-struct-definitions",
+      "In Struct Definitions"
+    ],
+    [
+      3,
+      "in-enum-definitions",
+      "In Enum Definitions"
+    ],
+    [
+      3,
+      "in-method-definitions",
+      "In Method Definitions"
+    ],
+    [
+      3,
+      "performance-of-code-using-generics",
+      "Performance of Code Using Generics"
+    ]
+  ],
+  "ch10-02-traits.md": [
+    [
+      2,
+      "defining-shared-behavior-with-traits",
+      "Defining Shared Behavior with Traits"
+    ],
+    [
+      3,
+      "defining-a-trait",
+      "Defining a Trait"
+    ],
+    [
+      3,
+      "implementing-a-trait-on-a-type",
+      "Implementing a Trait on a Type"
+    ],
+    [
+      3,
+      "using-default-implementations",
+      "Using Default Implementations"
+    ],
+    [
+      3,
+      "using-traits-as-parameters",
+      "Using Traits as Parameters"
+    ],
+    [
+      4,
+      "trait-bound-syntax",
+      "Trait Bound Syntax"
+    ],
+    [
+      4,
+      "multiple-trait-bounds-with-the-syntax",
+      "Multiple Trait Bounds with the + Syntax"
+    ],
+    [
+      4,
+      "clearer-trait-bounds-with-where-clauses",
+      "Clearer Trait Bounds with where Clauses"
+    ],
+    [
+      3,
+      "returning-types-that-implement-traits",
+      "Returning Types That Implement Traits"
+    ],
+    [
+      3,
+      "using-trait-bounds-to-conditionally-implement-methods",
+      "Using Trait Bounds to Conditionally Implement Methods"
+    ]
+  ],
+  "ch10-03-lifetime-syntax.md": [
+    [
+      2,
+      "validating-references-with-lifetimes",
+      "Validating References with Lifetimes"
+    ],
+    [
+      3,
+      "dangling-references",
+      "Dangling References"
+    ],
+    [
+      3,
+      "the-borrow-checker",
+      "The Borrow Checker"
+    ],
+    [
+      3,
+      "generic-lifetimes-in-functions",
+      "Generic Lifetimes in Functions"
+    ],
+    [
+      3,
+      "lifetime-annotation-syntax",
+      "Lifetime Annotation Syntax"
+    ],
+    [
+      3,
+      "in-function-signatures",
+      "In Function Signatures"
+    ],
+    [
+      3,
+      "relationships",
+      "Relationships"
+    ],
+    [
+      3,
+      "in-struct-definitions",
+      "In Struct Definitions"
+    ],
+    [
+      3,
+      "lifetime-elision",
+      "Lifetime Elision"
+    ],
+    [
+      3,
+      "in-method-definitions",
+      "In Method Definitions"
+    ],
+    [
+      3,
+      "the-static-lifetime",
+      "The Static Lifetime"
+    ],
+    [
+      2,
+      "generic-type-parameters-trait-bounds-and-lifetimes",
+      "Generic Type Parameters, Trait Bounds, and Lifetimes"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch11-00-testing.md": [
+    [
+      1,
+      "writing-automated-tests",
+      "Writing Automated Tests"
+    ]
+  ],
+  "ch11-01-writing-tests.md": [
+    [
+      2,
+      "how-to-write-tests",
+      "How to Write Tests"
+    ],
+    [
+      3,
+      "structuring-test-functions",
+      "Structuring Test Functions"
+    ],
+    [
+      3,
+      "checking-results-with-assert",
+      "Checking Results with assert!"
+    ],
+    [
+      3,
+      "testing-equality-with-assert_eq-and-assert_ne",
+      "Testing Equality with assert_eq! and assert_ne!"
+    ],
+    [
+      3,
+      "adding-custom-failure-messages",
+      "Adding Custom Failure Messages"
+    ],
+    [
+      3,
+      "checking-for-panics-with-should_panic",
+      "Checking for Panics with should_panic"
+    ],
+    [
+      3,
+      "using-resultt-e-in-tests",
+      "Using Result<T, E> in Tests"
+    ]
+  ],
+  "ch11-02-running-tests.md": [
+    [
+      2,
+      "controlling-how-tests-are-run",
+      "Controlling How Tests Are Run"
+    ],
+    [
+      3,
+      "running-tests-in-parallel-or-consecutively",
+      "Running Tests in Parallel or Consecutively"
+    ],
+    [
+      3,
+      "showing-function-output",
+      "Showing Function Output"
+    ],
+    [
+      3,
+      "running-a-subset-of-tests-by-name",
+      "Running a Subset of Tests by Name"
+    ],
+    [
+      4,
+      "running-single-tests",
+      "Running Single Tests"
+    ],
+    [
+      4,
+      "filtering-to-run-multiple-tests",
+      "Filtering to Run Multiple Tests"
+    ],
+    [
+      3,
+      "ignoring-tests-unless-specifically-requested",
+      "Ignoring Tests Unless Specifically Requested"
+    ]
+  ],
+  "ch11-03-test-organization.md": [
+    [
+      2,
+      "test-organization",
+      "Test Organization"
+    ],
+    [
+      3,
+      "unit-tests",
+      "Unit Tests"
+    ],
+    [
+      4,
+      "the-tests-module-and-cfgtest",
+      "The tests Module and #[cfg(test)]"
+    ],
+    [
+      4,
+      "private-function-tests",
+      "Private Function Tests"
+    ],
+    [
+      3,
+      "integration-tests",
+      "Integration Tests"
+    ],
+    [
+      4,
+      "the-tests-directory",
+      "The tests Directory"
+    ],
+    [
+      4,
+      "submodules-in-integration-tests",
+      "Submodules in Integration Tests"
+    ],
+    [
+      4,
+      "integration-tests-for-binary-crates",
+      "Integration Tests for Binary Crates"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch12-00-an-io-project.md": [
+    [
+      1,
+      "an-io-project-building-a-command-line-program",
+      "An I/O Project: Building a Command Line Program"
+    ]
+  ],
+  "ch12-01-accepting-command-line-arguments.md": [
+    [
+      2,
+      "accepting-command-line-arguments",
+      "Accepting Command Line Arguments"
+    ],
+    [
+      3,
+      "reading-the-argument-values",
+      "Reading the Argument Values"
+    ],
+    [
+      3,
+      "the-args-function-and-invalid-unicode",
+      "The args Function and Invalid Unicode"
+    ],
+    [
+      3,
+      "saving-the-argument-values-in-variables",
+      "Saving the Argument Values in Variables"
+    ]
+  ],
+  "ch12-02-reading-a-file.md": [
+    [
+      2,
+      "reading-a-file",
+      "Reading a File"
+    ]
+  ],
+  "ch12-03-improving-error-handling-and-modularity.md": [
+    [
+      2,
+      "refactoring-to-improve-modularity-and-error-handling",
+      "Refactoring to Improve Modularity and Error Handling"
+    ],
+    [
+      3,
+      "separating-concerns-in-binary-projects",
+      "Separating Concerns in Binary Projects"
+    ],
+    [
+      4,
+      "extracting-the-argument-parser",
+      "Extracting the Argument Parser"
+    ],
+    [
+      4,
+      "grouping-configuration-values",
+      "Grouping Configuration Values"
+    ],
+    [
+      3,
+      "the-trade-offs-of-using-clone",
+      "The Trade-Offs of Using clone"
+    ],
+    [
+      4,
+      "creating-a-constructor-for-config",
+      "Creating a Constructor for Config"
+    ],
+    [
+      3,
+      "fixing-the-error-handling",
+      "Fixing the Error Handling"
+    ],
+    [
+      4,
+      "improving-the-error-message",
+      "Improving the Error Message"
+    ],
+    [
+      4,
+      "returning-a-result-instead-of-calling-panic",
+      "Returning a Result Instead of Calling panic!"
+    ],
+    [
+      4,
+      "calling-configbuild-and-handling-errors",
+      "Calling Config::build and Handling Errors"
+    ],
+    [
+      3,
+      "extracting-logic-from-main",
+      "Extracting Logic from main"
+    ],
+    [
+      4,
+      "returning-errors-from-run",
+      "Returning Errors from run"
+    ],
+    [
+      4,
+      "handling-errors-returned-from-run-in-main",
+      "Handling Errors Returned from run in main"
+    ],
+    [
+      3,
+      "splitting-code-into-a-library-crate",
+      "Splitting Code into a Library Crate"
+    ]
+  ],
+  "ch12-04-testing-the-librarys-functionality.md": [
+    [
+      2,
+      "adding-functionality-with-test-driven-development",
+      "Adding Functionality with Test-Driven Development"
+    ],
+    [
+      3,
+      "writing-a-failing-test",
+      "Writing a Failing Test"
+    ],
+    [
+      3,
+      "writing-code-to-pass-the-test",
+      "Writing Code to Pass the Test"
+    ],
+    [
+      4,
+      "iterating-through-lines-with-the-lines-method",
+      "Iterating Through Lines with the lines Method"
+    ],
+    [
+      4,
+      "searching-each-line-for-the-query",
+      "Searching Each Line for the Query"
+    ],
+    [
+      4,
+      "storing-matching-lines",
+      "Storing Matching Lines"
+    ]
+  ],
+  "ch12-05-working-with-environment-variables.md": [
+    [
+      2,
+      "working-with-environment-variables",
+      "Working with Environment Variables"
+    ],
+    [
+      3,
+      "writing-a-failing-test-for-case-insensitive-search",
+      "Writing a Failing Test for Case-Insensitive Search"
+    ],
+    [
+      3,
+      "implementing-the-search_case_insensitive-function",
+      "Implementing the search_case_insensitive Function"
+    ]
+  ],
+  "ch12-06-writing-to-stderr-instead-of-stdout.md": [
+    [
+      2,
+      "redirecting-errors-to-standard-error",
+      "Redirecting Errors to Standard Error"
+    ],
+    [
+      3,
+      "checking-where-errors-are-written",
+      "Checking Where Errors Are Written"
+    ],
+    [
+      3,
+      "printing-errors-to-standard-error",
+      "Printing Errors to Standard Error"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch13-00-functional-features.md": [
+    [
+      1,
+      "functional-language-features-iterators-and-closures",
+      "Functional Language Features: Iterators and Closures"
+    ]
+  ],
+  "ch13-01-closures.md": [
+    [
+      2,
+      "closures",
+      "Closures"
+    ],
+    [
+      3,
+      "capturing-the-environment",
+      "Capturing the Environment"
+    ],
+    [
+      3,
+      "inferring-and-annotating-closure-types",
+      "Inferring and Annotating Closure Types"
+    ],
+    [
+      3,
+      "capturing-references-or-moving-ownership",
+      "Capturing References or Moving Ownership"
+    ],
+    [
+      3,
+      "moving-captured-values-out-of-closures",
+      "Moving Captured Values Out of Closures"
+    ]
+  ],
+  "ch13-02-iterators.md": [
+    [
+      2,
+      "processing-a-series-of-items-with-iterators",
+      "Processing a Series of Items with Iterators"
+    ],
+    [
+      3,
+      "the-iterator-trait-and-the-next-method",
+      "The Iterator Trait and the next Method"
+    ],
+    [
+      3,
+      "methods-that-consume-the-iterator",
+      "Methods That Consume the Iterator"
+    ],
+    [
+      3,
+      "methods-that-produce-other-iterators",
+      "Methods That Produce Other Iterators"
+    ],
+    [
+      3,
+      "closures-that-capture-their-environment",
+      "Closures That Capture Their Environment"
+    ]
+  ],
+  "ch13-03-improving-our-io-project.md": [
+    [
+      2,
+      "improving-our-io-project",
+      "Improving Our I/O Project"
+    ],
+    [
+      3,
+      "removing-a-clone-using-an-iterator",
+      "Removing a clone Using an Iterator"
+    ],
+    [
+      4,
+      "using-the-returned-iterator-directly",
+      "Using the Returned Iterator Directly"
+    ],
+    [
+      4,
+      "using-iterator-trait-methods",
+      "Using Iterator Trait Methods"
+    ],
+    [
+      3,
+      "clarifying-code-with-iterator-adapters",
+      "Clarifying Code with Iterator Adapters"
+    ],
+    [
+      3,
+      "choosing-between-loops-and-iterators",
+      "Choosing Between Loops and Iterators"
+    ]
+  ],
+  "ch13-04-performance.md": [
+    [
+      2,
+      "performance-in-loops-vs.-iterators",
+      "Performance in Loops vs. Iterators"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch14-00-more-about-cargo.md": [
+    [
+      1,
+      "more-about-cargo-and-crates.io",
+      "More About Cargo and Crates.io"
+    ]
+  ],
+  "ch14-01-release-profiles.md": [
+    [
+      2,
+      "customizing-builds-with-release-profiles",
+      "Customizing Builds with Release Profiles"
+    ]
+  ],
+  "ch14-02-publishing-to-crates-io.md": [
+    [
+      2,
+      "publishing-a-crate-to-crates.io",
+      "Publishing a Crate to Crates.io"
+    ],
+    [
+      3,
+      "making-useful-documentation-comments",
+      "Making Useful Documentation Comments"
+    ],
+    [
+      4,
+      "commonly-used-sections",
+      "Commonly Used Sections"
+    ],
+    [
+      4,
+      "documentation-comments-as-tests",
+      "Documentation Comments as Tests"
+    ],
+    [
+      4,
+      "contained-item-comments",
+      "Contained Item Comments"
+    ],
+    [
+      3,
+      "exporting-a-convenient-public-api",
+      "Exporting a Convenient Public API"
+    ],
+    [
+      3,
+      "setting-up-a-crates.io-account",
+      "Setting Up a Crates.io Account"
+    ],
+    [
+      3,
+      "adding-metadata-to-a-new-crate",
+      "Adding Metadata to a New Crate"
+    ],
+    [
+      3,
+      "publishing-to-crates.io",
+      "Publishing to Crates.io"
+    ],
+    [
+      3,
+      "publishing-a-new-version-of-an-existing-crate",
+      "Publishing a New Version of an Existing Crate"
+    ],
+    [
+      3,
+      "deprecating-versions-from-crates.io",
+      "Deprecating Versions from Crates.io"
+    ]
+  ],
+  "ch14-03-cargo-workspaces.md": [
+    [
+      2,
+      "cargo-workspaces",
+      "Cargo Workspaces"
+    ],
+    [
+      3,
+      "creating-a-workspace",
+      "Creating a Workspace"
+    ],
+    [
+      3,
+      "creating-the-second-package-in-the-workspace",
+      "Creating the Second Package in the Workspace"
+    ],
+    [
+      3,
+      "depending-on-an-external-package",
+      "Depending on an External Package"
+    ],
+    [
+      3,
+      "adding-a-test-to-a-workspace",
+      "Adding a Test to a Workspace"
+    ]
+  ],
+  "ch14-04-installing-binaries.md": [
+    [
+      2,
+      "installing-binaries-with-cargo-install",
+      "Installing Binaries with cargo install"
+    ]
+  ],
+  "ch14-05-extending-cargo.md": [
+    [
+      2,
+      "extending-cargo-with-custom-commands",
+      "Extending Cargo with Custom Commands"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch15-00-smart-pointers.md": [
+    [
+      1,
+      "smart-pointers",
+      "Smart Pointers"
+    ]
+  ],
+  "ch15-01-box.md": [
+    [
+      2,
+      "using-boxt-to-point-to-data-on-the-heap",
+      "Using Box<T> to Point to Data on the Heap"
+    ],
+    [
+      3,
+      "storing-data-on-the-heap",
+      "Storing Data on the Heap"
+    ],
+    [
+      3,
+      "enabling-recursive-types-with-boxes",
+      "Enabling Recursive Types with Boxes"
+    ],
+    [
+      4,
+      "understanding-the-cons-list",
+      "Understanding the Cons List"
+    ],
+    [
+      4,
+      "computing-the-size-of-a-non-recursive-type",
+      "Computing the Size of a Non-Recursive Type"
+    ],
+    [
+      4,
+      "getting-a-recursive-type-with-a-known-size",
+      "Getting a Recursive Type with a Known Size"
+    ]
+  ],
+  "ch15-02-deref.md": [
+    [
+      2,
+      "treating-smart-pointers-like-regular-references",
+      "Treating Smart Pointers Like Regular References"
+    ],
+    [
+      3,
+      "following-the-reference-to-the-value",
+      "Following the Reference to the Value"
+    ],
+    [
+      3,
+      "using-boxt-like-a-reference",
+      "Using Box<T> Like a Reference"
+    ],
+    [
+      3,
+      "defining-our-own-smart-pointer",
+      "Defining Our Own Smart Pointer"
+    ],
+    [
+      3,
+      "implementing-the-deref-trait",
+      "Implementing the Deref Trait"
+    ],
+    [
+      3,
+      "using-deref-coercion-in-functions-and-methods",
+      "Using Deref Coercion in Functions and Methods"
+    ],
+    [
+      3,
+      "handling-deref-coercion-with-mutable-references",
+      "Handling Deref Coercion with Mutable References"
+    ]
+  ],
+  "ch15-03-drop.md": [
+    [
+      2,
+      "running-code-on-cleanup-with-the-drop-trait",
+      "Running Code on Cleanup with the Drop Trait"
+    ]
+  ],
+  "ch15-04-rc.md": [
+    [
+      2,
+      "rct-the-reference-counted-smart-pointer",
+      "Rc<T>, the Reference-Counted Smart Pointer"
+    ],
+    [
+      3,
+      "sharing-data",
+      "Sharing Data"
+    ],
+    [
+      3,
+      "cloning-to-increase-the-reference-count",
+      "Cloning to Increase the Reference Count"
+    ]
+  ],
+  "ch15-05-interior-mutability.md": [
+    [
+      2,
+      "refcellt-and-the-interior-mutability-pattern",
+      "RefCell<T> and the Interior Mutability Pattern"
+    ],
+    [
+      3,
+      "enforcing-borrowing-rules-at-runtime",
+      "Enforcing Borrowing Rules at Runtime"
+    ],
+    [
+      3,
+      "using-interior-mutability",
+      "Using Interior Mutability"
+    ],
+    [
+      4,
+      "testing-with-mock-objects",
+      "Testing with Mock Objects"
+    ],
+    [
+      4,
+      "tracking-borrows-at-runtime",
+      "Tracking Borrows at Runtime"
+    ],
+    [
+      3,
+      "allowing-multiple-owners-of-mutable-data",
+      "Allowing Multiple Owners of Mutable Data"
+    ]
+  ],
+  "ch15-06-reference-cycles.md": [
+    [
+      2,
+      "reference-cycles-can-leak-memory",
+      "Reference Cycles Can Leak Memory"
+    ],
+    [
+      3,
+      "creating-a-reference-cycle",
+      "Creating a Reference Cycle"
+    ],
+    [
+      3,
+      "preventing-reference-cycles-using-weakt",
+      "Preventing Reference Cycles Using Weak<T>"
+    ],
+    [
+      4,
+      "creating-a-tree-data-structure",
+      "Creating a Tree Data Structure"
+    ],
+    [
+      4,
+      "adding-a-reference-from-a-child-to-its-parent",
+      "Adding a Reference from a Child to Its Parent"
+    ],
+    [
+      4,
+      "visualizing-changes-to-strong_count-and-weak_count",
+      "Visualizing Changes to strong_count and weak_count"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch16-00-concurrency.md": [
+    [
+      1,
+      "fearless-concurrency",
+      "Fearless Concurrency"
+    ]
+  ],
+  "ch16-01-threads.md": [
+    [
+      2,
+      "using-threads-to-run-code-simultaneously",
+      "Using Threads to Run Code Simultaneously"
+    ],
+    [
+      3,
+      "creating-a-new-thread-with-spawn",
+      "Creating a New Thread with spawn"
+    ],
+    [
+      3,
+      "waiting-for-all-threads-to-finish",
+      "Waiting for All Threads to Finish"
+    ],
+    [
+      3,
+      "using-move-closures-with-threads",
+      "Using move Closures with Threads"
+    ]
+  ],
+  "ch16-02-message-passing.md": [
+    [
+      2,
+      "transfer-data-between-threads-with-message-passing",
+      "Transfer Data Between Threads with Message Passing"
+    ],
+    [
+      3,
+      "transferring-ownership-through-channels",
+      "Transferring Ownership Through Channels"
+    ],
+    [
+      3,
+      "sending-multiple-values",
+      "Sending Multiple Values"
+    ],
+    [
+      3,
+      "creating-multiple-producers",
+      "Creating Multiple Producers"
+    ]
+  ],
+  "ch16-03-shared-state.md": [
+    [
+      2,
+      "shared-state-concurrency",
+      "Shared-State Concurrency"
+    ],
+    [
+      3,
+      "controlling-access-with-mutexes",
+      "Controlling Access with Mutexes"
+    ],
+    [
+      4,
+      "the-api-of-mutext",
+      "The API of Mutex<T>"
+    ],
+    [
+      4,
+      "shared-access-to-mutext",
+      "Shared Access to Mutex<T>"
+    ],
+    [
+      4,
+      "multiple-ownership-with-multiple-threads",
+      "Multiple Ownership with Multiple Threads"
+    ],
+    [
+      4,
+      "atomic-reference-counting-with-arct",
+      "Atomic Reference Counting with Arc<T>"
+    ],
+    [
+      3,
+      "comparing-refcelltrct-and-mutextarct",
+      "Comparing RefCell<T>/Rc<T> and Mutex<T>/Arc<T>"
+    ]
+  ],
+  "ch16-04-extensible-concurrency-sync-and-send.md": [
+    [
+      2,
+      "extensible-concurrency-with-send-and-sync",
+      "Extensible Concurrency with Send and Sync"
+    ],
+    [
+      3,
+      "transferring-ownership-between-threads",
+      "Transferring Ownership Between Threads"
+    ],
+    [
+      3,
+      "accessing-from-multiple-threads",
+      "Accessing from Multiple Threads"
+    ],
+    [
+      3,
+      "implementing-send-and-sync-manually-is-unsafe",
+      "Implementing Send and Sync Manually Is Unsafe"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch17-00-async-await.md": [
+    [
+      1,
+      "fundamentals-of-asynchronous-programming-async-await-futures-and-streams",
+      "Fundamentals of Asynchronous Programming: Async, Await, Futures, and Streams"
+    ],
+    [
+      2,
+      "parallelism-and-concurrency",
+      "Parallelism and Concurrency"
+    ]
+  ],
+  "ch17-01-futures-and-syntax.md": [
+    [
+      2,
+      "futures-and-the-async-syntax",
+      "Futures and the Async Syntax"
+    ],
+    [
+      2,
+      "our-first-async-program",
+      "Our First Async Program"
+    ],
+    [
+      3,
+      "defining-the-page_title-function",
+      "Defining the page_title Function"
+    ],
+    [
+      3,
+      "executing-an-async-function-with-a-runtime",
+      "Executing an Async Function with a Runtime"
+    ],
+    [
+      3,
+      "racing-two-urls-against-each-other-concurrently",
+      "Racing Two URLs Against Each Other Concurrently"
+    ]
+  ],
+  "ch17-02-concurrency-with-async.md": [
+    [
+      2,
+      "applying-concurrency-with-async",
+      "Applying Concurrency with Async"
+    ],
+    [
+      3,
+      "creating-a-new-task-with-spawn_task",
+      "Creating a New Task with spawn_task"
+    ],
+    [
+      3,
+      "sending-data-between-two-tasks-using-message-passing",
+      "Sending Data Between Two Tasks Using Message Passing"
+    ],
+    [
+      4,
+      "code-within-one-async-block-executes-linearly",
+      "Code Within One Async Block Executes Linearly"
+    ],
+    [
+      4,
+      "moving-ownership-into-an-async-block",
+      "Moving Ownership Into an Async Block"
+    ],
+    [
+      4,
+      "joining-a-number-of-futures-with-the-join-macro",
+      "Joining a Number of Futures with the join! Macro"
+    ]
+  ],
+  "ch17-03-more-futures.md": [
+    [
+      3,
+      "yielding-control-to-the-runtime",
+      "Yielding Control to the Runtime"
+    ],
+    [
+      3,
+      "building-our-own-async-abstractions",
+      "Building Our Own Async Abstractions"
+    ]
+  ],
+  "ch17-04-streams.md": [
+    [
+      2,
+      "streams-futures-in-sequence",
+      "Streams: Futures in Sequence"
+    ]
+  ],
+  "ch17-05-traits-for-async.md": [
+    [
+      2,
+      "a-closer-look-at-the-traits-for-async",
+      "A Closer Look at the Traits for Async"
+    ],
+    [
+      3,
+      "the-future-trait",
+      "The Future Trait"
+    ],
+    [
+      3,
+      "the-pin-type-and-the-unpin-trait",
+      "The Pin Type and the Unpin Trait"
+    ],
+    [
+      3,
+      "the-stream-trait",
+      "The Stream Trait"
+    ]
+  ],
+  "ch17-06-futures-tasks-threads.md": [
+    [
+      2,
+      "putting-it-all-together-futures-tasks-and-threads",
+      "Putting It All Together: Futures, Tasks, and Threads"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch18-00-oop.md": [
+    [
+      1,
+      "object-oriented-programming-features",
+      "Object-Oriented Programming Features"
+    ]
+  ],
+  "ch18-01-what-is-oo.md": [
+    [
+      2,
+      "characteristics-of-object-oriented-languages",
+      "Characteristics of Object-Oriented Languages"
+    ],
+    [
+      3,
+      "objects-contain-data-and-behavior",
+      "Objects Contain Data and Behavior"
+    ],
+    [
+      3,
+      "encapsulation-that-hides-implementation-details",
+      "Encapsulation That Hides Implementation Details"
+    ],
+    [
+      3,
+      "inheritance-as-a-type-system-and-as-code-sharing",
+      "Inheritance as a Type System and as Code Sharing"
+    ],
+    [
+      3,
+      "polymorphism",
+      "Polymorphism"
+    ]
+  ],
+  "ch18-02-trait-objects.md": [
+    [
+      2,
+      "using-trait-objects-to-abstract-over-shared-behavior",
+      "Using Trait Objects to Abstract over Shared Behavior"
+    ],
+    [
+      3,
+      "defining-a-trait-for-common-behavior",
+      "Defining a Trait for Common Behavior"
+    ],
+    [
+      3,
+      "implementing-the-trait",
+      "Implementing the Trait"
+    ],
+    [
+      3,
+      "performing-dynamic-dispatch",
+      "Performing Dynamic Dispatch"
+    ]
+  ],
+  "ch18-03-oo-design-patterns.md": [
+    [
+      2,
+      "implementing-an-object-oriented-design-pattern",
+      "Implementing an Object-Oriented Design Pattern"
+    ],
+    [
+      3,
+      "attempting-traditional-object-oriented-style",
+      "Attempting Traditional Object-Oriented Style"
+    ],
+    [
+      4,
+      "defining-post-and-creating-a-new-instance",
+      "Defining Post and Creating a New Instance"
+    ],
+    [
+      4,
+      "storing-the-text-of-the-post-content",
+      "Storing the Text of the Post Content"
+    ],
+    [
+      4,
+      "ensuring-that-the-content-of-a-draft-post-is-empty",
+      "Ensuring That the Content of a Draft Post Is Empty"
+    ],
+    [
+      4,
+      "requesting-a-review-which-changes-the-posts-state",
+      "Requesting a Review, Which Changes the Post’s State"
+    ],
+    [
+      4,
+      "adding-approve-to-change-contents-behavior",
+      "Adding approve to Change content’s Behavior"
+    ],
+    [
+      3,
+      "why-not-an-enum",
+      "Why Not An Enum?"
+    ],
+    [
+      4,
+      "evaluating-the-state-pattern",
+      "Evaluating the State Pattern"
+    ],
+    [
+      3,
+      "encoding-states-and-behavior-as-types",
+      "Encoding States and Behavior as Types"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch19-00-patterns.md": [
+    [
+      1,
+      "patterns-and-matching",
+      "Patterns and Matching"
+    ]
+  ],
+  "ch19-01-all-the-places-for-patterns.md": [
+    [
+      2,
+      "all-the-places-patterns-can-be-used",
+      "All the Places Patterns Can Be Used"
+    ],
+    [
+      3,
+      "match-arms",
+      "match Arms"
+    ],
+    [
+      3,
+      "let-statements",
+      "let Statements"
+    ],
+    [
+      3,
+      "conditional-if-let-expressions",
+      "Conditional if let Expressions"
+    ],
+    [
+      3,
+      "while-let-conditional-loops",
+      "while let Conditional Loops"
+    ],
+    [
+      3,
+      "for-loops",
+      "for Loops"
+    ],
+    [
+      3,
+      "function-parameters",
+      "Function Parameters"
+    ]
+  ],
+  "ch19-02-refutability.md": [
+    [
+      2,
+      "refutability-whether-a-pattern-might-fail-to-match",
+      "Refutability: Whether a Pattern Might Fail to Match"
+    ]
+  ],
+  "ch19-03-pattern-syntax.md": [
+    [
+      2,
+      "pattern-syntax",
+      "Pattern Syntax"
+    ],
+    [
+      3,
+      "matching-literals",
+      "Matching Literals"
+    ],
+    [
+      3,
+      "matching-named-variables",
+      "Matching Named Variables"
+    ],
+    [
+      3,
+      "matching-multiple-patterns",
+      "Matching Multiple Patterns"
+    ],
+    [
+      3,
+      "matching-ranges-of-values-with-..",
+      "Matching Ranges of Values with ..="
+    ],
+    [
+      3,
+      "destructuring-to-break-apart-values",
+      "Destructuring to Break Apart Values"
+    ],
+    [
+      4,
+      "structs",
+      "Structs"
+    ],
+    [
+      4,
+      "enums",
+      "Enums"
+    ],
+    [
+      4,
+      "nested-structs-and-enums",
+      "Nested Structs and Enums"
+    ],
+    [
+      4,
+      "structs-and-tuples",
+      "Structs and Tuples"
+    ],
+    [
+      3,
+      "ignoring-values-in-a-pattern",
+      "Ignoring Values in a Pattern"
+    ],
+    [
+      4,
+      "an-entire-value-with-_",
+      "An Entire Value with _"
+    ],
+    [
+      4,
+      "parts-of-a-value-with-a-nested-_",
+      "Parts of a Value with a Nested _"
+    ],
+    [
+      4,
+      "an-unused-variable-by-starting-its-name-with-_",
+      "An Unused Variable by Starting Its Name with _"
+    ],
+    [
+      4,
+      "remaining-parts-of-a-value-with-..",
+      "Remaining Parts of a Value with .."
+    ],
+    [
+      3,
+      "adding-conditionals-with-match-guards",
+      "Adding Conditionals with Match Guards"
+    ],
+    [
+      3,
+      "using-bindings",
+      "Using @ Bindings"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch20-00-advanced-features.md": [
+    [
+      1,
+      "advanced-features",
+      "Advanced Features"
+    ]
+  ],
+  "ch20-01-unsafe-rust.md": [
+    [
+      2,
+      "unsafe-rust",
+      "Unsafe Rust"
+    ],
+    [
+      3,
+      "performing-unsafe-superpowers",
+      "Performing Unsafe Superpowers"
+    ],
+    [
+      3,
+      "dereferencing-a-raw-pointer",
+      "Dereferencing a Raw Pointer"
+    ],
+    [
+      3,
+      "calling-an-unsafe-function-or-method",
+      "Calling an Unsafe Function or Method"
+    ],
+    [
+      4,
+      "creating-a-safe-abstraction-over-unsafe-code",
+      "Creating a Safe Abstraction over Unsafe Code"
+    ],
+    [
+      4,
+      "using-extern-functions-to-call-external-code",
+      "Using extern Functions to Call External Code"
+    ],
+    [
+      4,
+      "calling-rust-functions-from-other-languages",
+      "Calling Rust Functions from Other Languages"
+    ],
+    [
+      3,
+      "accessing-or-modifying-a-mutable-static-variable",
+      "Accessing or Modifying a Mutable Static Variable"
+    ],
+    [
+      3,
+      "implementing-an-unsafe-trait",
+      "Implementing an Unsafe Trait"
+    ],
+    [
+      3,
+      "accessing-fields-of-a-union",
+      "Accessing Fields of a Union"
+    ],
+    [
+      3,
+      "using-miri-to-check-unsafe-code",
+      "Using Miri to Check Unsafe Code"
+    ],
+    [
+      3,
+      "using-unsafe-code-correctly",
+      "Using Unsafe Code Correctly"
+    ]
+  ],
+  "ch20-02-advanced-traits.md": [
+    [
+      2,
+      "advanced-traits",
+      "Advanced Traits"
+    ],
+    [
+      3,
+      "defining-traits-with-associated-types",
+      "Defining Traits with Associated Types"
+    ],
+    [
+      3,
+      "using-default-generic-parameters-and-operator-overloading",
+      "Using Default Generic Parameters and Operator Overloading"
+    ],
+    [
+      3,
+      "disambiguating-between-identically-named-methods",
+      "Disambiguating Between Identically Named Methods"
+    ],
+    [
+      3,
+      "using-supertraits",
+      "Using Supertraits"
+    ],
+    [
+      3,
+      "implementing-external-traits-with-the-newtype-pattern",
+      "Implementing External Traits with the Newtype Pattern"
+    ]
+  ],
+  "ch20-03-advanced-types.md": [
+    [
+      2,
+      "advanced-types",
+      "Advanced Types"
+    ],
+    [
+      3,
+      "type-safety-and-abstraction-with-the-newtype-pattern",
+      "Type Safety and Abstraction with the Newtype Pattern"
+    ],
+    [
+      3,
+      "type-synonyms-and-type-aliases",
+      "Type Synonyms and Type Aliases"
+    ],
+    [
+      3,
+      "the-never-type-that-never-returns",
+      "The Never Type That Never Returns"
+    ],
+    [
+      3,
+      "dynamically-sized-types-and-the-sized-trait",
+      "Dynamically Sized Types and the Sized Trait"
+    ]
+  ],
+  "ch20-04-advanced-functions-and-closures.md": [
+    [
+      2,
+      "advanced-functions-and-closures",
+      "Advanced Functions and Closures"
+    ],
+    [
+      3,
+      "function-pointers",
+      "Function Pointers"
+    ],
+    [
+      3,
+      "returning-closures",
+      "Returning Closures"
+    ]
+  ],
+  "ch20-05-macros.md": [
+    [
+      2,
+      "macros",
+      "Macros"
+    ],
+    [
+      3,
+      "the-difference-between-macros-and-functions",
+      "The Difference Between Macros and Functions"
+    ],
+    [
+      3,
+      "declarative-macros-for-general-metaprogramming",
+      "Declarative Macros for General Metaprogramming"
+    ],
+    [
+      3,
+      "procedural-macros-for-generating-code-from-attributes",
+      "Procedural Macros for Generating Code from Attributes"
+    ],
+    [
+      3,
+      "custom-derive-macros",
+      "Custom derive Macros"
+    ],
+    [
+      3,
+      "attribute-like-macros",
+      "Attribute-Like Macros"
+    ],
+    [
+      3,
+      "function-like-macros",
+      "Function-Like Macros"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "ch21-00-final-project-a-web-server.md": [
+    [
+      1,
+      "final-project-building-a-multithreaded-web-server",
+      "Final Project: Building a Multithreaded Web Server"
+    ]
+  ],
+  "ch21-01-single-threaded.md": [
+    [
+      2,
+      "building-a-single-threaded-web-server",
+      "Building a Single-Threaded Web Server"
+    ],
+    [
+      3,
+      "listening-to-the-tcp-connection",
+      "Listening to the TCP Connection"
+    ],
+    [
+      3,
+      "reading-the-request",
+      "Reading the Request"
+    ],
+    [
+      3,
+      "looking-more-closely-at-an-http-request",
+      "Looking More Closely at an HTTP Request"
+    ],
+    [
+      3,
+      "writing-a-response",
+      "Writing a Response"
+    ],
+    [
+      3,
+      "returning-real-html",
+      "Returning Real HTML"
+    ],
+    [
+      3,
+      "validating-the-request-and-selectively-responding",
+      "Validating the Request and Selectively Responding"
+    ],
+    [
+      3,
+      "refactoring",
+      "Refactoring"
+    ]
+  ],
+  "ch21-02-multithreaded.md": [
+    [
+      2,
+      "from-a-single-threaded-to-a-multithreaded-server",
+      "From a Single-Threaded to a Multithreaded Server"
+    ],
+    [
+      3,
+      "simulating-a-slow-request",
+      "Simulating a Slow Request"
+    ],
+    [
+      3,
+      "improving-throughput-with-a-thread-pool",
+      "Improving Throughput with a Thread Pool"
+    ],
+    [
+      4,
+      "spawning-a-thread-for-each-request",
+      "Spawning a Thread for Each Request"
+    ],
+    [
+      4,
+      "creating-a-finite-number-of-threads",
+      "Creating a Finite Number of Threads"
+    ],
+    [
+      4,
+      "building-threadpool-using-compiler-driven-development",
+      "Building ThreadPool Using Compiler-Driven Development"
+    ],
+    [
+      4,
+      "validating-the-number-of-threads-in-new",
+      "Validating the Number of Threads in new"
+    ],
+    [
+      4,
+      "creating-space-to-store-the-threads",
+      "Creating Space to Store the Threads"
+    ],
+    [
+      4,
+      "sending-code-from-the-threadpool-to-a-thread",
+      "Sending Code from the ThreadPool to a Thread"
+    ],
+    [
+      4,
+      "sending-requests-to-threads-via-channels",
+      "Sending Requests to Threads via Channels"
+    ],
+    [
+      4,
+      "implementing-the-execute-method",
+      "Implementing the execute Method"
+    ]
+  ],
+  "ch21-03-graceful-shutdown-and-cleanup.md": [
+    [
+      2,
+      "graceful-shutdown-and-cleanup",
+      "Graceful Shutdown and Cleanup"
+    ],
+    [
+      3,
+      "implementing-the-drop-trait-on-threadpool",
+      "Implementing the Drop Trait on ThreadPool"
+    ],
+    [
+      3,
+      "signaling-to-the-threads-to-stop-listening-for-jobs",
+      "Signaling to the Threads to Stop Listening for Jobs"
+    ],
+    [
+      2,
+      "summary",
+      "Summary"
+    ]
+  ],
+  "appendix-00.md": [
+    [
+      1,
+      "appendix",
+      "Appendix"
+    ]
+  ],
+  "appendix-01-keywords.md": [
+    [
+      2,
+      "appendix-a-keywords",
+      "Appendix A: Keywords"
+    ],
+    [
+      3,
+      "keywords-currently-in-use",
+      "Keywords Currently in Use"
+    ],
+    [
+      3,
+      "keywords-reserved-for-future-use",
+      "Keywords Reserved for Future Use"
+    ],
+    [
+      3,
+      "raw-identifiers",
+      "Raw Identifiers"
+    ]
+  ],
+  "appendix-02-operators.md": [
+    [
+      2,
+      "appendix-b-operators-and-symbols",
+      "Appendix B: Operators and Symbols"
+    ],
+    [
+      3,
+      "operators",
+      "Operators"
+    ],
+    [
+      3,
+      "non-operator-symbols",
+      "Non-operator Symbols"
+    ]
+  ],
+  "appendix-03-derivable-traits.md": [
+    [
+      2,
+      "appendix-c-derivable-traits",
+      "Appendix C: Derivable Traits"
+    ],
+    [
+      3,
+      "debug-for-programmer-output",
+      "Debug for Programmer Output"
+    ],
+    [
+      3,
+      "partialeq-and-eq-for-equality-comparisons",
+      "PartialEq and Eq for Equality Comparisons"
+    ],
+    [
+      3,
+      "partialord-and-ord-for-ordering-comparisons",
+      "PartialOrd and Ord for Ordering Comparisons"
+    ],
+    [
+      3,
+      "clone-and-copy-for-duplicating-values",
+      "Clone and Copy for Duplicating Values"
+    ],
+    [
+      3,
+      "hash-for-mapping-a-value-to-a-value-of-fixed-size",
+      "Hash for Mapping a Value to a Value of Fixed Size"
+    ],
+    [
+      3,
+      "default-for-default-values",
+      "Default for Default Values"
+    ]
+  ],
+  "appendix-04-useful-development-tools.md": [
+    [
+      2,
+      "appendix-d-useful-development-tools",
+      "Appendix D: Useful Development Tools"
+    ],
+    [
+      3,
+      "automatic-formatting-with-rustfmt",
+      "Automatic Formatting with rustfmt"
+    ],
+    [
+      3,
+      "fix-your-code-with-rustfix",
+      "Fix Your Code with rustfix"
+    ],
+    [
+      3,
+      "more-lints-with-clippy",
+      "More Lints with Clippy"
+    ],
+    [
+      3,
+      "ide-integration-using-rust-analyzer",
+      "IDE Integration Using rust-analyzer"
+    ]
+  ],
+  "appendix-05-editions.md": [
+    [
+      2,
+      "appendix-e-editions",
+      "Appendix E: Editions"
+    ]
+  ],
+  "appendix-06-translation.md": [
+    [
+      2,
+      "appendix-f-translations-of-the-book",
+      "Appendix F: Translations of the Book"
+    ]
+  ],
+  "appendix-07-nightly-rust.md": [
+    [
+      2,
+      "appendix-g---how-rust-is-made-and-nightly-rust",
+      "Appendix G - How Rust is Made and Nightly Rust"
+    ],
+    [
+      3,
+      "stability-without-stagnation",
+      "Stability Without Stagnation"
+    ],
+    [
+      3,
+      "choo-choo-release-channels-and-riding-the-trains",
+      "Choo, Choo! Release Channels and Riding the Trains"
+    ],
+    [
+      3,
+      "maintenance-time",
+      "Maintenance time"
+    ],
+    [
+      3,
+      "unstable-features",
+      "Unstable Features"
+    ],
+    [
+      3,
+      "rustup-and-the-role-of-rust-nightly",
+      "Rustup and the Role of Rust Nightly"
+    ],
+    [
+      3,
+      "the-rfc-process-and-teams",
+      "The RFC Process and Teams"
+    ]
+  ]
+}

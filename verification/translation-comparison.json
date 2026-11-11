@@ -1,0 +1,779 @@
+[
+  {
+    "source": "title-page.md",
+    "russian_base": "title-page.md",
+    "baseline_commit": "9cf2587c3232fb4c16456092c677c2748f9f749b",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "foreword.md",
+    "russian_base": "foreword.md",
+    "baseline_commit": "1b970b2aedc0a3d217fccc79eca8eb7d2a591d86",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch00-00-introduction.md",
+    "russian_base": "ch00-00-introduction.md",
+    "baseline_commit": "21b3dc7f76e469d3e26f040d4e16ca3e51f82054",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch01-00-getting-started.md",
+    "russian_base": "ch01-00-getting-started.md",
+    "baseline_commit": "f8407a27c5a72f8bad5473cb178d4a181bb21be9",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch01-01-installation.md",
+    "russian_base": "ch01-01-installation.md",
+    "baseline_commit": "5756567a28052e6754a55fac7cdff4502d42e161",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch01-02-hello-world.md",
+    "russian_base": "ch01-02-hello-world.md",
+    "baseline_commit": "08a523f64fff38870e94c57aa70b339f062899d8",
+    "status": "Актуализирован",
+    "manual_blocks": 8
+  },
+  {
+    "source": "ch01-03-hello-cargo.md",
+    "russian_base": "ch01-03-hello-cargo.md",
+    "baseline_commit": "b20ede10b01b3273aa9a07e4d17f395c6917b70a",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch02-00-guessing-game-tutorial.md",
+    "russian_base": "ch02-00-guessing-game-tutorial.md",
+    "baseline_commit": "1ede5b26c1c0d53aad828c5402fcf0057f5406fd",
+    "status": "Актуализирован",
+    "manual_blocks": 11
+  },
+  {
+    "source": "ch03-00-common-programming-concepts.md",
+    "russian_base": "ch03-00-common-programming-concepts.md",
+    "baseline_commit": "e8750db50d7908bd1f73eb665c225ee8c768d53a",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch03-01-variables-and-mutability.md",
+    "russian_base": "ch03-01-variables-and-mutability.md",
+    "baseline_commit": "10fc433df923d36bd79314bc23259650bc010795",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch03-02-data-types.md",
+    "russian_base": "ch03-02-data-types.md",
+    "baseline_commit": "9c35fabaee8baea3086a0420f43dcd112d80c316",
+    "status": "Актуализирован",
+    "manual_blocks": 15
+  },
+  {
+    "source": "ch03-03-how-functions-work.md",
+    "russian_base": "ch03-03-how-functions-work.md",
+    "baseline_commit": "3703e659f49cca7115c19f927763b12aea2d8d6d",
+    "status": "Актуализирован",
+    "manual_blocks": 4
+  },
+  {
+    "source": "ch03-04-comments.md",
+    "russian_base": "ch03-04-comments.md",
+    "baseline_commit": "b8872d47fd9dd39b40352e252e00422ab7be20b8",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch03-05-control-flow.md",
+    "russian_base": "ch03-05-control-flow.md",
+    "baseline_commit": "db47bb043e17fbe31a9ebdd959f0112b1c9cd748",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch04-00-understanding-ownership.md",
+    "russian_base": "ch04-00-understanding-ownership.md",
+    "baseline_commit": "a5adcafae553b58a713852dd878397f3ff1c715c",
+    "status": "Без изменений в английском источнике",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch04-01-what-is-ownership.md",
+    "russian_base": "ch04-01-what-is-ownership.md",
+    "baseline_commit": "bd03278cbd9e8d74468a38b2493d31c1c63df272",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch04-02-references-and-borrowing.md",
+    "russian_base": "ch04-02-references-and-borrowing.md",
+    "baseline_commit": "95ec00c265b30867c19b14d258e0ae3150e88cf0",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch04-03-slices.md",
+    "russian_base": "ch04-03-slices.md",
+    "baseline_commit": "1b15aa7eb7291ed3e4fba6b8ad06dc29a48a449e",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch05-00-structs.md",
+    "russian_base": "ch05-00-structs.md",
+    "baseline_commit": "4483ccc397198638cc33dda588c79a25fad08ffb",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch05-01-defining-structs.md",
+    "russian_base": "ch05-01-defining-structs.md",
+    "baseline_commit": "ad437adcc8ceee227f9199e25fa771e9f9525088",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch05-02-example-structs.md",
+    "russian_base": "ch05-02-example-structs.md",
+    "baseline_commit": "941458a555b3d7f0d7122ab5601666e22523864f",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch05-03-method-syntax.md",
+    "russian_base": "ch05-03-method-syntax.md",
+    "baseline_commit": "f2109255b5fdd1d4f6bec6bfacc035336ad897ea",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch06-00-enums.md",
+    "russian_base": "ch06-00-enums.md",
+    "baseline_commit": "f19bea3040822cafaf8ffbbd26ee4be967f2eb2b",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch06-01-defining-an-enum.md",
+    "russian_base": "ch06-01-defining-an-enum.md",
+    "baseline_commit": "46b687386f60ef80ec2fa7f8715a5c79b938c631",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch06-02-match.md",
+    "russian_base": "ch06-02-match.md",
+    "baseline_commit": "3b181bc94691d4916fdb2faa09ec3f5b65819207",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch06-03-if-let.md",
+    "russian_base": "ch06-03-if-let.md",
+    "baseline_commit": "d03cccfea60121a5558175b8fea7b6a57de3ef97",
+    "status": "Актуализирован",
+    "manual_blocks": 14
+  },
+  {
+    "source": "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
+    "russian_base": "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
+    "baseline_commit": "c5cec959ea85b6efbe20669617cc4616516726d6",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch07-01-packages-and-crates.md",
+    "russian_base": "ch07-01-packages-and-crates.md",
+    "baseline_commit": "03d2af8bf9317a2af7ddfe9eb361cf7d2b5cdd0f",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+    "russian_base": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+    "baseline_commit": "7629428b7a9f3b010dacb30b573c2c1eb6a3faa1",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+    "russian_base": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+    "baseline_commit": "d0c20efbe6038fc836b630cd25daa291a1de0e07",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+    "russian_base": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+    "baseline_commit": "401b52448ee8d402423ef70d9d347b2e57c5564a",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch07-05-separating-modules-into-different-files.md",
+    "russian_base": "ch07-05-separating-modules-into-different-files.md",
+    "baseline_commit": "1532517a86aee11aedf1f8e5aac5b531ffcc159b",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch08-00-common-collections.md",
+    "russian_base": "ch08-00-common-collections.md",
+    "baseline_commit": "f9000221dbc05fe5e21ec5c6fc186439b88c8f09",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch08-01-vectors.md",
+    "russian_base": "ch08-01-vectors.md",
+    "baseline_commit": "6b7a6e1546a6a2f455cd8b3831690650def836d1",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch08-02-strings.md",
+    "russian_base": "ch08-02-strings.md",
+    "baseline_commit": "b7c089613f010fdc58514e183d6a40991e95a9b9",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch08-03-hash-maps.md",
+    "russian_base": "ch08-03-hash-maps.md",
+    "baseline_commit": "bcdaf5bdcfa18d660e2cb480c97fb160f8024ffd",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch09-00-error-handling.md",
+    "russian_base": "ch09-00-error-handling.md",
+    "baseline_commit": "88b99174f5c36f70d3ee1125d2fbef135f4f51ff",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch09-01-unrecoverable-errors-with-panic.md",
+    "russian_base": "ch09-01-unrecoverable-errors-with-panic.md",
+    "baseline_commit": "61dac387b08e83cb51446362a9abba260ff1a81e",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch09-02-recoverable-errors-with-result.md",
+    "russian_base": "ch09-02-recoverable-errors-with-result.md",
+    "baseline_commit": "eff81794b867663c8dce5cd267fba82d8be12f22",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch09-03-to-panic-or-not-to-panic.md",
+    "russian_base": "ch09-03-to-panic-or-not-to-panic.md",
+    "baseline_commit": "d016971381f3e984039556fbe2cbf0d0ff12c113",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch10-00-generics.md",
+    "russian_base": "ch10-00-generics.md",
+    "baseline_commit": "87b7dbe243e1c56e00589d26135a1983bc05f630",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch10-01-syntax.md",
+    "russian_base": "ch10-01-syntax.md",
+    "baseline_commit": "05c9137d1bd1523da9849bb34434561ee49724b5",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch10-02-traits.md",
+    "russian_base": "ch10-02-traits.md",
+    "baseline_commit": "61487909c4d4bb611cf848ada50da3dcf48c7759",
+    "status": "Актуализирован",
+    "manual_blocks": 9
+  },
+  {
+    "source": "ch10-03-lifetime-syntax.md",
+    "russian_base": "ch10-03-lifetime-syntax.md",
+    "baseline_commit": "0f1eca125f2387fd56ff2b9cdd7fdee2969af39f",
+    "status": "Актуализирован",
+    "manual_blocks": 9
+  },
+  {
+    "source": "ch11-00-testing.md",
+    "russian_base": "ch11-00-testing.md",
+    "baseline_commit": "614404b86cbe1b078b86f327ac3a23e2f8120254",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch11-01-writing-tests.md",
+    "russian_base": "ch11-01-writing-tests.md",
+    "baseline_commit": "0f2cebef66952790c9162edc33b25bc237c2621f",
+    "status": "Актуализирован",
+    "manual_blocks": 11
+  },
+  {
+    "source": "ch11-02-running-tests.md",
+    "russian_base": "ch11-02-running-tests.md",
+    "baseline_commit": "1b5a69e07045f6f23734b6d84448ebce4e620408",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch11-03-test-organization.md",
+    "russian_base": "ch11-03-test-organization.md",
+    "baseline_commit": "dfcaf6ed0644ab99ed9b24185fca1ff353e4d246",
+    "status": "Актуализирован",
+    "manual_blocks": 4
+  },
+  {
+    "source": "ch12-00-an-io-project.md",
+    "russian_base": "ch12-00-an-io-project.md",
+    "baseline_commit": "6dc5f5c3c4358c3f5896003554aab2f7de86bc0a",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch12-01-accepting-command-line-arguments.md",
+    "russian_base": "ch12-01-accepting-command-line-arguments.md",
+    "baseline_commit": "18811f0609c70f340f4b42f89d563e95c7ea4ad4",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch12-02-reading-a-file.md",
+    "russian_base": "ch12-02-reading-a-file.md",
+    "baseline_commit": "0d3931ce8fef4d03f164f2fc4df819dd5640ea3f",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch12-03-improving-error-handling-and-modularity.md",
+    "russian_base": "ch12-03-improving-error-handling-and-modularity.md",
+    "baseline_commit": "a445eed871fe76c138339540bbe360b05884389c",
+    "status": "Актуализирован",
+    "manual_blocks": 16
+  },
+  {
+    "source": "ch12-04-testing-the-librarys-functionality.md",
+    "russian_base": "ch12-04-testing-the-librarys-functionality.md",
+    "baseline_commit": "fc1697c5427d3303b235ad089cb0e23eec12375a",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch12-05-working-with-environment-variables.md",
+    "russian_base": "ch12-05-working-with-environment-variables.md",
+    "baseline_commit": "4707ccc013cae1a4fd1af4dd75d22fb552c33091",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch12-06-writing-to-stderr-instead-of-stdout.md",
+    "russian_base": "ch12-06-writing-to-stderr-instead-of-stdout.md",
+    "baseline_commit": "c5a67a6459b486457a3b56242dbd92fd73cf0b7e",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch13-00-functional-features.md",
+    "russian_base": "ch13-00-functional-features.md",
+    "baseline_commit": "35c53674e8f23fbbfabdd5141dd6622d26603557",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch13-01-closures.md",
+    "russian_base": "ch13-01-closures.md",
+    "baseline_commit": "06ba849d379e136ba5230d3bb891deefdd74334d",
+    "status": "Актуализирован",
+    "manual_blocks": 10
+  },
+  {
+    "source": "ch13-02-iterators.md",
+    "russian_base": "ch13-02-iterators.md",
+    "baseline_commit": "f1894ddd50b68092a8f26971fcb38b484b160985",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch13-03-improving-our-io-project.md",
+    "russian_base": "ch13-03-improving-our-io-project.md",
+    "baseline_commit": "ced2cce58bd6c3de6562d19b968a876dfd3ed2bb",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch13-04-performance.md",
+    "russian_base": "ch13-04-performance.md",
+    "baseline_commit": "00db2c181db3ac5d014290448735bf6016d26a56",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch14-00-more-about-cargo.md",
+    "russian_base": "ch14-00-more-about-cargo.md",
+    "baseline_commit": "11fa12a7bf28de82cac3b9e81188af35c3611b4b",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch14-01-release-profiles.md",
+    "russian_base": "ch14-01-release-profiles.md",
+    "baseline_commit": "a7a294c85101d1ca2f6d049736631c1e36c87669",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch14-02-publishing-to-crates-io.md",
+    "russian_base": "ch14-02-publishing-to-crates-io.md",
+    "baseline_commit": "22e1379bac9c4261ea9da9d767810255714d7a74",
+    "status": "Актуализирован",
+    "manual_blocks": 10
+  },
+  {
+    "source": "ch14-03-cargo-workspaces.md",
+    "russian_base": "ch14-03-cargo-workspaces.md",
+    "baseline_commit": "9050e1c521bfd999fb25b56cb230092733e2dda1",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch14-04-installing-binaries.md",
+    "russian_base": "ch14-04-installing-binaries.md",
+    "baseline_commit": "892929fec363f2708ebb22a40b5957d9ea98cc24",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch14-05-extending-cargo.md",
+    "russian_base": "ch14-05-extending-cargo.md",
+    "baseline_commit": "2509d36bd46ec4a008273ea11b87c314ad19c045",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch15-00-smart-pointers.md",
+    "russian_base": "ch15-00-smart-pointers.md",
+    "baseline_commit": "dc038f98bdbff958581f6763187c3752016d6e98",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch15-01-box.md",
+    "russian_base": "ch15-01-box.md",
+    "baseline_commit": "599a22b1ab02db717fd60845391632b87ad911e3",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch15-02-deref.md",
+    "russian_base": "ch15-02-deref.md",
+    "baseline_commit": "e8001bd5ab477f60788c97e0f76433b9a26b37f1",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch15-03-drop.md",
+    "russian_base": "ch15-03-drop.md",
+    "baseline_commit": "86612ad89f53ce631923b7a64b2dfdce8b12edba",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch15-04-rc.md",
+    "russian_base": "ch15-04-rc.md",
+    "baseline_commit": "3eb4a132514f44aa764d815d591effb129a385d5",
+    "status": "Актуализирован",
+    "manual_blocks": 4
+  },
+  {
+    "source": "ch15-05-interior-mutability.md",
+    "russian_base": "ch15-05-interior-mutability.md",
+    "baseline_commit": "b345f618ef003b1ef111bb6c69da7c4594b2fe50",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "ch15-06-reference-cycles.md",
+    "russian_base": "ch15-06-reference-cycles.md",
+    "baseline_commit": "b42842507590c67c1ac7cbcb59be1f9575eeed7a",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch16-00-concurrency.md",
+    "russian_base": "ch16-00-concurrency.md",
+    "baseline_commit": "0e4997b64306ed9bb336125309e8bff110d43d27",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch16-01-threads.md",
+    "russian_base": "ch16-01-threads.md",
+    "baseline_commit": "016883ee7fb0bc4ab2d2479ccf108d2312152ff6",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch16-02-message-passing.md",
+    "russian_base": "ch16-02-message-passing.md",
+    "baseline_commit": "ff7f72f0cf460e159f2e7fa70027655a63a871d3",
+    "status": "Актуализирован",
+    "manual_blocks": 9
+  },
+  {
+    "source": "ch16-03-shared-state.md",
+    "russian_base": "ch16-03-shared-state.md",
+    "baseline_commit": "2e8df1f1f6029ae95acc086cd9c595a940dbd6db",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch16-04-extensible-concurrency-sync-and-send.md",
+    "russian_base": "ch16-04-extensible-concurrency-sync-and-send.md",
+    "baseline_commit": "b43a7b2f8bd7e4c40d3f7021d4b3b45259973d79",
+    "status": "Актуализирован",
+    "manual_blocks": 5
+  },
+  {
+    "source": "ch17-00-async-await.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-01-futures-and-syntax.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-02-concurrency-with-async.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-03-more-futures.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-04-streams.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-05-traits-for-async.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch17-06-futures-tasks-threads.md",
+    "russian_base": null,
+    "baseline_commit": null,
+    "status": "Новый раздел, переведён полностью",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch18-00-oop.md",
+    "russian_base": "ch17-00-oop.md",
+    "baseline_commit": "267d7a8df37fae7c686212220d5edf94327b6192",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "ch18-01-what-is-oo.md",
+    "russian_base": "ch17-01-what-is-oo.md",
+    "baseline_commit": "a8c289e894589d3f2942dfd5bc2f1664c7f95552",
+    "status": "Актуализирован",
+    "manual_blocks": 2
+  },
+  {
+    "source": "ch18-02-trait-objects.md",
+    "russian_base": "ch17-02-trait-objects.md",
+    "baseline_commit": "70649a8545d35617d9a9e2e53e594acd69db9765",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch18-03-oo-design-patterns.md",
+    "russian_base": "ch17-03-oo-design-patterns.md",
+    "baseline_commit": "033cf4642ce7e34d0aac5815a5e144703ff1606d",
+    "status": "Актуализирован",
+    "manual_blocks": 12
+  },
+  {
+    "source": "ch19-00-patterns.md",
+    "russian_base": "ch18-00-patterns.md",
+    "baseline_commit": "1dcadf1b755e248597047377d0a8da5e4560dff7",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch19-01-all-the-places-for-patterns.md",
+    "russian_base": "ch18-01-all-the-places-for-patterns.md",
+    "baseline_commit": "10fb76949fd882ed3903e48c6a5421ba38ce06b3",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch19-02-refutability.md",
+    "russian_base": "ch18-02-refutability.md",
+    "baseline_commit": "ec37a35266674d521d5e6d008236e47448677e93",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "ch19-03-pattern-syntax.md",
+    "russian_base": "ch18-03-pattern-syntax.md",
+    "baseline_commit": "b9d504707683adfedee447344b59fe1b5bd00cbe",
+    "status": "Актуализирован",
+    "manual_blocks": 15
+  },
+  {
+    "source": "ch20-00-advanced-features.md",
+    "russian_base": "ch19-00-advanced-features.md",
+    "baseline_commit": "8782420bfd72689ce110809ca3807e46aa5bd9ac",
+    "status": "Актуализирован",
+    "manual_blocks": 0
+  },
+  {
+    "source": "ch20-01-unsafe-rust.md",
+    "russian_base": "ch19-01-unsafe-rust.md",
+    "baseline_commit": "dd04e0afc1b9fe2cfd4fc656e08949a47d95cc27",
+    "status": "Актуализирован",
+    "manual_blocks": 27
+  },
+  {
+    "source": "ch20-02-advanced-traits.md",
+    "russian_base": "ch19-03-advanced-traits.md",
+    "baseline_commit": "ab3fa073c05cdea485ecf4345e443984672de4dd",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch20-03-advanced-types.md",
+    "russian_base": "ch19-04-advanced-types.md",
+    "baseline_commit": "9850bb7bff6ff8516c089cceb3e504a915af3160",
+    "status": "Актуализирован",
+    "manual_blocks": 4
+  },
+  {
+    "source": "ch20-04-advanced-functions-and-closures.md",
+    "russian_base": "ch19-05-advanced-functions-and-closures.md",
+    "baseline_commit": "0560f51df515ab20a8149a49c54c22e8b997ca33",
+    "status": "Актуализирован",
+    "manual_blocks": 13
+  },
+  {
+    "source": "ch20-05-macros.md",
+    "russian_base": "ch19-06-macros.md",
+    "baseline_commit": "2e0f2bf74076c40914f05c10ae4b755ca8509f0d",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch21-00-final-project-a-web-server.md",
+    "russian_base": "ch20-00-final-project-a-web-server.md",
+    "baseline_commit": "da158de339fd03726c5a2fff81363b5be06137a4",
+    "status": "Актуализирован",
+    "manual_blocks": 4
+  },
+  {
+    "source": "ch21-01-single-threaded.md",
+    "russian_base": "ch20-01-single-threaded.md",
+    "baseline_commit": "ab888b1a37c5f03189cd30b591559a10a1ff17a8",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "ch21-02-multithreaded.md",
+    "russian_base": "ch20-02-multithreaded.md",
+    "baseline_commit": "b2fd5ea234b9b36384ac723373f20d80248bf587",
+    "status": "Актуализирован",
+    "manual_blocks": 16
+  },
+  {
+    "source": "ch21-03-graceful-shutdown-and-cleanup.md",
+    "russian_base": "ch20-03-graceful-shutdown-and-cleanup.md",
+    "baseline_commit": "36d4d1169509af0a4e20fef68f24d75b6c1a106e",
+    "status": "Актуализирован",
+    "manual_blocks": 6
+  },
+  {
+    "source": "appendix-00.md",
+    "russian_base": "appendix-00.md",
+    "baseline_commit": "0afc92a8d9531cb7b2438eb3ee1a2d7187e575ee",
+    "status": "Без изменений в английском источнике",
+    "manual_blocks": 0
+  },
+  {
+    "source": "appendix-01-keywords.md",
+    "russian_base": "appendix-01-keywords.md",
+    "baseline_commit": "2ea390d852bd2a9790b326a6fa7db0068bcc38f5",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "appendix-02-operators.md",
+    "russian_base": "appendix-02-operators.md",
+    "baseline_commit": "545ef0d63ae1b5f17fe8838cac5bb5503f826e39",
+    "status": "Актуализирован",
+    "manual_blocks": 18
+  },
+  {
+    "source": "appendix-03-derivable-traits.md",
+    "russian_base": "appendix-03-derivable-traits.md",
+    "baseline_commit": "a69e578dc7b31bcda511c406bd69e9eced9f4e62",
+    "status": "Актуализирован",
+    "manual_blocks": 1
+  },
+  {
+    "source": "appendix-04-useful-development-tools.md",
+    "russian_base": "appendix-04-useful-development-tools.md",
+    "baseline_commit": "54733ea78f42aec7461191cd70a7972915a2c14c",
+    "status": "Актуализирован",
+    "manual_blocks": 8
+  },
+  {
+    "source": "appendix-05-editions.md",
+    "russian_base": "appendix-05-editions.md",
+    "baseline_commit": "f2c19d708ece07f2f2643ec6f93052ba1547d78c",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  },
+  {
+    "source": "appendix-06-translation.md",
+    "russian_base": "appendix-06-translation.md",
+    "baseline_commit": "f4883c97805f49b7fad7ebc27b91ef6be6168c64",
+    "status": "Актуализирован",
+    "manual_blocks": 7
+  },
+  {
+    "source": "appendix-07-nightly-rust.md",
+    "russian_base": "appendix-07-nightly-rust.md",
+    "baseline_commit": "12d897a1669a6109fb137cefa2eb70279b33bbc3",
+    "status": "Актуализирован",
+    "manual_blocks": 3
+  }
+]

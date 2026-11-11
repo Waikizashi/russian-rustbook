@@ -1,0 +1,5 @@
+{
+  "paragraphs_checked": 5190,
+  "long_english_prose_candidates": [],
+  "rule": "At least 40 Latin words and fewer than 10% Cyrillic words; excludes code and raw HTML. This heuristic does not replace editorial review."
+}

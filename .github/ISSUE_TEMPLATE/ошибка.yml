@@ -1,0 +1,28 @@
+name: Ошибка в тексте или коде
+description: Сообщить о неточности, неработающем примере или ссылке.
+title: "[Ошибка]: "
+body:
+  - type: input
+    id: chapter
+    attributes:
+      label: Глава и раздел
+      placeholder: "Например: 2, сдвиги"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Что не так
+      description: Приведи фрагмент, фактический результат и ожидаемое поведение.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Как воспроизвести
+      description: Для кода укажи вход, команду и вывод rustc --version. Для текста можно оставить пустым.
+  - type: textarea
+    id: source
+    attributes:
+      label: Источник или вариант исправления
+      description: Ссылка на официальную документацию поможет проверить исправление.

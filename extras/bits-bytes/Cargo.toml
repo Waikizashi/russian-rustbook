@@ -1,0 +1,16 @@
+[package]
+name = "rust-bits-bytes-lab"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.85"
+publish = false
+license = "MIT"
+
+[workspace]
+members = ["crates/byte-note"]
+resolver = "3"
+
+# В учебных программах сравниваются константы и показывается создание Vec.
+[lints.clippy]
+eq_op = "allow"
+useless_vec = "allow"

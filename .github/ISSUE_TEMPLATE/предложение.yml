@@ -1,0 +1,18 @@
+name: Предложить улучшение
+description: Новое упражнение, уточнение или полезный раздел.
+title: "[Идея]: "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Чему это поможет научиться
+      description: Опиши проблему читателя и связь с существующими разделами.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предложение
+      description: Небольшой пример или план объяснения.
+    validations:
+      required: true

@@ -1,0 +1,2373 @@
+{
+  "schema_version": 1,
+  "commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+  "summary_sha256": "cf36f3d2c46320747f62e050649f2a5b9d32fcaa009605742a1908ff8d02ce61",
+  "rust": "1.99.1",
+  "edition": "2024",
+  "chapters": {
+    "title-page.md": {
+      "source_sha256": "528bc5d3a02b43d635d2c5e7f5f2acef66a9522f20408d7912c61bf34dc66b23",
+      "markdown_sha256": "dee71368181be7082a1b1d658c2811c72cb14b579801f959e8397f0967035257",
+      "prose_sha256": "ded773336adf468ece78866f76ff90326aaa21e1d8c658b8964b032f78dc7494",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "foreword.md": {
+      "source_sha256": "4f46d1385cf30780919a031ccfe36d23417d214d7d72168cbacdaa1977e24662",
+      "markdown_sha256": "d4e3371ec06389a6125a11b34bf14db8f12ec608dd93e49b4ae92c5e8293978a",
+      "prose_sha256": "52ecd729a8c738ea60569aaef236abb37fd12b8090bb604769f545b8b59e9c6c",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch00-00-introduction.md": {
+      "source_sha256": "bad13cd06ffc4fc2017b3ae99992ab7b4ad7dfc32afed7d6931525ce0a0c6296",
+      "markdown_sha256": "2eba711175d633b5c6bf2585bcb6382fef4eec2b39f18689a1a2b9134dd9d273",
+      "prose_sha256": "461ea553dbb98ae8f499c7285fb86f907e33e5ac72345084e4695e79941702b0",
+      "code_sha256": "e4c3478591df2d63b94b191e3cbf3ad7f9512617090d73031a5a259fa4ce7bc6",
+      "dependencies": {
+        "src/img/ferris/does_not_compile.svg": "36ccf9f4bacd571f6e09d9a67b6e4b42a9f015bac8923ee6658c547ca330e4d1",
+        "src/img/ferris/panics.svg": "27f1dd68bde067c25be6468bbffe42bec9e908d522e68fbc4e632f0ce07838a5",
+        "src/img/ferris/not_desired_behavior.svg": "47b7adac4986fcc948d56a2bccea0226724a842ac0ca25bfba1ade2cc099b333"
+      },
+      "headings": 10,
+      "code_blocks": 2
+    },
+    "ch01-00-getting-started.md": {
+      "source_sha256": "80d46298cc27d81989f75f7c5b13546f1b021086092bff141fea49c3aeb837a8",
+      "markdown_sha256": "152b24e7ca44a75c8b092d0c4eabce84ee82224978bf666ef627799e97f922db",
+      "prose_sha256": "edc4263fe5b1950d655487a86af0eca9d3486b7c35551dde47dce46ee65ff926",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch01-01-installation.md": {
+      "source_sha256": "907a27ee34e5eb55a71c0cc6a2710d0055c6a1ca99b3b2414f7ca4c4a60313c6",
+      "markdown_sha256": "5796f74894f69e71d937ef93be972815294c6047c65038981d4d155e89d890c4",
+      "prose_sha256": "72a184e4f20e8675b9a8f8bf2daa6977ebad31c8fcb0af0ca99687c4e49ddef4",
+      "code_sha256": "bd30a463c3630a07c027b0180ac9305a72b962b4450bed84b34483d7e3744605",
+      "dependencies": {},
+      "headings": 9,
+      "code_blocks": 11
+    },
+    "ch01-02-hello-world.md": {
+      "source_sha256": "dcfed2ad44566f82d19e93fbd8551af60254a9fe4222666b14aca0d1711f8678",
+      "markdown_sha256": "645189892417cf5431fafb29c4e9b413db2c8cb07fb99e993efaf3c3e9d7a143",
+      "prose_sha256": "cd61102b48f19b18954064ec8427c9c368b729f04e22cbc95b0ce180db17881a",
+      "code_sha256": "8389507be402149c8b85b21b953ee9b7af41c3b21fddf2e4abdbd68672e2da45",
+      "dependencies": {},
+      "headings": 5,
+      "code_blocks": 11
+    },
+    "ch01-03-hello-cargo.md": {
+      "source_sha256": "9b01b83fd47ade6dc918989da0fcb943ba09f3a5a6a5fcf38c7943df1d28c3a5",
+      "markdown_sha256": "61369f359b84b646fc3773eb569a26bc18ba6edb4cf2be06a84472c7054c0e39",
+      "prose_sha256": "00267b60ba0a795e094ac4aa76fc37f64dc2eca57996dab3be8977a5d2935ee1",
+      "code_sha256": "32f9ccad6d359c7bfd15a22956b04fcc5d7ce045ab758609fe39db1e4984e455",
+      "dependencies": {},
+      "headings": 6,
+      "code_blocks": 10
+    },
+    "ch02-00-guessing-game-tutorial.md": {
+      "source_sha256": "540ed6890f9cfefc1d66ef7eccb43f3cf5b97a7508a1f3fefbbd7978a50f98dd",
+      "markdown_sha256": "bf8769bd079c4b6ae75183f6e22a6b33ed82fdac17cdec52377edae56ab291f0",
+      "prose_sha256": "f6176ffc0e6d4083bdd10db268dce91352cb69e6f9f13d6b2afc872aa5976111",
+      "code_sha256": "95f57669f1cb36b73993f3e3dc57462ace2e1b2dec3358b8cef500f305967764",
+      "dependencies": {
+        "listings/ch02-guessing-game-tutorial/no-listing-01-cargo-new/Cargo.toml": "7780c4a99fabf456bf9a749b47e4d0a826c2e13ccdf03e3e6e908efb48a50dc5",
+        "listings/ch02-guessing-game-tutorial/no-listing-01-cargo-new/src/main.rs": "c8e0583694bb1e0188dbe28fe0d65ac1130723c55f968b6262b906c147f72549",
+        "listings/ch02-guessing-game-tutorial/no-listing-01-cargo-new/output.txt": "7b9a276630b643e6f8944fd5e414034c865afd896df831a845dc7142c33a6722",
+        "listings/ch02-guessing-game-tutorial/listing-02-01/src/main.rs": "d9b89494fe81b75b3e6cc9cce0e8ae2caac1916e79cc631d66ef2a0ce05b7581",
+        "listings/ch02-guessing-game-tutorial/no-listing-02-without-expect/output.txt": "53c9ec462d1b1e867d023359cc8d7f8ccae00f92836022f2e5cc238828a9a886",
+        "listings/ch02-guessing-game-tutorial/listing-02-02/Cargo.toml": "49a8abe9dbf75dbf8b34c37b78dd0227d00089b49e8545751d90bf454567a278",
+        "listings/ch02-guessing-game-tutorial/listing-02-03/src/main.rs": "87d95f6546757c27b9f2dd7b2d94a8b0a372efb20c240d2fb3711cabf939e720",
+        "listings/ch02-guessing-game-tutorial/listing-02-04/src/main.rs": "d518753542b17ef44310c4c00ea7e9ead8926f66bcb6f5286568c960219a0689",
+        "listings/ch02-guessing-game-tutorial/listing-02-04/output.txt": "837b6c5e8239e5017ceef143345cc41152772f6a7eaccb97c07d6e6e3373661b",
+        "listings/ch02-guessing-game-tutorial/no-listing-03-convert-string-to-number/src/main.rs": "8eee91298227aaadf734cf78fd11663b7bb2e1e979550c033c5ebff520e41567",
+        "listings/ch02-guessing-game-tutorial/no-listing-04-looping/src/main.rs": "33af1aa9b7eb52998d47946050a18bc701fcb13ed8a57039a8bc79e53e9145a2",
+        "listings/ch02-guessing-game-tutorial/no-listing-05-quitting/src/main.rs": "af0877bc830a4eae09088cb553db50ce2dd1baaec368d8876ba885461915a4df",
+        "listings/ch02-guessing-game-tutorial/listing-02-05/src/main.rs": "a52d7f472dcabf50b6c245823f7b0bf5d15d3d9e0330bcdaf064e832632be644",
+        "listings/ch02-guessing-game-tutorial/listing-02-06/src/main.rs": "b54117bed799aa845eb05a797a5ee7cc8e20cdfb616bc8ecfe30c4921cff3a3e"
+      },
+      "headings": 18,
+      "code_blocks": 36
+    },
+    "ch03-00-common-programming-concepts.md": {
+      "source_sha256": "b8211bb60f385336be7c9ef6484e8c38a5877785eea03244d8697a64044ccab7",
+      "markdown_sha256": "577cfc9c38aef8a921625806872f74d15d26e6457e3f7249665ea7afef29e014",
+      "prose_sha256": "b33ec3ce91eadb0343b7d64cd95b9a47d5271b449c6344eddc78d67f696520ec",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 2,
+      "code_blocks": 0
+    },
+    "ch03-01-variables-and-mutability.md": {
+      "source_sha256": "6fc7f7fda6850f669efa36ca55fb8faa4129c7fbe25fdcd32d81f0ab82e0beb6",
+      "markdown_sha256": "f8e3bd09891f35846d61ec183508fcd4e88ef3450da1107cb6749eeddc815f60",
+      "prose_sha256": "be8f3100f40a7872495b107020a91a196339af470c6d8624c828715b9d4c8de9",
+      "code_sha256": "b1233ebfe60331d3207e37cb010445ba836846ca73f4ed744bba2f0854ea50a9",
+      "dependencies": {
+        "listings/ch03-common-programming-concepts/no-listing-01-variables-are-immutable/src/main.rs": "d301666cec5cd477cd2f4c1096e588659f383ab7da2e890a0d0f4cc05d7d9f30",
+        "listings/ch03-common-programming-concepts/no-listing-01-variables-are-immutable/output.txt": "5f86535775992fbb291decff500c8641b739ee8a55d28d1a212f59ad22c0b714",
+        "listings/ch03-common-programming-concepts/no-listing-02-adding-mut/src/main.rs": "fc6d0147300f8cffba1c7e9052df1b6ad14a732ccac1cbffb94f7c6b865ca896",
+        "listings/ch03-common-programming-concepts/no-listing-02-adding-mut/output.txt": "862662eb4871681c3bdde0a17877557b2f2b868ec52979a65cd98e5b92f9e5f1",
+        "listings/ch03-common-programming-concepts/no-listing-03-shadowing/src/main.rs": "58861fe2b3365b04b85f4b0b7bb4d182fdf2b103a9d839d6e7a5358f7d681853",
+        "listings/ch03-common-programming-concepts/no-listing-03-shadowing/output.txt": "38851675cd0d70a7eadd33bfa00d0b791c34bd8b73570e76a27acab96a93566b",
+        "listings/ch03-common-programming-concepts/no-listing-04-shadowing-can-change-types/src/main.rs": "f6ef4bd592dfab57847fbefb9e51d6d5559dbd473da9840eb794e83ec983a3a3",
+        "listings/ch03-common-programming-concepts/no-listing-05-mut-cant-change-types/src/main.rs": "d4c8ecd1c0574110568c63671a18e8a199cd0fd2f6b189d2e70cef0cc5b88c79",
+        "listings/ch03-common-programming-concepts/no-listing-05-mut-cant-change-types/output.txt": "6268da9e90bfb92831d79a0b745d942690d81976941596499a346fbdeab076b5"
+      },
+      "headings": 3,
+      "code_blocks": 10
+    },
+    "ch03-02-data-types.md": {
+      "source_sha256": "6990fc65bcc683e6eac1f67d9b9b339b949ba3372eb6e8e3110d48b042272b95",
+      "markdown_sha256": "edd88c0a5be94e0b804d01121bab8d70f6732d75bfc988052d855e8b44920a90",
+      "prose_sha256": "24c86f7dfeab5481255c5a20670d4159262eb25eb283eb2c8481afe776845135",
+      "code_sha256": "d5741897b5de0998c04c661c0a98670741db45ca862bb31e3fff9639b7f8f88b",
+      "dependencies": {
+        "listings/ch03-common-programming-concepts/output-only-01-no-type-annotations/output.txt": "2ddaf2640de6b8c95a83d6ef619a9c4abe0d93bb5565da8367482e8211732807",
+        "listings/ch03-common-programming-concepts/no-listing-06-floating-point/src/main.rs": "148b186b54ab1808d8b9be08a9e8684d783b5024f80223ecc3ec728abdf92ca0",
+        "listings/ch03-common-programming-concepts/no-listing-07-numeric-operations/src/main.rs": "576d801197403e6ecaff8ed317a84a06380caa29cd00a4d8da7aac044ebb32ec",
+        "listings/ch03-common-programming-concepts/no-listing-08-boolean/src/main.rs": "868182a64619a04f6294d0a2acb4d3dafac7e5587527f48dae0c2342b3241c06",
+        "listings/ch03-common-programming-concepts/no-listing-09-char/src/main.rs": "6dc16c999dd556a0c199b806b74d971bf337c58d63ef4f925d7574671d6f76c3",
+        "listings/ch03-common-programming-concepts/no-listing-10-tuples/src/main.rs": "f37bf99083592bfdf0df39fcf195c2bb1002e1c1035212c16b1afe2c0f9bcced",
+        "listings/ch03-common-programming-concepts/no-listing-11-destructuring-tuples/src/main.rs": "84cf743b2fba35dfbbbf9dcd0b9aa29d538c227cb11a41be9deb30a080e85927",
+        "listings/ch03-common-programming-concepts/no-listing-12-tuple-indexing/src/main.rs": "b359219730f534e495e3afb4cd9822f8539982f5b536bbd0c824e2b440683546",
+        "listings/ch03-common-programming-concepts/no-listing-13-arrays/src/main.rs": "ef3c2c04634b05fc448f252fa8a3bcf759f84c9d81d701efd53745243c3d598d",
+        "listings/ch03-common-programming-concepts/no-listing-14-array-indexing/src/main.rs": "fc329bae7db9eff5a7d50ffbbf8b98876d2767fc5e26bd6c4175fc449bf15f61",
+        "listings/ch03-common-programming-concepts/no-listing-15-invalid-array-access/src/main.rs": "7c085a45433f5386fd68661ddc6fcf3292eebc413adacc1b1cc0101e7c8fd0c4"
+      },
+      "headings": 13,
+      "code_blocks": 16
+    },
+    "ch03-03-how-functions-work.md": {
+      "source_sha256": "739b4e27d69469936b83137d68e63748b25ec514760210df3750e117af33c4f1",
+      "markdown_sha256": "e7e7b8a143345a7deaf64163ea8a728526fe6d6af6e42f3a5191cd682ae0f268",
+      "prose_sha256": "4316481d56eadbb4ca75035caac06a5cf7b9dc86bc3568d2abe4a30319c13d94",
+      "code_sha256": "5a6b7a9dbcd8904a21d3ec5ed2b5020ec9d087d57e85ec1074ab07cb38eab589",
+      "dependencies": {
+        "listings/ch03-common-programming-concepts/no-listing-16-functions/src/main.rs": "c8081f7ade47e2b4fc49fb5b9cf5fb773f83453bf797bc96cad269e22c172601",
+        "listings/ch03-common-programming-concepts/no-listing-16-functions/output.txt": "1dddcd90fe57520b84c6daad91028131eba600d9cf764be240cf2a21ec4ab6a9",
+        "listings/ch03-common-programming-concepts/no-listing-17-functions-with-parameters/src/main.rs": "bae5d97bee67ab3bda54cd1aa91a0918da5f9585b6c431ad30aa1e40bd7f07e2",
+        "listings/ch03-common-programming-concepts/no-listing-17-functions-with-parameters/output.txt": "5c63c8769c65225c5b0c9cbb23d63885a68efbebfd4d9399ce0f30d79df467c4",
+        "listings/ch03-common-programming-concepts/no-listing-18-functions-with-multiple-parameters/src/main.rs": "73953cb061e614a8606552d244df99b14917ff53c17790f8397df60222cecae7",
+        "listings/ch03-common-programming-concepts/no-listing-18-functions-with-multiple-parameters/output.txt": "148cf3fb9b552a45a2e02645ab2a6f41439b9aeb53ae3cf0e7ea72b516f805e4",
+        "listings/ch03-common-programming-concepts/listing-03-01/src/main.rs": "718ebbef03715873f71bf70700273f473d00a9197e56687490a7af703e11a0c5",
+        "listings/ch03-common-programming-concepts/no-listing-19-statements-vs-expressions/src/main.rs": "bd8c83414aa781985c0eef529df4436c9694902154bb0efa2653fce9d20bb02d",
+        "listings/ch03-common-programming-concepts/no-listing-19-statements-vs-expressions/output.txt": "f208c268b5c7f18ab41376a3f3bdaf8be990f92418451334e0e54706993c8683",
+        "listings/ch03-common-programming-concepts/no-listing-20-blocks-are-expressions/src/main.rs": "75ff5057e04e81b4da2de5c301aea9facb4b68326eca0665f6d477290292cc2d",
+        "listings/ch03-common-programming-concepts/no-listing-21-function-return-values/src/main.rs": "c4340a746eea762a3c69147df5cf09dee44533ca789f8340115ba50107699a6e",
+        "listings/ch03-common-programming-concepts/no-listing-21-function-return-values/output.txt": "dcd53085172c635b59b9565019979b90a3e62f6303c0df87ded0b07ca0cd4ee7",
+        "listings/ch03-common-programming-concepts/no-listing-22-function-parameter-and-return/src/main.rs": "9ddab427d63f11a0a9bf832ee0ec5b0f99d2d1e3a66a5dc3ea1f9ccb6a9bcaec",
+        "listings/ch03-common-programming-concepts/no-listing-23-statements-dont-return-values/src/main.rs": "5e42da7a75a973d188052c02b429e5e110af730ada3562f356e0a2bcc5ba588b",
+        "listings/ch03-common-programming-concepts/no-listing-23-statements-dont-return-values/output.txt": "4a495b7fe2d04dd407979cf481575304025469fa0f244ef78113658dd1f71a31"
+      },
+      "headings": 4,
+      "code_blocks": 17
+    },
+    "ch03-04-comments.md": {
+      "source_sha256": "950233df9ae000d0a61e576ff5745eb91302cf9588a6254f287330149ac08ae1",
+      "markdown_sha256": "82b0aac1db631041ec36dc64c6eb115c2a34e0deb062464ee0ed86203b044372",
+      "prose_sha256": "759cb955f3d3489314b4f92b02b308a75b450d536bc6cbc7e0f21ed92c09e2ea",
+      "code_sha256": "7e59c3002981dd808af0f06c7fa4e327e049a2043c69ffdd8d3ddc7a479f7b67",
+      "dependencies": {
+        "listings/ch03-common-programming-concepts/no-listing-24-comments-end-of-line/src/main.rs": "7c28f454c431ce962d9389b10610f21ba9fcf27f222ff202f3fc5c1dd5982029",
+        "listings/ch03-common-programming-concepts/no-listing-25-comments-above-line/src/main.rs": "68d44fdf32fab6ebd81419508a1e70bcd590356ead81db0bc1ba6bf371d2f456"
+      },
+      "headings": 1,
+      "code_blocks": 4
+    },
+    "ch03-05-control-flow.md": {
+      "source_sha256": "f52800091cf12d0d378c9aebbdda3785b4ac241cfd4253a1919b1a075e10bf28",
+      "markdown_sha256": "dcf589530b27653579874f189bf572600a3061712964f525a06844642a2defb6",
+      "prose_sha256": "bcce2a0c5f9a5223c8d6dc7031a29b8d9f82ddef9d9ae560d58a5f16a7372543",
+      "code_sha256": "a2a6979a1485d10b08fe4b8fdc1d88b37b50047532c05813134fb047f1839b97",
+      "dependencies": {
+        "listings/ch03-common-programming-concepts/no-listing-26-if-true/src/main.rs": "c23a387efc2f057df653bb97f9df19bb1513e63fd7bc161af66916ebffe30786",
+        "listings/ch03-common-programming-concepts/no-listing-26-if-true/output.txt": "76d2c4e4adad135d37e4a9d91d6e06d9bba5146d60c940237fa4326c6090e433",
+        "listings/ch03-common-programming-concepts/no-listing-27-if-false/src/main.rs": "ef61ab3ac43f68d929b4061e4c562b0a46dfdc9db4247549d15b4d57215269f5",
+        "listings/ch03-common-programming-concepts/no-listing-27-if-false/output.txt": "c0987e34340bb700855c09955bfd6b6f49195e1c7ff44a09b36e50ff67f61103",
+        "listings/ch03-common-programming-concepts/no-listing-28-if-condition-must-be-bool/src/main.rs": "969e4165f1c60a98f01fe3d4b3c061fa92a4b08345a827134da6040a811ee82c",
+        "listings/ch03-common-programming-concepts/no-listing-28-if-condition-must-be-bool/output.txt": "76c85830669d24ec9540b34f125dbe01da7f628858d06d2dcafcd6b756ddb8c4",
+        "listings/ch03-common-programming-concepts/no-listing-29-if-not-equal-0/src/main.rs": "074901937a29548a867030722c9524e6723f23698d30b7bc1c6d7e125aff94c2",
+        "listings/ch03-common-programming-concepts/no-listing-30-else-if/src/main.rs": "7488611a77ed1a0ee00f4044d200accc564f7061f35603977ce87757875a764a",
+        "listings/ch03-common-programming-concepts/no-listing-30-else-if/output.txt": "c9a19796bd79597d2fb1f520f8fb71873507e0639ac0b4f514580e2332de30be",
+        "listings/ch03-common-programming-concepts/listing-03-02/src/main.rs": "f61b14ad5ca4fb821044b5e37a9092e68e205520f28a6ef83ed3b727ada925bd",
+        "listings/ch03-common-programming-concepts/listing-03-02/output.txt": "86f92d235e8d9c377c117ef38ea2f8a4202fd59e889d4955e672059f4e1c7667",
+        "listings/ch03-common-programming-concepts/no-listing-31-arms-must-return-same-type/src/main.rs": "24363580df3d587caeec7b0af24138c20d78e2cf4531e92bc7ceaa6c7fa65931",
+        "listings/ch03-common-programming-concepts/no-listing-31-arms-must-return-same-type/output.txt": "8261b9270704477abcf456b5d025411058fa9a4cae4eaa810f0d1e446a18d59c",
+        "listings/ch03-common-programming-concepts/no-listing-32-loop/src/main.rs": "509df1578a6bf6f75acf806f111c3b299ad7f23ccf94754899a997e67a53ee2a",
+        "listings/ch03-common-programming-concepts/no-listing-33-return-value-from-loop/src/main.rs": "313752c2da11496598ebd9983fe2362b07642c75837f4101bc3b098201dad555",
+        "listings/ch03-common-programming-concepts/no-listing-32-5-loop-labels/src/main.rs": "8a42b291bac31f2a6b256a42313dae0f6d85f33f04b29f078f932361a91c3027",
+        "listings/ch03-common-programming-concepts/no-listing-32-5-loop-labels/output.txt": "f2738095ac43f3a1043b70c05d5333014dd8e873df087eb82149dc724c956064",
+        "listings/ch03-common-programming-concepts/listing-03-03/src/main.rs": "025c77cb59ec3b065f7532540380f0c085686f35f2c5450b981b3fa674791901",
+        "listings/ch03-common-programming-concepts/listing-03-04/src/main.rs": "acc88650d92fbf8892a8d804b2902e69703efade357f7d6bc48dbabfd61bfdac",
+        "listings/ch03-common-programming-concepts/listing-03-04/output.txt": "670ae856b20896f8596423355bfaba020a4bafa82d533b36053256551219c6ad",
+        "listings/ch03-common-programming-concepts/listing-03-05/src/main.rs": "39de3417fc72f4ea837a34d73635adcc82ee43e73b8cf9731639cdb51d27222b",
+        "listings/ch03-common-programming-concepts/no-listing-34-for-range/src/main.rs": "6ff6f6d47df870483638c4d03f4fcc65bc8653b121bd9c42cbc9a9a95986c026"
+      },
+      "headings": 11,
+      "code_blocks": 23
+    },
+    "ch04-00-understanding-ownership.md": {
+      "source_sha256": "6511432eea3a7a7d37c20d3c0447708a17ae6a8e9f8d65ae51c2a3be6bfd098c",
+      "markdown_sha256": "c928725db99b50317a78423e90e790868e7efa4ffb87c62062b71ad6f3b5e59f",
+      "prose_sha256": "1b87e7b4d1541c9ffd3aab5ab0bd6dc8ae5234d8769afdbdb88eb163311a7ab6",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch04-01-what-is-ownership.md": {
+      "source_sha256": "feaafea00707f34db1fe7dfa007627114678acec8b38474d57b56d0421ec032c",
+      "markdown_sha256": "873724c6862ad0cc447becf0e818eb39a324c5d4bfa26ef721286aae1941c0ba",
+      "prose_sha256": "de8209255242fab95332adbc115105b468afa1135a7f455f63b0fdcc433d98d6",
+      "code_sha256": "047f6dfe12cc037dceba74aee44576d09106e0b55c422e8cc242394e81aaaf0a",
+      "dependencies": {
+        "listings/ch04-understanding-ownership/listing-04-01/src/main.rs": "d5a3746c5a85eff701a0dcc6e9c51004cab99899675a9dd39fcda8595fc780bc",
+        "listings/ch04-understanding-ownership/no-listing-01-can-mutate-string/src/main.rs": "98f38326f889a67c5a16dad64377171bdddc33c53effb06122ecc2c1bca7398b",
+        "listings/ch04-understanding-ownership/no-listing-02-string-scope/src/main.rs": "839761b0128b2c9ae2cbb0063a83bef05816fb242c34673cc8d0d18abd7c4a3a",
+        "listings/ch04-understanding-ownership/listing-04-02/src/main.rs": "e27502ad3b4f8ff99c5c7cf24f446a359288ced85dcb1004a9885a1a4ca5b611",
+        "listings/ch04-understanding-ownership/no-listing-03-string-move/src/main.rs": "f399feda9ebe57373ded6372b11dbe82abf7ea267775c95071efc7a9cdeb38d9",
+        "src/img/trpl04-01.svg": "6a1fa64ab777ad341b944bf7e81a2f2ba0591c02749018a840ef634c644f6ee3",
+        "src/img/trpl04-02.svg": "bb682764358406b00f0019cc94b701482846bd8e41ea7715a1e1514c6c8c1b70",
+        "src/img/trpl04-03.svg": "c8ee5708ea30eaeb0b0affadf32a58b7645b4ce0ab78de9f3ec6f7a90d3cc8f3",
+        "listings/ch04-understanding-ownership/no-listing-04-cant-use-after-move/src/main.rs": "8281faa0f99938634464bb5d2acedc4be39f7f68f6a3d6c0e89c79063ead8251",
+        "listings/ch04-understanding-ownership/no-listing-04-cant-use-after-move/output.txt": "1e2cb526dd10a2c2ecf69294b7de5b3f3fe2784db87067c4c5cfd5fa1896830f",
+        "src/img/trpl04-04.svg": "040f910e94b35fb7df8eae5dbdb36a7e3ff916703fc7a1097a5e439b1a60b650",
+        "listings/ch04-understanding-ownership/no-listing-04b-replacement-drop/src/main.rs": "c568a2ec8ef49b45fa2c6cb6de30e9f1f7f04660119506e3d37ffcdaebab25ed",
+        "src/img/trpl04-05.svg": "0127475aaaef05dc09db16a9bb20fe35de60842295790a91aca6bc2c8c17ed10",
+        "listings/ch04-understanding-ownership/no-listing-05-clone/src/main.rs": "65bb5a63d1bcea8ed2a6ff0064c1ff251b7974e0b7170397a164aece2c02c8b2",
+        "listings/ch04-understanding-ownership/no-listing-06-copy/src/main.rs": "8de110aabea973f601bd0026578f078a816cedbfb354cd7234007ba8afd9883c",
+        "listings/ch04-understanding-ownership/listing-04-03/src/main.rs": "d110d7d7444ebc08173778dfb86b5be7994f19c7d24d2a62cc4c1f0739fa5462",
+        "listings/ch04-understanding-ownership/listing-04-04/src/main.rs": "a7cdbce3c075a5d55239b9888f44bdf51a666568ec85cb4ecfa442adeb176fb6",
+        "listings/ch04-understanding-ownership/listing-04-05/src/main.rs": "f4c23440d07d8cfaa3d3c7763e10d9ed56dbfdf420375359ae4f79d33f5d6f5a"
+      },
+      "headings": 12,
+      "code_blocks": 15
+    },
+    "ch04-02-references-and-borrowing.md": {
+      "source_sha256": "8aa3bdba2fa85f3a23b49d1caedcfffd422eb6dc4f334a54e59e59b20b94666e",
+      "markdown_sha256": "7d983eec6235630df6e85c7a5b4cfbdfc7c380c780f60774df65ba2fa1d05ca4",
+      "prose_sha256": "e6acf141635a0fb63722bb89af89e70899ca79ab1b50ce258bf2ff1c334eda92",
+      "code_sha256": "51a061deabe6d78e73ee506c50cf74f20298ffc7db8fe804cd2e3949b1cbd8e8",
+      "dependencies": {
+        "listings/ch04-understanding-ownership/no-listing-07-reference/src/main.rs": "ec21dfee12923153faf3556f944149e9bcbf002c540fdd83b92cd230f581e2cb",
+        "src/img/trpl04-06.svg": "8ade0cb026100c6551d616797110fe0ea95010f1e53de49ac2352e73cd80e6e2",
+        "listings/ch04-understanding-ownership/no-listing-08-reference-with-annotations/src/main.rs": "801e399cbdf591bd9bbc0c14c64d0aed35fc21aea9a512672643d37b104f4467",
+        "listings/ch04-understanding-ownership/listing-04-06/src/main.rs": "6714459fd95b83eb6dcc75c42c79e740558e52d87cbd36870cf7e2c7d5eaf437",
+        "listings/ch04-understanding-ownership/listing-04-06/output.txt": "171ec6a64fdcd52eddca3449a0ede71fd2e683ca4ec3681e3e21134f3fbc0a28",
+        "listings/ch04-understanding-ownership/no-listing-09-fixes-listing-04-06/src/main.rs": "04254ee2da4f0dbe9f55a07757023d3885431f46b740ebb3f130d5e83fecb1e6",
+        "listings/ch04-understanding-ownership/no-listing-10-multiple-mut-not-allowed/src/main.rs": "18671c3ee4594c261c89628ba43d5b5d1e2bd072923270b59c90a674f5668fde",
+        "listings/ch04-understanding-ownership/no-listing-10-multiple-mut-not-allowed/output.txt": "0a52dd0e3c9ea32c4a2e6a5dd2f83662d61e9d68ed8df1b5b8cec08285e658c8",
+        "listings/ch04-understanding-ownership/no-listing-11-muts-in-separate-scopes/src/main.rs": "87ceddce66e6667977b2fa8507caeacc688f799f2cf50bef42e2a9c8786e24a7",
+        "listings/ch04-understanding-ownership/no-listing-12-immutable-and-mutable-not-allowed/src/main.rs": "288091be14c32de4414ddd20bb28d5282e5e3aba4f05d1c9b8cda90e2f5cd5eb",
+        "listings/ch04-understanding-ownership/no-listing-12-immutable-and-mutable-not-allowed/output.txt": "8597e2988483da54f8d79929e1edc9d4dcac4c76f94fd5adc848f82fb9748799",
+        "listings/ch04-understanding-ownership/no-listing-13-reference-scope-ends/src/main.rs": "977442d5db03f800562741c41515658403e5369d42fcfd28d7ebde59f09d75f3",
+        "listings/ch04-understanding-ownership/no-listing-14-dangling-reference/src/main.rs": "26d9dfc3a5763f7347712dc24733b10915dc9d75faa9fa3b6781e80a70c2cead",
+        "listings/ch04-understanding-ownership/no-listing-14-dangling-reference/output.txt": "e486d1f1507a405f203e87ef2b0867c2a67cc47ca1ca7dcacdbc4b24c3d21228",
+        "listings/ch04-understanding-ownership/no-listing-15-dangling-reference-annotated/src/main.rs": "9e18d1352566a6ad53870baec8bdb09a211ba3fc3d36d7b80ac6b30859b9b65c",
+        "listings/ch04-understanding-ownership/no-listing-16-no-dangle/src/main.rs": "f17c53190dbec10ed6ebfa6f3bf17e7ded7336ac1d9126a3d4abbdc013a64313"
+      },
+      "headings": 4,
+      "code_blocks": 17
+    },
+    "ch04-03-slices.md": {
+      "source_sha256": "00e653de6ecf23bc5ce50930ab4b3593a301566cb96759a9a53fe634c97698a9",
+      "markdown_sha256": "fb0ac90f3652f4096624bc008f2a5ade603ed1d7af078281cec7a88da66e82bb",
+      "prose_sha256": "81af1b2ba30a5441f378b2c21446665681f940da78ab398ce0f94f62ad990945",
+      "code_sha256": "dfcf8c986146d3fe69408b5d0e463b6734f49cb25b0ae87b012641b7ee6b0669",
+      "dependencies": {
+        "listings/ch04-understanding-ownership/listing-04-07/src/main.rs": "55d85d8e6cc88871c9d35e193704702f0252889ab7dea8a308bcd1b902bb83b9",
+        "listings/ch04-understanding-ownership/listing-04-08/src/main.rs": "e1ecd57037860194a8d2d8f9ce96704ed1a5e6a581c8006f5f306bcb63c99482",
+        "listings/ch04-understanding-ownership/no-listing-17-slice/src/main.rs": "93de06b1a81937ab95f112f30fa056969a24f57ad5b7fc6e869643a9b8b9665f",
+        "src/img/trpl04-07.svg": "2004bd5639b8dfed0d49610323283801daa0b3dc7e6ea474045a4ebb54f661b7",
+        "listings/ch04-understanding-ownership/no-listing-18-first-word-slice/src/main.rs": "f785213c129812d264b49dca9334668be1f2ce1a14c69df4a4e277ec6799e461",
+        "listings/ch04-understanding-ownership/no-listing-19-slice-error/src/main.rs": "f0f9047237defa54b2389fe10eb091815ac200666686820d2f708b7d61ec795d",
+        "listings/ch04-understanding-ownership/no-listing-19-slice-error/output.txt": "04f57f4d90d61f31f23eb035e83b10b13e6c9a5260f116480e20615f6e27b0c1",
+        "listings/ch04-understanding-ownership/listing-04-09/src/main.rs": "3a80c11afd85acd44c4e28acca63388879460db455834ba39d72f1a5fa92118b"
+      },
+      "headings": 6,
+      "code_blocks": 21
+    },
+    "ch05-00-structs.md": {
+      "source_sha256": "91f5ce1490f5e610a2758558353b0acf757a50eb06c79ffd1c4b7b0f0ae41eef",
+      "markdown_sha256": "f868f22d0149966b0d0b7191ce20318bf12981275cb0e393dbcd52caaab8b173",
+      "prose_sha256": "3c0a4c5d4de4cc2074b5f1756dfda9e94589d8e284149d388d42c005c6817e0d",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch05-01-defining-structs.md": {
+      "source_sha256": "74d552d4a0a7e237e53601d2f1dd08182d98b6641f31f373ecb896d14376e41c",
+      "markdown_sha256": "344424e680093f9fd0291e895cd1002c5645a769d3b928de541d78148b93caa7",
+      "prose_sha256": "677204644e28d6b0e378053767a906904d7f3b1868a95a0a7532c18b21ae1a16",
+      "code_sha256": "e7bb4d46950d03e5b2164663674682e77b44d63181b0b56824f7b6c27c20a304",
+      "dependencies": {
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-01/src/main.rs": "04d1233e7bc9555756c64bf80a90f02112557ab52b800ce4a695a5c408c71acd",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-02/src/main.rs": "cbe163940ae4c3b66fe4c6c1764bbdd7a82b977d9d0eedcd7436b592c2ebe7e1",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-03/src/main.rs": "918dcb02d96fbc51d5249b39b5139b344b32b9f932464904673644baf8bdc956",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-04/src/main.rs": "390808859b10b1caa4ac646b86e6d68093181ce0763b395a18635746be2c43b9",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-05/src/main.rs": "7b20e3477768cc35485316ccfd9fcfdd188303fc1fadd4a0525dbdf73fdc83ee",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-06/src/main.rs": "bfd20d1be293917bcc3f76730c0bb45f43f9be392225020f9faba920af8a4281",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-07/src/main.rs": "4fa385aed15ed4c17fcd3bb5bfdbdb4d15b6f22ce2568ad73a1e13792726d928",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-01-tuple-structs/src/main.rs": "b70b55b2aee3a049633917cef22321609d1f313936b1a0fa5e8fdf8163b4760c",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-04-unit-like-structs/src/main.rs": "fa6f20f45df54d229f74c87ffa6a70be4ec415806d7990b1876c42e58bf30729"
+      },
+      "headings": 6,
+      "code_blocks": 11
+    },
+    "ch05-02-example-structs.md": {
+      "source_sha256": "62f7b508e3ff37488cf3bed9c1ef5225a0593a726c7bc0848063546fdc189790",
+      "markdown_sha256": "bebb0dfbd5dd94bfcd19f9d2f6216fcac10a9b168eef6a07a1d753ae85512557",
+      "prose_sha256": "aae4f8100ddf4e4b07673e3e55e3a5290e8b8b6dd8d103e2ca5a070646eda46d",
+      "code_sha256": "b013f88f6466ad82cd70981526d5bbbaf1b90ff74f2700f9d25a45b88bb5f86b",
+      "dependencies": {
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-08/src/main.rs": "b6709daf623ebbdc14c0fb0708703b3462f331ff8623859c8f35a174b0dc7e66",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-08/output.txt": "ca17fbecc6f566c535ab4f7279fd96f15c07102d384c5477e46d30fe1fb7f336",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-09/src/main.rs": "676a4f75f8168ebf5ce55b8f53a11e4c0416eb3a4050fdfa5f0f1638622c2f88",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-10/src/main.rs": "18f58728225aaaad3b20ca3c26968e3a18e8601e401bdbec8b8d05fa8e00b659",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-11/src/main.rs": "5b7140eec9101bfaa3a4f3e4977a35ff74dc1786aec600e2fe95d3698a71d871",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-11/output.txt": "31e28cf7550e389cbe273cab77a34d74de9953192f98eed1d242376512cf1d33",
+        "listings/ch05-using-structs-to-structure-related-data/output-only-01-debug/output.txt": "9f335260e4175cb7825c2a6cd0fc71bce4ecddaf773aa722a5b570b025745a3c",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-12/src/main.rs": "5616c1308dffc722820d48326738ae14b8e04cdd2e832df9a9d5a004d03be8c8",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-12/output.txt": "cf84d9144b2e01d46c042cd9263fd9661a94fd9ae7d9d00cbe7ea75bce7b8f8a",
+        "listings/ch05-using-structs-to-structure-related-data/output-only-02-pretty-debug/output.txt": "4e09151ac8277c57b89e59751ffa09711610450095b1d9cdbcf0f6e0a26b6b8c",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-05-dbg-macro/src/main.rs": "0d2bf9cd1bc7053fada47c431505f0dfe0570dd3527b46a1fd5fe5e4d4ed047a",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-05-dbg-macro/output.txt": "0a68ddb9bb71be93542dd027d4f8c927fe9e8ef482f92fee76b6c727bd3e9b10"
+      },
+      "headings": 4,
+      "code_blocks": 15
+    },
+    "ch05-03-method-syntax.md": {
+      "source_sha256": "e02657dc5caf6a6b96ce517b6e9a19aa3481747097dffa778ef38def22fd21d5",
+      "markdown_sha256": "7c99bde44d1cb2735239a441e1898be4cfd4b21ef6862978640491903624d06a",
+      "prose_sha256": "91647bf4d76aee13e98d8a35f76b06a69acaf7098c2dcfca0f2b13612b004216",
+      "code_sha256": "e469bc80747391f35c66b11b5664ec4b4b23d5bb6f26dc40ee56ed505ebf10be",
+      "dependencies": {
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-13/src/main.rs": "da78524e99f36585dfa0fff2c37d714bd8ecb313afbb450a62cc41718cdbc3f2",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-06-method-field-interaction/src/main.rs": "6f8c5c4a12a39094fdab006e4ed504548f0f5f5e15495581d171001c8c30f648",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-14/src/main.rs": "e786b3a21f299f064606132ebd0e0d39e9821674753d234ccda433cd5463ecab",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-15/src/main.rs": "e5068c2f62b4fd4559b0cb07b822af93cf1d1a6ae9d680e87fec282fe1c990d2",
+        "listings/ch05-using-structs-to-structure-related-data/no-listing-03-associated-functions/src/main.rs": "1329f8e2e38e687ed91354dd125e884848fea5a1cf41c41dd431ff7a50e34a3e",
+        "listings/ch05-using-structs-to-structure-related-data/listing-05-16/src/main.rs": "a64ae9c02f4841577869a1c6ae2208ed2f302cd4984a780030d32554bd4242d0"
+      },
+      "headings": 7,
+      "code_blocks": 8
+    },
+    "ch06-00-enums.md": {
+      "source_sha256": "1a95ee0d738e86d36c37373ba0228c2345706dc177553252b516ebf6e18181e2",
+      "markdown_sha256": "efa473933293ae1d6cdca81c2efd61e9d2a602d43f4b8978b7bd145ec8e6c2c1",
+      "prose_sha256": "08a6114e0da9c454e33c3be4a9553185edb86b4388e4178909edcc1d96160b46",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch06-01-defining-an-enum.md": {
+      "source_sha256": "b7be176e144981887d356464a7e750b3ff7eb5d62b0911f5ef4fa9f5ed63edd8",
+      "markdown_sha256": "d0958df229fd25f89f140896449ce69bbd6f40db8398a99e4a53635dba0438f2",
+      "prose_sha256": "043f882eda17e398ad3bf9de3aa9cfc79686046ad03c25245a665289ad5f2f84",
+      "code_sha256": "047e8b1323f12d21af643944b6ce228b87df3f6af393052f51c9fb56272e9ff7",
+      "dependencies": {
+        "listings/ch06-enums-and-pattern-matching/no-listing-01-defining-enums/src/main.rs": "2aaac83a355b43c5b82ffdde2f16bcee7d4d6b55106902332d1add7fc219e720",
+        "listings/ch06-enums-and-pattern-matching/listing-06-01/src/main.rs": "d41e1e9970c6c417a8e6dbfcac99a7b4014cc221b26ea0c31d0ab9a12560fd25",
+        "listings/ch06-enums-and-pattern-matching/no-listing-02-enum-with-data/src/main.rs": "ffaae36c44850a912c31f873b257491fdc1a9babae2e2add9cc97552efa4f4eb",
+        "listings/ch06-enums-and-pattern-matching/no-listing-03-variants-with-different-data/src/main.rs": "9e093437802214561bb641d0fa225b72b0d61e9b8e8d7d01414672592d77e2fb",
+        "listings/ch06-enums-and-pattern-matching/listing-06-02/src/main.rs": "010ddce2c8dcd59a6e7d4dc654df47dbb85be79167aacdf2a8adad4fb2b0c27c",
+        "listings/ch06-enums-and-pattern-matching/no-listing-04-structs-similar-to-message-enum/src/main.rs": "055c32dd56a2658f37fdb0cd1ac15cad0914ddcfa813d9eca90707b7a063957d",
+        "listings/ch06-enums-and-pattern-matching/no-listing-05-methods-on-enums/src/main.rs": "3313cf4aee4625a24a6d76c77b150b02de450c2fd544549178a9eceb5e7afcd2",
+        "listings/ch06-enums-and-pattern-matching/no-listing-06-option-examples/src/main.rs": "fc5d8c568685b7773249f99c592a9ef2217c89c4fd4511a2c01b6d79b274a347",
+        "listings/ch06-enums-and-pattern-matching/no-listing-07-cant-use-option-directly/src/main.rs": "548ae4a7fea916f078830650c338fa91166a4170d7311c25d8dbb5b29d29d739",
+        "listings/ch06-enums-and-pattern-matching/no-listing-07-cant-use-option-directly/output.txt": "12959479f015e9e2224dd92380a1acf3a02e6c4d70b2015a0f36d899ba355249"
+      },
+      "headings": 3,
+      "code_blocks": 15
+    },
+    "ch06-02-match.md": {
+      "source_sha256": "c59489d6f544ddf70503180dfff3ddf582d548eab114fcbc17a89cf526d70c33",
+      "markdown_sha256": "db9a32dfa0c24d89d74362e0bbdb9e5793a6e61fe3aa487b67897b1cb3f90899",
+      "prose_sha256": "4b77a037abd7f8c62f205b773b85ee4909c617e24f2ac45594fa142ed69c1855",
+      "code_sha256": "79b073626165df3703ae2ee4a21f1be7555d40e5b4884e44489e714be57a7e2b",
+      "dependencies": {
+        "listings/ch06-enums-and-pattern-matching/listing-06-03/src/main.rs": "578bdbec16bd1a23c1da97f1f2ca992fadc407510813ab779433345ef0a78d70",
+        "listings/ch06-enums-and-pattern-matching/no-listing-08-match-arm-multiple-lines/src/main.rs": "2511e73134d0b38542834d987313c5c443cd317f390a14bbee505d2a3044959c",
+        "listings/ch06-enums-and-pattern-matching/listing-06-04/src/main.rs": "4a1b6fdd5bac8b444d212f069a828226745acc0339489e9d380823a369617f04",
+        "listings/ch06-enums-and-pattern-matching/no-listing-09-variable-in-pattern/src/main.rs": "a09e04d76757c8a2d4c8c2f5ae4320d214d41f2c5eb6959c0b5cd45e050f8b8a",
+        "listings/ch06-enums-and-pattern-matching/listing-06-05/src/main.rs": "c56d48198f0731c1c58575041fb4b73f96c15256826e60ae420cb6e8f1b18b1b",
+        "listings/ch06-enums-and-pattern-matching/no-listing-10-non-exhaustive-match/src/main.rs": "299eb6e443f2177ba3f245dccbad4da644b7d720e25e056d55ba45f848128349",
+        "listings/ch06-enums-and-pattern-matching/no-listing-10-non-exhaustive-match/output.txt": "183bba5b32240117ad52095538c5675be413983c394fdc1f2a79c4c6615b37cc",
+        "listings/ch06-enums-and-pattern-matching/no-listing-15-binding-catchall/src/main.rs": "3749c3715a99d1691f8a82cf2e92651605160a1aebda6abe0ccd8c30f8b6a38e",
+        "listings/ch06-enums-and-pattern-matching/no-listing-16-underscore-catchall/src/main.rs": "bece01f3a270053356f0ef32912e77499d69c163e3f6177933f58cdccd82f629",
+        "listings/ch06-enums-and-pattern-matching/no-listing-17-underscore-unit/src/main.rs": "6e6e66acd377913fc538cc539728d9bf579d3e8d134938aa811bc699423684ff"
+      },
+      "headings": 5,
+      "code_blocks": 13
+    },
+    "ch06-03-if-let.md": {
+      "source_sha256": "8481cf4a515611101bfabb67b9fa91d1f7f9d9ea0adbe7cbc7963fb1324f3201",
+      "markdown_sha256": "f6fcaea8b33c8a39aedc4209b7b8bb57a389ab8c64ff051a1793f0c0e025e1da",
+      "prose_sha256": "27dd444bd4d076a0e46bd9e2699733b36e7fce4e2a52270b185def3486bd07d4",
+      "code_sha256": "335127d7ce6b1a085ecd2b0a907fd16b4eeff441011d75aa93e222829d7c2a0b",
+      "dependencies": {
+        "listings/ch06-enums-and-pattern-matching/listing-06-06/src/main.rs": "7910e97cb7dd05593f9c835caaff2f814cc9fd5f408cfe6d9b84a39db79fd8f0",
+        "listings/ch06-enums-and-pattern-matching/no-listing-12-if-let/src/main.rs": "dc7e6d02c3bd8fdf34634fa262bff33548e2b9253af3ef4f94bc8dae18c72318",
+        "listings/ch06-enums-and-pattern-matching/no-listing-13-count-and-announce-match/src/main.rs": "5f6fa2dd50d519273afad9e264aa0b69366ccb629340306e3d17048751cc0c95",
+        "listings/ch06-enums-and-pattern-matching/no-listing-14-count-and-announce-if-let-else/src/main.rs": "783d204bd1f581190c387dbe3428662ccbc70b930c4100fe84b8226b04477e82",
+        "listings/ch06-enums-and-pattern-matching/listing-06-07/src/main.rs": "ab4731f8cc2bce124348a69f8870093a816726d1484621d4201355de51e929c7",
+        "listings/ch06-enums-and-pattern-matching/listing-06-08/src/main.rs": "513c2e5de740ae2e07b7ca5c4b6852923d8ff1ab164162e988604c34db6eb9ae",
+        "listings/ch06-enums-and-pattern-matching/listing-06-09/src/main.rs": "c856d62a29cf4b88c98466b525d6236b7528ff7612ec36998af6f599ca65a961"
+      },
+      "headings": 3,
+      "code_blocks": 8
+    },
+    "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md": {
+      "source_sha256": "58eac7ff8f659ece67b9b2daff766da35d4b533a009f4914b511dc926cc532e4",
+      "markdown_sha256": "d5dcbe4f7799c942a95051d313df3b70383a1835cff1fb71510c027c4581a242",
+      "prose_sha256": "38e2ab79fa59043d2b0f183242b5da6f589089f6069d54670f076c73cd9a2054",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch07-01-packages-and-crates.md": {
+      "source_sha256": "b21fff67bfcd0d72e4873539621322a051227f85c90b9bc4b55332a7f88cf848",
+      "markdown_sha256": "7141297fcc8bd0d0cb4e850b9f853574ddbb15b48a8b56c615539979c8a9e27e",
+      "prose_sha256": "d26f9cb69df641c4d8338221a628380f1d7efef8c330e4418457a07c4b283069",
+      "code_sha256": "34012f7050313dd4f2da7522d22b68b42c2bcfc8d2a2aa9ca4a7f1415a040fa8",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 1
+    },
+    "ch07-02-defining-modules-to-control-scope-and-privacy.md": {
+      "source_sha256": "78f8dfe6dd70449eae49f16f3ced0bdef4c77ee3ba5d75a1213d1a0a0174826b",
+      "markdown_sha256": "9a47196bd42516d57eaa32a2813db3f89d404ef3a02f78fb465329acc9c95571",
+      "prose_sha256": "6c8fc60fc58e692e1f5932550322c198a664b9e4cc9ecc7419f04a8fae45e9f1",
+      "code_sha256": "73742e7391d82761fa3c4a49029678ed4e62200171fe6c364fbeb6131baa1622",
+      "dependencies": {
+        "listings/ch07-managing-growing-projects/quick-reference-example/src/main.rs": "a8f9d6629dcff5f325b1fd56b7b0ba1edf6e04559a59a257cc83727d4696d7a0",
+        "listings/ch07-managing-growing-projects/quick-reference-example/src/garden.rs": "3365c9b4ef8616eabbd31e1a91d57308c873b660bf3388798fb4dd5b4f241ba4",
+        "listings/ch07-managing-growing-projects/quick-reference-example/src/garden/vegetables.rs": "4ce20b3f677ba77135c77e6bbd867a619d9aef35989fda52f6b600a1cbf07ca4",
+        "listings/ch07-managing-growing-projects/listing-07-01/src/lib.rs": "09471bcbbde72ea78830a58053c5c55a550575cd39b6b6cf04e0c6342465b16e"
+      },
+      "headings": 3,
+      "code_blocks": 6
+    },
+    "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md": {
+      "source_sha256": "1198702346845603cbe659494853b8de938850ccd6d3abfd9ae7c267f1f326f9",
+      "markdown_sha256": "ed9bb2ccb89214a0a47050c4870105a36916c35e634ea68486e5cc669804286b",
+      "prose_sha256": "b3057983ca7a6ffc298fb21e266dcf0a77db1b76807220aecf1c6d229c03b21b",
+      "code_sha256": "e8ef3c2ab680d536eb93951a9727433138bd43a4fd0f0b8f32f6ab208f510b81",
+      "dependencies": {
+        "listings/ch07-managing-growing-projects/listing-07-03/src/lib.rs": "b8605602ec457894e2049950b0226eaf5144c54ce1c78e6f76e0c4511187b722",
+        "listings/ch07-managing-growing-projects/listing-07-03/output.txt": "73082899d56d9d8ef190076df630e34f0611ff951f63458b18805aa87d9be862",
+        "listings/ch07-managing-growing-projects/listing-07-05/src/lib.rs": "262e0160624175929e355aaf3fe47c7fe1efc66685fb9259513fac8f7a4d0a6f",
+        "listings/ch07-managing-growing-projects/listing-07-05/output.txt": "b7573daf326c042f4a18f8a18c01e42dd2aec7955502b4f1f90fd7c9a8e41a3c",
+        "listings/ch07-managing-growing-projects/listing-07-07/src/lib.rs": "48675c0eb7773f7535dd6300b7a970b8020e9c3a15b72407fa51e6605e063592",
+        "listings/ch07-managing-growing-projects/listing-07-08/src/lib.rs": "a15f11b098a08e7bc032b266f4dbfa04193615434b40ca4e7da2d916d6a24652",
+        "listings/ch07-managing-growing-projects/listing-07-09/src/lib.rs": "ea4ed8820e20db37cae3ee13ea78919dfb14ffedf0873f3c38a1497801ba556b",
+        "listings/ch07-managing-growing-projects/listing-07-10/src/lib.rs": "a941e94e9aee70b30aa2c78d8416daa49f16e03150cec89a8d5e9eab82cdad68"
+      },
+      "headings": 5,
+      "code_blocks": 8
+    },
+    "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md": {
+      "source_sha256": "ec767a0caf20d48ff02db0d11b8195dcd48c6fb2fb479f6cca2280385d36a26d",
+      "markdown_sha256": "0eb94c4c75fd6fc0cf8f4f13170b277888f72da4d1603a3f6094859e1de95a8f",
+      "prose_sha256": "416b30d96465f9328bc5435f9239bce937677da5c40ca8865e69c512486bb334",
+      "code_sha256": "2cec7bad1cdc455c6f0c1e664180736317435fc53852f61ca85cb0b57b49da7d",
+      "dependencies": {
+        "listings/ch07-managing-growing-projects/listing-07-11/src/lib.rs": "136db5c3afb78c0daa2a0a40429438a7db1c73a3d3e38c66f6dbe78147b2a5d4",
+        "listings/ch07-managing-growing-projects/listing-07-12/src/lib.rs": "fb3ee6b4c548fc3ee9fa95911729248f6ab31d995dbbee0cd942b3f290f3b74d",
+        "listings/ch07-managing-growing-projects/listing-07-12/output.txt": "06cf1590be4c90aab4a06aa25ae99bf762e530aa989bf513ad1f36c7a59af121",
+        "listings/ch07-managing-growing-projects/listing-07-13/src/lib.rs": "23f15c8b4041889e682fba93770c5319e649568d2d530c8f0f6804d479a9580b",
+        "listings/ch07-managing-growing-projects/listing-07-14/src/main.rs": "ff1bd73243ff7af001435a193a4a6cee3f7de3287d877eb2c95ed44413b3a69c",
+        "listings/ch07-managing-growing-projects/listing-07-15/src/lib.rs": "56932173fcebb3fb30e475958075b31815b08b83d694fa6df4e10394958c8504",
+        "listings/ch07-managing-growing-projects/listing-07-16/src/lib.rs": "681ab4808cda220c8cede27b06dbfc3f8eee59cab9af74d689d6c761ec503584",
+        "listings/ch07-managing-growing-projects/listing-07-17/src/lib.rs": "38c2115e4ec9791de1eb16486e23a8003d6d63e8e0d1e3e1800b1bd73559ace5",
+        "listings/ch02-guessing-game-tutorial/listing-02-02/Cargo.toml": "49a8abe9dbf75dbf8b34c37b78dd0227d00089b49e8545751d90bf454567a278",
+        "listings/ch02-guessing-game-tutorial/listing-02-03/src/main.rs": "87d95f6546757c27b9f2dd7b2d94a8b0a372efb20c240d2fb3711cabf939e720",
+        "listings/ch07-managing-growing-projects/no-listing-01-use-std-unnested/src/main.rs": "edb0c45885aa8cb0f698e44502539fa8854f231b1a322943eb2be807eb99e30e",
+        "listings/ch07-managing-growing-projects/listing-07-18/src/main.rs": "fe6d921799f5b5108d7e143745e0718db00dba30c39618c9348b63dc322bf913",
+        "listings/ch07-managing-growing-projects/listing-07-19/src/lib.rs": "e674e703a3440bc6b4cdc7f04ba0a22d349fe8daed100ec9d017ba5644017ae7",
+        "listings/ch07-managing-growing-projects/listing-07-20/src/lib.rs": "f7f20e6f1d46139884c3a3a114423c2cb6e3df83c9a59410c0fd462d815a0fdb"
+      },
+      "headings": 7,
+      "code_blocks": 16
+    },
+    "ch07-05-separating-modules-into-different-files.md": {
+      "source_sha256": "2375f748d5d472e379571e96ea2cbb0155b6163320c2a5b5fae7dcc68651f93c",
+      "markdown_sha256": "f71fdf4512195e4c048c6b9c89e5575fea219332099660464e1b2a279f9d5782",
+      "prose_sha256": "4a15fb26b5f4f681f5a8b6e1aaf4152472d87c143a29f245c2e45ed7815ee722",
+      "code_sha256": "a7f76eaf9388898091d306fd508fabb99d20df054f944e7f3cbcd4deeb90490a",
+      "dependencies": {
+        "listings/ch07-managing-growing-projects/listing-07-21-and-22/src/lib.rs": "c96393a9794fc03af6905e59a8942733d50c52580a486aa881a6f8459a9dc986",
+        "listings/ch07-managing-growing-projects/listing-07-21-and-22/src/front_of_house.rs": "0e579964717f1bdab16469caf0611569afda8aeb95ebe3e41d36ec6574fd73b9",
+        "listings/ch07-managing-growing-projects/no-listing-02-extracting-hosting/src/front_of_house.rs": "6003874fe025211073d8fadd350b17b73f5591b65d1055dd4fc0d9cc81636524",
+        "listings/ch07-managing-growing-projects/no-listing-02-extracting-hosting/src/front_of_house/hosting.rs": "4eeb3b1f0ddee19ea63364a8dc929ba8bf6696129024aaa75eba4d8ac3da2840"
+      },
+      "headings": 3,
+      "code_blocks": 4
+    },
+    "ch08-00-common-collections.md": {
+      "source_sha256": "d2cdd42896a09c1f33cb8df7c9d12102148ad455beb5b4ca492a1ebf6380b2b8",
+      "markdown_sha256": "0226216f7782e55712c8c583b06280c38483c093b9b4ef501b1c95f09eb2514a",
+      "prose_sha256": "19b4b0887e7dc6e21cee0496109f550e8c8a744ba1fbe9ebf262943e010c5c75",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch08-01-vectors.md": {
+      "source_sha256": "d32a51bdb6cf08983aff63ba078ec7a4d1ccdfcfc4639a9315724f14b82cfe68",
+      "markdown_sha256": "8ded9a736f59d44aa6dc9c9121b503db8ef1d3e2eae8db5be83c04180e3d618f",
+      "prose_sha256": "939e6782abd52ce365b8edcc27837447ea9309c826d3c8026ff16c7583a41869",
+      "code_sha256": "fb16ba5e0ea9598e022f6683dc2732bf126d8aaf23e6e08d6469e0e9b1087c55",
+      "dependencies": {
+        "listings/ch08-common-collections/listing-08-01/src/main.rs": "7bfbe17b4292e146ea824ff8e8dcd90aa4a90bd76fcb4e0d114698d40390ef26",
+        "listings/ch08-common-collections/listing-08-02/src/main.rs": "eda01db6a3f61284569f82b9fcbeaba821a410bfb6f5c652e9717a787089aa60",
+        "listings/ch08-common-collections/listing-08-03/src/main.rs": "04352f6904ff7d8fa225a699f5e8f4d0eaf34df6aab0ceb2dd8741da37812b5b",
+        "listings/ch08-common-collections/listing-08-04/src/main.rs": "0bbd4f42b0636258775f783b60de311871077167eafc84292401b103e4543e2a",
+        "listings/ch08-common-collections/listing-08-05/src/main.rs": "0b0734e11ef170f6f582d62bbefb42299ef6ea2feb0e152ddcdd89f5ea38829e",
+        "listings/ch08-common-collections/listing-08-06/src/main.rs": "3755e9bd497674658e64b7996c31951af7495d2e8262b80320de37e59117c139",
+        "listings/ch08-common-collections/listing-08-06/output.txt": "6815d62c2d4fd10e2e625cf00d3c8cae1ff479d3e1b118997ef818a300ff320f",
+        "listings/ch08-common-collections/listing-08-07/src/main.rs": "a3f5bb4a98a9b998775d92100305248a9f8102e5ab34be04ed9fbee033f1d175",
+        "listings/ch08-common-collections/listing-08-08/src/main.rs": "b9a674f7acc109d30870e04995561cf3ffd8c865ceaf2c7ae2ebe4c95b76cd11",
+        "listings/ch08-common-collections/listing-08-09/src/main.rs": "0f260adb258d4e05aad189fb9249a715b6d6b6e37f07ac2a91e3a1fb92e91cea",
+        "listings/ch08-common-collections/listing-08-10/src/main.rs": "7018a11ab0f6a9589134b674def3572fa9b4d935f694e40f15d49bd447ce2ab7"
+      },
+      "headings": 7,
+      "code_blocks": 11
+    },
+    "ch08-02-strings.md": {
+      "source_sha256": "57bdfea5a8ba316b48e1c30a2caa046004b82fe5a9f1ed03cb55b11aef81081a",
+      "markdown_sha256": "c69284d04088681b53c2fd05bc87219f122414aa639d9ea68f8e2d35c7b4b2c4",
+      "prose_sha256": "1978f0aba8e123d9016e21bf63153e62b24f3b73f481446824eb9389f468fae4",
+      "code_sha256": "66e8a4abe23a9b615675bbc6765af47ec81d38aab07b6952341b8342bd4b6dd4",
+      "dependencies": {
+        "listings/ch08-common-collections/listing-08-11/src/main.rs": "16970c1bc65273660e36a0c1bb9e2a8c40c6fe473f10e3f47e94efeea52f66bd",
+        "listings/ch08-common-collections/listing-08-12/src/main.rs": "b646373ffe0a919d92e19a45374ba791367d09d24ce59e2bb568e78de8ca9540",
+        "listings/ch08-common-collections/listing-08-13/src/main.rs": "eed3935e3312f5d7afb88db92ce282382cc69b72acb5eee20d30006b773f3f17",
+        "listings/ch08-common-collections/listing-08-14/src/main.rs": "99a25d2401be9a94c9fd2ded839aa84e4594ba4f4ad32e9c1fccedfe5d910b59",
+        "listings/ch08-common-collections/listing-08-15/src/main.rs": "e30a5291f2e55fcf6834182290a54db25e7eef24955c60b53eb79d3bbb407752",
+        "listings/ch08-common-collections/listing-08-16/src/main.rs": "7cdaa079e5c6c27417a3dea4f027ed4de6202b54ad529a8aa85bfc8114473ff9",
+        "listings/ch08-common-collections/listing-08-17/src/main.rs": "33f138c60834055d570f54888e6c2aa496cbca85d71bb7304498a5f81b833189",
+        "listings/ch08-common-collections/listing-08-18/src/main.rs": "59e023d4e7f51bcd0de74b73c879f2aba3c46a34afe1591918dee90f94779f8c",
+        "listings/ch08-common-collections/no-listing-01-concat-multiple-strings/src/main.rs": "50f3db3e4a8ae6a6366a606fa1c94333f562c2f75407eba208075804fee76a80",
+        "listings/ch08-common-collections/no-listing-02-format/src/main.rs": "d512a7482de0405d27776caba006b9fc9366901bac748d54d0db26ddf291ca24",
+        "listings/ch08-common-collections/listing-08-19/src/main.rs": "4ca33a231c578a64eb05cb1f83d731fff9c0ab3defbc4bb87d735edc77d22294",
+        "listings/ch08-common-collections/listing-08-19/output.txt": "cfc15da74f6e939d7a0e62062383714123db58e104a5615618df8e2c351a1dd4",
+        "listings/ch08-common-collections/output-only-01-not-char-boundary/output.txt": "c3fc25672b7c0ba904696391bf92861a30b294544de9a5d00a9d85c6ef18ffed"
+      },
+      "headings": 12,
+      "code_blocks": 25
+    },
+    "ch08-03-hash-maps.md": {
+      "source_sha256": "9e80ac0fea99594427d87ac41598ff6f10ab8fce26bce6b39d2bd47becd3f111",
+      "markdown_sha256": "2588825afb8c1fa18a4ab8b4b5ba6c49976fbda23e25d304ab916576c41b63d8",
+      "prose_sha256": "7179b1255bae1c2f17823506b345a8105a5adc13659b6c9c752d1251a0293f3b",
+      "code_sha256": "fca165325edb9820c98b82a9b814369181306a962c14e93579be0d1d38661591",
+      "dependencies": {
+        "listings/ch08-common-collections/listing-08-20/src/main.rs": "3ff917aa3c606dd837bccb1841516b538c72a4e4459e23cfde78bd060a5c6b95",
+        "listings/ch08-common-collections/listing-08-21/src/main.rs": "a542b2d0aab807262db5f8533af497d9c21b1be1f46c187f38f4213ff08dad0f",
+        "listings/ch08-common-collections/no-listing-03-iterate-over-hashmap/src/main.rs": "4ddf9af4679944ccd8e16363b9a443e18f2afc1976924c55e24355e2921d7fa5",
+        "listings/ch08-common-collections/listing-08-22/src/main.rs": "1226bd5667a03e8f0d35869b2e571901b0e8cc8c84b38d5e5f5b5dafeafe2c6b",
+        "listings/ch08-common-collections/listing-08-23/src/main.rs": "128df7c033838e1c15dd9c0ebd47159337d3f3884036268ce8dd0b0ec29f71f4",
+        "listings/ch08-common-collections/listing-08-24/src/main.rs": "761496afdecc92c825ec9816d740397d6857db261006dce2e640b758d10132a5",
+        "listings/ch08-common-collections/listing-08-25/src/main.rs": "65d489fbbe3df773d939203f59529317ed236e5415093f9d1f2a889ae7640600"
+      },
+      "headings": 10,
+      "code_blocks": 8
+    },
+    "ch09-00-error-handling.md": {
+      "source_sha256": "d56525a5e5bf2d7b11fa93c6d13afa5c21bb7cd627fcf9278ff59d072e46d9b2",
+      "markdown_sha256": "8c5d97ecf63d50fcb053197176dc31544d19add7df3c60e61791b95659890733",
+      "prose_sha256": "2441b7dd8fdcb75e3e9736ad4fc9576b997e1a22aa63b166e0cad5cd64184052",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch09-01-unrecoverable-errors-with-panic.md": {
+      "source_sha256": "6cfe4d97f66c2cec22bdb5a9a57901c396705de5ee010b21e8f2b3acc5202eb0",
+      "markdown_sha256": "edce46b44eee961106ca49be8b1ce306e400c767304e9005b8763c141a444d1d",
+      "prose_sha256": "f866ac0e8cc2ae693273e000757a04a2316f6d49eb86e3f2366ed2133085ba65",
+      "code_sha256": "a9150552a3cf271908f0fcc88e70487df134cf558b9de53058f4acf859351d0b",
+      "dependencies": {
+        "listings/ch09-error-handling/no-listing-01-panic/src/main.rs": "14fda59f9663f1c0e965917a14f43146a56f013e24a9c14f35b497e765f3f58c",
+        "listings/ch09-error-handling/no-listing-01-panic/output.txt": "c649c48f5610702e394b9b458966af67ebb6f2d4f59a96fa13fe1a69a7d05027",
+        "listings/ch09-error-handling/listing-09-01/src/main.rs": "abb8b53157f06765ea13c9ad8b0a1c50374663802c8f33e4ee07353f4d9c712c",
+        "listings/ch09-error-handling/listing-09-01/output.txt": "50aae71770b23783016a706c431b81f2624f8ac929288fad57d0655c00d27ed4"
+      },
+      "headings": 2,
+      "code_blocks": 6
+    },
+    "ch09-02-recoverable-errors-with-result.md": {
+      "source_sha256": "12ae999e3513d4a72afaa3083295be7b002dbfdb89cf4bb08599d6f636bf4c27",
+      "markdown_sha256": "dab3e88d324cdde74cf96356c58a423747a5735ac6848d8d4592dc7c13637c62",
+      "prose_sha256": "8c87143edee033b80cadfd89d7759955d5fa5cfb3cb1c523669b42ef832ca3c7",
+      "code_sha256": "82543dea4e55594220eedf30f08c8b5a54f97b269b7ce29408a92d8f80e7a6d1",
+      "dependencies": {
+        "listings/ch09-error-handling/listing-09-03/src/main.rs": "09f300a2779a4da87937082471ba17d42d66343703faa05aae3aa22161c6a0ed",
+        "listings/ch09-error-handling/listing-09-04/src/main.rs": "a5cbf811139a8898b2d0f85337016f4f90f6d49e14c1a2ba7dd14f9c02806a6a",
+        "listings/ch09-error-handling/listing-09-04/output.txt": "43b282fa3dfff5856089a2e8a0d37284036932062850ff7f2d47543833fa91f3",
+        "listings/ch09-error-handling/listing-09-05/src/main.rs": "90a10d635b279644a10bc6a723920e9afdaa7eb40bddbeccaad7f4d672747156",
+        "listings/ch09-error-handling/no-listing-04-unwrap/src/main.rs": "b62dd7dae96617bfee48fcbda7f52e2165f14fdb150cedc7871127b8a725449b",
+        "listings/ch09-error-handling/no-listing-05-expect/src/main.rs": "94f0f7d65259c0d0df23446972e2991da52fd90a4510bc8c0e2e54e4879cec5a",
+        "listings/ch09-error-handling/listing-09-06/src/main.rs": "8c3c26294ae6d2add4b89b3455fef361a82ef68622ff4f0ad777ea2a367d4782",
+        "listings/ch09-error-handling/listing-09-07/src/main.rs": "abbaefd5fcf7e92643e6e9c330743cd26d70e495696f361b35a16505d0e0a81a",
+        "listings/ch09-error-handling/listing-09-08/src/main.rs": "e843f912fcf24ab3f134447cd49a32ddb80206e5dd05bb074db1d553e8e4ef7c",
+        "listings/ch09-error-handling/listing-09-09/src/main.rs": "65953fae79002695bddb3f44f03c8246d51ebcab2f4ecc81d42c795f191dbdd5",
+        "listings/ch09-error-handling/listing-09-10/src/main.rs": "9194c2005103803aaaef2eda6c20494969914b1a5f433f55a47783669b30c734",
+        "listings/ch09-error-handling/listing-09-10/output.txt": "3378b1f5603edab782fd0bc1dce6b9ec2eb1d33c517cd4a52b9a0af8d003cbfa",
+        "listings/ch09-error-handling/listing-09-11/src/main.rs": "9d15c9a43f4df895b5120e8674644aefc5137461facf6f9b030cb09612c75ee7",
+        "listings/ch09-error-handling/listing-09-12/src/main.rs": "9f0048698f0ebbb67b2c0e4cab8e5937604fd2dd6213b677336662ca43c23fbd"
+      },
+      "headings": 7,
+      "code_blocks": 18
+    },
+    "ch09-03-to-panic-or-not-to-panic.md": {
+      "source_sha256": "bc28a1218baf0a710cfdc27da6b8e217ad6c54e5f057392c8c0797e4a750c24e",
+      "markdown_sha256": "a3f14104d56462a27c3d2b3a0cdb19eb7aaa4176ad1d80b82b0d6d667304d54e",
+      "prose_sha256": "e26b7353d6c6836537ae56f6b2c3d6abd397d2fb8d29dc81ead1dfbf684ff8ce",
+      "code_sha256": "cfb821500d4999f1c71c6084805f4e055de86c943187d9ecb1afa3a0fa72dd05",
+      "dependencies": {
+        "listings/ch09-error-handling/no-listing-08-unwrap-that-cant-fail/src/main.rs": "8c40203f711fd8be457388ce8caf170d1a9f5baeee4d74291dbe509b1c8ccc4e",
+        "listings/ch09-error-handling/no-listing-09-guess-out-of-range/src/main.rs": "10f02c727a315f922d364609ddf148fd29e7e70185ffb072b67a4f2e861b210d",
+        "listings/ch09-error-handling/listing-09-13/src/guessing_game.rs": "cbe648d5030b51f8873586a0eca022fe7c743eb2510f5e22461c19b0e1390ff6"
+      },
+      "headings": 6,
+      "code_blocks": 3
+    },
+    "ch10-00-generics.md": {
+      "source_sha256": "50e09bd88942945a090b62231008086fe7c90ff53ef06047657cfebbbefab69c",
+      "markdown_sha256": "d020e896ebc0b986fcddcbab0511462ebb9e4ca4b6ebdb456b2993041f2614af",
+      "prose_sha256": "99ca05a23a41ebd11c450fb3e4de28dc9ee01ba180a1cc5687fff51becd83251",
+      "code_sha256": "341d622670dbb6dc59f5ba5b990455ceb060c1dcda7870a6aaa14669def0ee81",
+      "dependencies": {
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-01/src/main.rs": "8ce99d5632cb843b2713aac27e5f143982bbdb894bfebb7b020c7341dd3ba58d",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-02/src/main.rs": "7a10b710291d7d04421cc4fd5c822983e62eaf05046f39897227b06d16053b79",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-03/src/main.rs": "a7bc5c014923bb1acceb2759f05e212f28422eeb9088a2c15aa9036e28b9c4d5"
+      },
+      "headings": 2,
+      "code_blocks": 3
+    },
+    "ch10-01-syntax.md": {
+      "source_sha256": "a32f3d85e3f91abc768f921fa78f95fa1f06c1b187689e667de9ee264ec46764",
+      "markdown_sha256": "c88e9d9404ce16c820b4f4f84af73f40b4eb4978020dc3a1cead90ba0ac2569a",
+      "prose_sha256": "59584384130e11feffe91b4ba2a05337444c09e2006077f9eb542a809ec75814",
+      "code_sha256": "835ad38f77c63a4e794e0a31eacd1f3438485a97bd06d187ea80170c1c87aa15",
+      "dependencies": {
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-04/src/main.rs": "ba54c5fdca3d709aa166d2ebe94b35be07b1e7d0ac8fab37e99bd1d6d70a68e5",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-05/src/main.rs": "7d3f03952d83214560e21e389671bdbd4ae40b7e680c91659626e10c9ca67eef",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-05/output.txt": "b537eb44751952c6f39cd604b2cd5ff7f92fb2b39a8a91bb5897f9df826ce436",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-06/src/main.rs": "4a23a64b1f6a74cb8c73e53638ec21c145a40f563720794d3fa3cfca70b38794",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-07/src/main.rs": "1f238558aeeb763481b9363cb4d785e1f3d741462ede461242cf47aa343aa116",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-07/output.txt": "39ef5ab51c52f7ba4d4222751d16135e52ccfd13f9d30c5783f59e36bff937c2",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-08/src/main.rs": "25c28b85f613247c9d485395eb79cc7fc26a69340d27158144b2ede7ffc2d26b",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-09/src/main.rs": "61f290f9b1cc7266c5fb4845e5c4283ba8b9027338f5cab0987a2020e49d0ef8",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-10/src/main.rs": "aafad0bcd5863bc9a4a066c0722ba76213e364e48757f9ebdb8abdb341176daf",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-11/src/main.rs": "3856400e610d88d3210989750b460bba48874d8f10162be30a7377bbd034df55"
+      },
+      "headings": 6,
+      "code_blocks": 15
+    },
+    "ch10-02-traits.md": {
+      "source_sha256": "5940600bf4640bfe243aeba093a13c0a9f431e87322cb6937033f99ed0c9db39",
+      "markdown_sha256": "705ae11758c687175e47104a302a9b5f694d04d683bffc28dcc61ffe9a0dc80e",
+      "prose_sha256": "e47fda36783200f9b7f5bca8f8dae47e3214d5887406695fddbcc1445e3a0e09",
+      "code_sha256": "e34110d037e66c407d2bac97c359ba2cb4a208fa35a1995b3f22bee9f9650eef",
+      "dependencies": {
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-12/src/lib.rs": "ebe08a5f16bf83cf74a49850fba2749cf8981b9673b17514e37e125256e09d5a",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-13/src/lib.rs": "af037a885bfe8ecc623741d8ad52efbb116ff4d19cdb8ba4b82be7e2c4a7bea9",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-01-calling-trait-method/src/main.rs": "cfeb2730ea4ccb30e85e0f3a2d8c3e9b87064e7dd34daaca20b7e77543a98cbf",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-14/src/lib.rs": "e11514253e929aa8215400306022b250beac9c865a3512502e48e5512575afcc",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-02-calling-default-impl/src/main.rs": "23fed3989efa8db3b98d36fd28a5c9e52c9052ad243b1be21be0253cec828cc6",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-03-default-impl-calls-other-methods/src/lib.rs": "147a0d750cd63b3ee57fdfa8bcf562c16a06ad26e95c46c76d66cbc70aceca03",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-03-default-impl-calls-other-methods/src/main.rs": "7ee0318e4914add28aa67d325be7f66bebe291fa7cc7156ec21547bfed3e8e97",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-04-traits-as-parameters/src/lib.rs": "14df08adb43bbd74cf47673ef2a4767c4f58eeaae29b5fb4b74ca3cfda1d7f62",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-07-where-clause/src/lib.rs": "ff99980b7091094198f79869fcb3b24d8768a8bd2ebfbbf7791c6e2acd30bf8a",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-05-returning-impl-trait/src/lib.rs": "67e3a5d1788ea13332603e8d11b4830ed87d9c61dd55696587e9c59549307a92",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-06-impl-trait-returns-one-type/src/lib.rs": "f074fcd78312fae70c9aab195a91d8e175532e06abed0b4196bf9db08cf77c5e",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-15/src/lib.rs": "fc6529c925bf3232b2bbc6bff9edf93a7f45c035425acd32187b80f5d121e51f"
+      },
+      "headings": 10,
+      "code_blocks": 21
+    },
+    "ch10-03-lifetime-syntax.md": {
+      "source_sha256": "981342f3ba085f0c024f4d22e18bf28f0c20915e882e88215ff82b9f62096420",
+      "markdown_sha256": "8660fe043e6ca70645f6734f357dc61224ecd4e3454ebde7b696f89d6a0d6e91",
+      "prose_sha256": "ab8d2490377f1e82a054edf98729a22a146c3ca5c29d41a83b67e976bf7af50c",
+      "code_sha256": "db1594c5fd766460db6ae5c600277b9871e6b04cb51cac2f4ff2ef16c495f141",
+      "dependencies": {
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-16/src/main.rs": "a304cf4708b29e77000c4778bd6e3db50d3143a70f0b603e9cde2f34e57be743",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-16/output.txt": "67448266730ef7f1505198c0a6e0cad6ec497abd8b931f40108131132f2332a3",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-17/src/main.rs": "c216f90f5ee426f7475773278a553ceae0b225977ae8d5b064f4d929cfc2223b",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-18/src/main.rs": "94960ef7958898ad7d2511c0587248a2a6c891abfc8cc3a362e978a2194fe0a8",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-19/src/main.rs": "4aaa98625af86040e1134ebe59c4c1f6429dd30957819e1406e20c286dbc6d8e",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-20/src/main.rs": "2649a36bb62c40c88941ae7cb5ffec8c1a15b343a982b10f71dbdf07d150129a",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-20/output.txt": "793d4e84880fea35bdfdef0e3a43739688f1d917aee0d60ae4d41f8fa98c4387",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-21/src/main.rs": "b85caf12fd25bd6257ad239ac24d4cf9255a69514660639dd4cccea7d457970f",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-22/src/main.rs": "b4a7be91d27f2bb73bc4d7e46dfb095d22568fb91b88326e5f70441c3550f389",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-23/src/main.rs": "83f95b80c42bb60eb997dccc9ec7b43b1ab7e21679f92b29775897eb529d6a57",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-23/output.txt": "29ed5f82d37ce96e19684f625f341ec92caf931d4565231a55f46ad560a4e5bc",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-08-only-one-reference-with-lifetime/src/main.rs": "02deb7d606f757544a5c6dfd4a26f2471802cc002f752e5406b05d5f756bc3f9",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-09-unrelated-lifetime/src/main.rs": "61bd3f2b28aeafa35d3f71d39374ad4dc973196c498e31281f1682edd0058723",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-09-unrelated-lifetime/output.txt": "5a070178481c892abbad14429cb4dce2731e497a112397b184c26e42f36e06ad",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-24/src/main.rs": "6639060247835bdaffd2a0c29bf9def47b06a8e2c8b222f4bd6c257bcdedd10c",
+        "listings/ch10-generic-types-traits-and-lifetimes/listing-10-25/src/main.rs": "49e6bd6c79a8a86a8cb5ce597d0ee99267f530efc83bf7b0ec7384ea8864c216",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-10-lifetimes-on-methods/src/main.rs": "0b9eee1213f231038fc0534fdbf7009421500bb5cefee91d7090908367e1a739",
+        "listings/ch10-generic-types-traits-and-lifetimes/no-listing-11-generics-traits-and-lifetimes/src/main.rs": "cb34129be98d0a7adbf1daf05d89c56eab999f13672042cbf8e0a2ca9cbe6d15"
+      },
+      "headings": 13,
+      "code_blocks": 27
+    },
+    "ch11-00-testing.md": {
+      "source_sha256": "806819032272325aacbe5eb40a1aca97ca227d91e2443f0300ad6f6d336cdcfc",
+      "markdown_sha256": "c65a2080c43a9f3d83a351779e059c6203b2c48285835c9fd277f7465fbd5192",
+      "prose_sha256": "2f90813eea270f7b9f81bae5355f5bfdafd7ffa5aec3d054f8ed148d3bafa32c",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch11-01-writing-tests.md": {
+      "source_sha256": "46f6482ec038b1d050b940dd240eb5d92639d6e63e49b4200aa0b6bda68bbee0",
+      "markdown_sha256": "03cec10df505d25d37717447f906d392506c18f4af1ba7ef9cc32f05cfc15359",
+      "prose_sha256": "6d5a71173e5d324ed8a2b709fd8622143b080a14ada525ee1f8fc4b78eb9370b",
+      "code_sha256": "92131d5fe8b24f8a0a48ccea2c5d0a4c3c22651c2f2b59c0c97963e282933561",
+      "dependencies": {
+        "listings/ch11-writing-automated-tests/listing-11-01/src/lib.rs": "c04c976b49d9540ebad87db788a0887ce2806ffef3f1ea64736bb845e6c7568b",
+        "listings/ch11-writing-automated-tests/listing-11-01/output.txt": "626011e51c9ab45769be2f305662f0a84957ba2f40a17fe794a63a525bb57d79",
+        "listings/ch11-writing-automated-tests/no-listing-01-changing-test-name/src/lib.rs": "3d959b5182ea1cfa0735d740cd29b59b792a8f74b988e5150ed9168a24fbe04d",
+        "listings/ch11-writing-automated-tests/no-listing-01-changing-test-name/output.txt": "ded788c10af5d40c210560deb3711018b1ee18b769a9e34ec8ac8403316cdf0f",
+        "listings/ch11-writing-automated-tests/listing-11-03/src/lib.rs": "791a44403edb6868b5eb8d7e1b186eda0c851638d8b0a2b9cd85bb6be32912e2",
+        "listings/ch11-writing-automated-tests/listing-11-03/output.txt": "a6512092a1eee24a82be503d668ee44f5552d19480798ebae0712c619f8048ac",
+        "listings/ch11-writing-automated-tests/listing-11-05/src/lib.rs": "2cf98279adfb6dab0f7716bfe8c8aad6318a86bfa349b36489289d0f13e08318",
+        "listings/ch11-writing-automated-tests/listing-11-06/src/lib.rs": "856e38ed8bf9762c79f478393c9f85ca73ed2dd54566dcb344e57f1fe9778877",
+        "listings/ch11-writing-automated-tests/listing-11-06/output.txt": "47a20e326651b90d21e43ab47c784c80d0d9fca8afc15ea6464fd751960676dd",
+        "listings/ch11-writing-automated-tests/no-listing-02-adding-another-rectangle-test/src/lib.rs": "8392d9cd9b907d5e61e708e9c7ada43fcb2bed918dfa6ea579d8ad052a2e1b61",
+        "listings/ch11-writing-automated-tests/no-listing-02-adding-another-rectangle-test/output.txt": "30ed1ed2613bc718c9aa0ba29141f369ace51d264ab0bd013a94e0c02671dd57",
+        "listings/ch11-writing-automated-tests/no-listing-03-introducing-a-bug/src/lib.rs": "42912443aa94617d20edf546b705064032a02bbb7c3432a49c19954fefc4b769",
+        "listings/ch11-writing-automated-tests/no-listing-03-introducing-a-bug/output.txt": "8076c3a8cdaf9e886df5ed8555750a81ab6336831478a9259e2d9ee6c26ade0b",
+        "listings/ch11-writing-automated-tests/listing-11-07/src/lib.rs": "191998629276733342832f542eff45f4798fd2e51ca8776c9089941b673dc3fc",
+        "listings/ch11-writing-automated-tests/listing-11-07/output.txt": "20284a9e639235ead19496d3d672cd147f67cdf56bfdbd847bf2b3a8175180d1",
+        "listings/ch11-writing-automated-tests/no-listing-04-bug-in-add-two/src/lib.rs": "679ced8e35e857544f341c7000edd6097f0a62a38b748afd15e97aad461663ed",
+        "listings/ch11-writing-automated-tests/no-listing-04-bug-in-add-two/output.txt": "6680752f7ce3a70f5aa6389a984ebe14d2031e94f46a05345a930d8ba86f0d54",
+        "listings/ch11-writing-automated-tests/no-listing-05-greeter/src/lib.rs": "a586f14e66be991fbc8cd7767bb29198301712c510925c7bedd298bc4f1a3577",
+        "listings/ch11-writing-automated-tests/no-listing-06-greeter-with-bug/src/lib.rs": "c8ed4c7ec9a43d708e28f036fca68e5798a3286d0cacdb60b98350a72bf831e1",
+        "listings/ch11-writing-automated-tests/no-listing-06-greeter-with-bug/output.txt": "e1eea6d4868cd2d4f1b23a9a8eec972b22a5c7f3b12f2879c5d2259655bb4fef",
+        "listings/ch11-writing-automated-tests/no-listing-07-custom-failure-message/src/lib.rs": "582abee816a21b57c4ed09dc02d6ea8ff7f875ccce3e88fc519afd675a59ff4e",
+        "listings/ch11-writing-automated-tests/no-listing-07-custom-failure-message/output.txt": "d2a78732a9e40e0faf49d6402683c12377dd8b0b5f9ae85625ef57ceb042cb41",
+        "listings/ch11-writing-automated-tests/listing-11-08/src/lib.rs": "f9e9d2bc297177cbb7179e9d01cfd1def035f59c9879fe589633d490709aa637",
+        "listings/ch11-writing-automated-tests/listing-11-08/output.txt": "8a441f95171d2550a71ec4b0bd7a9eb977297a58ffc428d3cc62ee0335676f05",
+        "listings/ch11-writing-automated-tests/no-listing-08-guess-with-bug/src/lib.rs": "5bd6677aa83de4f373c718e8f9af9968363fade28a069666437fb315ebe8c3f6",
+        "listings/ch11-writing-automated-tests/no-listing-08-guess-with-bug/output.txt": "a95c358df0aae3f47db43f82811a7bd7591d0fd0d5a04348e81d5f54523c4345",
+        "listings/ch11-writing-automated-tests/listing-11-09/src/lib.rs": "fb6615d867bea4f81c12a27fc9febc8d354420ce84c776e9bc7a9655a01438f9",
+        "listings/ch11-writing-automated-tests/no-listing-09-guess-with-panic-msg-bug/src/lib.rs": "89dbcd942a387941f0a005765caaa1a7d113569a9cb71e1cb700ef15949ad16c",
+        "listings/ch11-writing-automated-tests/no-listing-09-guess-with-panic-msg-bug/output.txt": "48ae84503684e8cf74a9fcf1bd405db84c085860c2fe66288682050dcf4dc069",
+        "listings/ch11-writing-automated-tests/no-listing-10-result-in-tests/src/lib.rs": "c682e83acedc615b610ab5d723fe288d0a363762b068042accd3ec5fc0911c1d"
+      },
+      "headings": 7,
+      "code_blocks": 31
+    },
+    "ch11-02-running-tests.md": {
+      "source_sha256": "1f65006c5ecd07ce5ba246d787d34a20ef9bc9ff25dbaffb18bc55ec555c0206",
+      "markdown_sha256": "4c2cbb5c746e0c91c91d40b178025135bf126175c957110f0fa4368613388960",
+      "prose_sha256": "ffa44785fac8de988eeed39b771274cc74f0236b711145b66694ae3c4b55fcf8",
+      "code_sha256": "99ab96a2ff49ba6b1b9b646a74ec7343ce81202df68272af76daa5cf6db937aa",
+      "dependencies": {
+        "listings/ch11-writing-automated-tests/listing-11-10/src/lib.rs": "4d0bc23f5bf55f5463b696b04005e70ab5764021bb429aedc87c25906761d505",
+        "listings/ch11-writing-automated-tests/listing-11-10/output.txt": "5613a77d2e5ffc24a4cfc26a5e6c454394c7bd7ac18a4bc984128c784d7d40d2",
+        "listings/ch11-writing-automated-tests/output-only-01-show-output/output.txt": "1738bcbe569e3b863cb22560e3f42ae552f9d8bb5f6eef3155e84cdb9b6512cf",
+        "listings/ch11-writing-automated-tests/listing-11-11/src/lib.rs": "20aa2b0750eb4d29bff5a50044ed7efb3df9d1c6db6644dac5b8909d81207f4a",
+        "listings/ch11-writing-automated-tests/listing-11-11/output.txt": "4f76046c5289dc12c8cef6b2e5ec836c6dd21d083cd984d4acf6ba2c11f6778d",
+        "listings/ch11-writing-automated-tests/output-only-02-single-test/output.txt": "5d05debe41418c3d05e48c6252ff81adc08b9b0ba9f9394da2519777d0d4959e",
+        "listings/ch11-writing-automated-tests/output-only-03-multiple-tests/output.txt": "0d6c240f5b4b8adc0273e77b6cbeeb1424d6a115c87e64f61cea753bfc520205",
+        "listings/ch11-writing-automated-tests/no-listing-11-ignore-a-test/src/lib.rs": "865d4c3bf665710a69a088f4e2a92d6c97af9fa0d6a82b24aeb159748811c3dc",
+        "listings/ch11-writing-automated-tests/no-listing-11-ignore-a-test/output.txt": "9b9dc2e5fefe5e6c0772f8cce993851d52bfd1f35c6de4899235e8a9e87ea0ef",
+        "listings/ch11-writing-automated-tests/output-only-04-running-ignored/output.txt": "aac9c235975d8b954efc1c57dd30001a017367901592aee50b7392140248f47b"
+      },
+      "headings": 7,
+      "code_blocks": 12
+    },
+    "ch11-03-test-organization.md": {
+      "source_sha256": "bfcb7f30d2adbd48eb9973055050d6fb6f0eb0d5a2bde86ae7f63a7c40bfc949",
+      "markdown_sha256": "b6131ddfce33ee37534fde3116a1bc7dd191747a645e2a0272faf7c18a9f8942",
+      "prose_sha256": "1ddf66e6f359ead532fc5166c73768682acf0d76dcae6f6144be815078c81289",
+      "code_sha256": "e7ff5742b6e1fcb9d37a1e75a0e6c4b996118558ba6302cffe3c7c92d65ab2e0",
+      "dependencies": {
+        "listings/ch11-writing-automated-tests/listing-11-01/src/lib.rs": "c04c976b49d9540ebad87db788a0887ce2806ffef3f1ea64736bb845e6c7568b",
+        "listings/ch11-writing-automated-tests/listing-11-12/src/lib.rs": "7dc8c5926f58f35813c2876c7c6671c86cc8e1397ed69c486b21c61f179f3b64",
+        "listings/ch11-writing-automated-tests/listing-11-13/tests/integration_test.rs": "0e649e0585ec565b358ebcd954c9ad05dd8ea05c504dfd5c739213633314d275",
+        "listings/ch11-writing-automated-tests/listing-11-13/output.txt": "c3cf7147aa882ad10fcc36f4ecc8358e9b344f74a5cd9cfc77dc4528294cf232",
+        "listings/ch11-writing-automated-tests/output-only-05-single-integration/output.txt": "c319e08b465a14f1db9ec688f58df5d5e2c1b4c90947ef73f0d60eb2963910da",
+        "listings/ch11-writing-automated-tests/no-listing-12-shared-test-code-problem/tests/common.rs": "3041a1a554e06c5117062223afa6dee8fc5eccace1e2c6ba92871bca4eff5483",
+        "listings/ch11-writing-automated-tests/no-listing-12-shared-test-code-problem/output.txt": "e4c3914522a18d2d53ff3ed7b7f559fb11b6991a8dffc315540aa2cc4040163e",
+        "listings/ch11-writing-automated-tests/no-listing-13-fix-shared-test-code-problem/tests/integration_test.rs": "225ae18bb885ce15b6f6f837bade8b715f726b9c770baafb1ca7c6f3713615dc"
+      },
+      "headings": 9,
+      "code_blocks": 10
+    },
+    "ch12-00-an-io-project.md": {
+      "source_sha256": "eecfc981435ecd94558e2cb089780751a0d7dfe8d3736851e430b6ad19669bb5",
+      "markdown_sha256": "0558d29b101abf718e8944d8ac3687282579dbdc1e3626c3eb2c18f9badf1495",
+      "prose_sha256": "542161b3fe4cf97472d44d32c33f0055ebdffc7360d89c0e68d7b27c2d230333",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch12-01-accepting-command-line-arguments.md": {
+      "source_sha256": "49433c070a62762824de5a8f7a45ca7e50870459b7fef2163503991600ea9c4e",
+      "markdown_sha256": "79feeecffe1076f3555c8459e5bec4db9b257a0d7f471bb55fd7a2cfa3414dfc",
+      "prose_sha256": "f3e9d7081167ae32557be25f5e3f28f1467a59163bac48348f3f1a1729057e75",
+      "code_sha256": "1f5fb51ea8a0f3f2c2acce327b3ca5f5d8012d01d17b8f57d30ad5813e13468c",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-01/src/main.rs": "f755b6b7e298fba18f7f0a5f6cacf5896bc1af9687d1d7476922d0b622ccf383",
+        "listings/ch12-an-io-project/listing-12-01/output.txt": "be5587f31b8384951efd7069b5ee8b6362195b2483dfc2ef9e0875a3edaa785d",
+        "listings/ch12-an-io-project/output-only-01-with-args/output.txt": "6c68cc941eac1148c05f0190107afa4a7e344709c976e69d06b942b69ad5eb11",
+        "listings/ch12-an-io-project/listing-12-02/src/main.rs": "4d5e95844e8c2d1c92b8d5f269e11bc4a58d60af8ac4fbc37263ef3d1f9fbc1d",
+        "listings/ch12-an-io-project/listing-12-02/output.txt": "5ef578dc3a4fd5d593aedf5a7d48f8e21106069a00f94dbd9d6752034687aa3f"
+      },
+      "headings": 4,
+      "code_blocks": 7
+    },
+    "ch12-02-reading-a-file.md": {
+      "source_sha256": "d2ee23fef6df62d704a915118345a04504bb6e97291af1ea8cc9f5cec403a757",
+      "markdown_sha256": "43a390d84480ff0f5ae94b422cc07a131b97784d6a0b9943f8401a235090b39c",
+      "prose_sha256": "0ed2b2bec7f96af4586cf0767c0c20cba4704a16eef832eb0f7ef226f2ee219c",
+      "code_sha256": "e20fc4ac85bcc0d10c679aab4af74ffb2be5c78d4a5b4f49fa23c83b04762fd2",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-03/poem.txt": "677e264f441042a0401c9655d9633a298b91c2a485fcba3ace9d9f131e507f1c",
+        "listings/ch12-an-io-project/listing-12-04/src/main.rs": "e61e8f2c256fd532494eb4f0759121c7474eeff4057369dc544ab355ca09ebb2",
+        "listings/ch12-an-io-project/listing-12-04/output.txt": "e3987d3548efa3bb77a48199ac8c1eaeaf69d80229f09d6e4573e3632f4c92fb"
+      },
+      "headings": 1,
+      "code_blocks": 3
+    },
+    "ch12-03-improving-error-handling-and-modularity.md": {
+      "source_sha256": "905d8aef8545f78487a87477702b411ca033c6dab6f06c02edca71445d0138cb",
+      "markdown_sha256": "51b686ec16b974ffef5494fbaaaf84342322f080cfe28764df78f682f13c6a9f",
+      "prose_sha256": "a71fc14f212cb308f6d5ac7612869f3b0b2e5be9d175c3d8f0695515bd39e627",
+      "code_sha256": "29867f7e0ac9e0dc49cd88aab503786d3c215445ac4f084f7e3967618f624fec",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-05/src/main.rs": "869d7e5a82a49c44cf92398bc3b7ab5d166e7dd79cfc744473f854c024fce950",
+        "listings/ch12-an-io-project/listing-12-06/src/main.rs": "09db482bc2de62f6b4e475012b70080099ff13b48392940112754938ab5cf140",
+        "listings/ch12-an-io-project/listing-12-07/src/main.rs": "9616af47613d192a7e1f166eca2c4180f896e4e1513326c79b6ea32faa29af38",
+        "listings/ch12-an-io-project/listing-12-07/output.txt": "be4a03e496a0060b10f9d0742ecfa83618e54da60905546df93ce13d75199e29",
+        "listings/ch12-an-io-project/listing-12-08/src/main.rs": "4fd22d083f483445d4421cebfcc4dc071139c11ac93e9f4b262f08a0faf30818",
+        "listings/ch12-an-io-project/listing-12-08/output.txt": "1bea1c1b2f10e8ffc42fb9536d3bd0501fb4aa7fd7e028158537dca241733f00",
+        "listings/ch12-an-io-project/listing-12-09/src/main.rs": "5179eae1ccd8ef2a0d6757add47214fde4fa727d87e7b31ce997cdb4419483cb",
+        "listings/ch12-an-io-project/listing-12-10/src/main.rs": "e6a230dcf7bf92e9e142196dbe421bc5eeff4d30722161278ab89afc572b2e3f",
+        "listings/ch12-an-io-project/listing-12-10/output.txt": "4cbbfc28e297ac900b7e576f0db3742e7087eb1fccebf3123d8272607d1af15a",
+        "listings/ch12-an-io-project/listing-12-11/src/main.rs": "316743f90b8838c5a21b5e96f2bf82da8ab4b62f9d2f7e367596b2b8c85f8fc6",
+        "listings/ch12-an-io-project/listing-12-12/src/main.rs": "18a029c045f2adc09964bb426b449c5efbdee0c236862d2b1d649e32fd5c077a",
+        "listings/ch12-an-io-project/listing-12-12/output.txt": "c5603ae405425afbadd9ad13af3de2b112965ffd0ae32943fcb3f3949c8f1cf7",
+        "listings/ch12-an-io-project/no-listing-01-handling-errors-in-main/src/main.rs": "d5819ae25219b656023bdf418c559f0c9c39994e3e087735d8a233f87e42c66b",
+        "listings/ch12-an-io-project/listing-12-13/src/lib.rs": "491637c2965a02270643a9d7d5e2256acddbfff13aa132d1283f9c68f42268be",
+        "listings/ch12-an-io-project/listing-12-14/src/main.rs": "da1d5c687a5218d1390afba1fe950ce8c0909e1c0e33057b2fe402b92fcce8b5"
+      },
+      "headings": 14,
+      "code_blocks": 15
+    },
+    "ch12-04-testing-the-librarys-functionality.md": {
+      "source_sha256": "6e9aefdff08ec4f5c910ed3ecc9108b68c57828d62e8cccf0a867ae0621ee3f0",
+      "markdown_sha256": "82cdffa0023c7c3a3a8a8f5658cf305e09f123c1e5b08713d1a19ebda80a3582",
+      "prose_sha256": "1a5847afdef12838d58f203b96dfc454647d48f53b2eb1015571e88f205db72d",
+      "code_sha256": "7f98a83340b1723991c30a8b407ff544d27f32c8d59d08ff23dd8b4b0542ade2",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-15/src/lib.rs": "77acea0e659b63a904b34fd880ff716213a760a5d21389785083b13e3e6a7db9",
+        "listings/ch12-an-io-project/listing-12-16/src/lib.rs": "070f0c59672ed4549943dd725dc9756733d721e02265486a2dd14c89f73c0b7a",
+        "listings/ch12-an-io-project/output-only-02-missing-lifetimes/output.txt": "0c0a31a22bd2faca30e25f52f45ccc40aa4c538d003369b2ab599490938e8e06",
+        "listings/ch12-an-io-project/listing-12-17/src/lib.rs": "e8d30f808651d1d0c59aef1db82c6e30f43e063d6ca33b681415f7ef85018b95",
+        "listings/ch12-an-io-project/listing-12-18/src/lib.rs": "5ba4351e9a993dea0cfdfe5b912752467f35bcebffcb174a6a8bbbf0d28adeaa",
+        "listings/ch12-an-io-project/listing-12-19/src/lib.rs": "66bce5bb12c3cdd464707dc25ca2e524037d0a80a7b8aae953f90df4b8cdcdc1",
+        "listings/ch12-an-io-project/listing-12-19/output.txt": "6fd3696ecb023513a02b1ff3e90be77b53e38a2b94cd6335f56d29bfc09e2550",
+        "listings/ch12-an-io-project/no-listing-02-using-search-in-run/output.txt": "8ad3fd385662ff278665da99aa460ceb4425c5c9fb9bea7fd5509da98321edee",
+        "listings/ch12-an-io-project/output-only-03-multiple-matches/output.txt": "7fa3d92c5dbd4500ac91352c778e954330a3f3b8ad46624b861858a9e7eeabb7",
+        "listings/ch12-an-io-project/output-only-04-no-matches/output.txt": "927ce45d531bfaad897f0c563b985c9068270221d0d7f272b34488e5801104b8"
+      },
+      "headings": 6,
+      "code_blocks": 10
+    },
+    "ch12-05-working-with-environment-variables.md": {
+      "source_sha256": "6211796c74143546ef7ccdea3e4de37cabfa9ca87a2396aac20beffa3fd4fa20",
+      "markdown_sha256": "83185725d64339fa71448b45152abf9cc2c5efb33db6aacda25de9d5b7b456b5",
+      "prose_sha256": "ffe5fc72b4804b4816f5ca54cca715ad9aa2776cf9a660ac7a9aabb88de1456e",
+      "code_sha256": "1f7f46ba6f7d2a4a4e7a3acf23c488c150a9d3674bad91bf5816055f380daa35",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-20/src/lib.rs": "d9441a0c0c096536980106c6222e400c341f3f2f7e592841f1a79ade7cd9baae",
+        "listings/ch12-an-io-project/listing-12-21/src/lib.rs": "972a50ab933938776ee7e78c18b8c07b9b6494ac4b8632247da3de89ab1280ac",
+        "listings/ch12-an-io-project/listing-12-21/output.txt": "b5d61e824dc7e99459d1fc1c6b0385766c6a4afac10a23d1d53eedb6e7e3575c",
+        "listings/ch12-an-io-project/listing-12-22/src/main.rs": "e0248e3f2d11871ab916aa73fe04f68689874ec6cb10aeabfdadecbf4b4ede83",
+        "listings/ch12-an-io-project/listing-12-23/src/main.rs": "f0b202eb73bc61d3f2cf7dfc0558ab3e4c2b42cbdf0f877c86e13549ef25421a",
+        "listings/ch12-an-io-project/listing-12-23/output.txt": "51b0c62ac19096b4872972558d586b15cf615c0a5d425aaea2376b11c5f3db7c"
+      },
+      "headings": 3,
+      "code_blocks": 11
+    },
+    "ch12-06-writing-to-stderr-instead-of-stdout.md": {
+      "source_sha256": "c0564dbc533c25d167c577e812e3bd2941e6e95cfc68536ffd6eeaa3536b7396",
+      "markdown_sha256": "f61a0dce702794c35688c89b09a7b5db6b91769a3d65ce1b53d45d84b2202ffb",
+      "prose_sha256": "c82f961876f43b283e27cafa1d91c45a5fc1a7d2ae13bd4820e262337528de64",
+      "code_sha256": "d6a4a4fec1a4aaf57d329e6e6731c4317cc802ee2870b7de909f69b1a8daa3fe",
+      "dependencies": {
+        "listings/ch12-an-io-project/listing-12-24/src/main.rs": "a29f60f0cc1eeaaed6af1fc77a28f01b8c84d795d5f2ee9688b9a216d7fce9be"
+      },
+      "headings": 4,
+      "code_blocks": 6
+    },
+    "ch13-00-functional-features.md": {
+      "source_sha256": "3176792b9abd64b9a22b4489742438ba653422fcc44d55828dfb77b3deef625a",
+      "markdown_sha256": "13f319cc2e816545bbad17d38aa661748680f83ae67c2775fce05ee43ef541be",
+      "prose_sha256": "328202e4aca515c7b19c78be75ae044e51fa31e0f0f32215c272916b7c02f089",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch13-01-closures.md": {
+      "source_sha256": "4ac1d34fd3d2bd395ecc9e7c91cc1c106b99574cd1369049f054762ca71c0b1a",
+      "markdown_sha256": "a20cbb0b6af2a985486d9ec88f5be83dac27fd45893983bfe600a08c5faf7b6e",
+      "prose_sha256": "19ceb4f7dd7ec464dcbc671424e43f5e91420fd601db00389ef911dd6275b742",
+      "code_sha256": "648489ecbd6ced9645752372b0f55b5c644104446ad9272b42881bd2e2d5d991",
+      "dependencies": {
+        "listings/ch13-functional-features/listing-13-01/src/main.rs": "e90b5dc80ca267e59be1110c44a1a2f65cddb8867e8328e5cb6077684c255dfe",
+        "listings/ch13-functional-features/listing-13-01/output.txt": "35c2b67b6b55700768b91e2ae2cf9c8424a12da1762c0e60a969945fae3854b3",
+        "listings/ch13-functional-features/listing-13-02/src/main.rs": "e5346c6e6e9d03df5e1da3b207bb13af0cc2dca7a13723d6cddefc406bc447c6",
+        "listings/ch13-functional-features/listing-13-03/src/main.rs": "ab0c65da8173bffcd58f2a042a4c8af910107c4090bf7852fe67fbb4174f25af",
+        "listings/ch13-functional-features/listing-13-03/output.txt": "1ac80c69d01bf3985d1a11541c717ededf92bce16c1257f8a6059363b1805bb1",
+        "listings/ch13-functional-features/listing-13-04/src/main.rs": "e1c93f9d19ea6560e806bd0ef2d4f435a9e1616804daa5ea65c9d0eaafc66112",
+        "listings/ch13-functional-features/listing-13-04/output.txt": "44dd7bad0b2c999d677200d3b8aa2e389c09820e355e506aac0496cb7572468a",
+        "listings/ch13-functional-features/listing-13-05/src/main.rs": "64c397c89cb5095c66e50ec3b346999b3e359eb34e1c9466c523225ae9ec20cf",
+        "listings/ch13-functional-features/listing-13-05/output.txt": "2134827847745afb534aa3209edfc162189a644379ad06862e3a26c6b0f593e0",
+        "listings/ch13-functional-features/listing-13-06/src/main.rs": "e0fd12165b779c400b1349ed8e186a0aea6bc05cb6b3cb1d6d759a1451ab3a84",
+        "listings/ch13-functional-features/listing-13-07/src/main.rs": "dcc8289c4021cd7a4942ea8ccd157f2accd45d33b5780794039f26cfc4ff1ab6",
+        "listings/ch13-functional-features/listing-13-07/output.txt": "c4de91bbc2699b9404c451fc8f70812b7f557caa8546781694ad310b0455f868",
+        "listings/ch13-functional-features/listing-13-08/src/main.rs": "3160c3b53f11bb71e43b102a136dfdd970b2cb7f9f2cfcbb9b173376a3c9fec9",
+        "listings/ch13-functional-features/listing-13-08/output.txt": "409ff3b03d9c0049796c962e1cca57b11203ad73cb768b1d27825a759a23d4e6",
+        "listings/ch13-functional-features/listing-13-09/src/main.rs": "b169053fdf0568fe5af5f4531542786693d480f336be1d02070154252df08a8b"
+      },
+      "headings": 5,
+      "code_blocks": 17
+    },
+    "ch13-02-iterators.md": {
+      "source_sha256": "7236a4327ffda5d70d9d3a3e1ec0a255107234801af9b30292abdaf1dd52c022",
+      "markdown_sha256": "0c547a5ab78fc6692bb36c2cc183d2dd1ac140a979537acb49f59c6c509ac01e",
+      "prose_sha256": "028ad83f18cb1713d191c84127f99713153adc0f824246e2293cec7d29d9dd1c",
+      "code_sha256": "65a44bd977d0fe2de09c0b88e1849d0815ae2feeb84a28ab4135ed6dfe483552",
+      "dependencies": {
+        "listings/ch13-functional-features/listing-13-10/src/main.rs": "28790c2a27c3c9081ba8557316b215ce9d2fb68300af286cb0ac7428ff14dd1e",
+        "listings/ch13-functional-features/listing-13-11/src/main.rs": "4b13bd0184d903e608105b9a36f8d1eae0ae7ea78ab40243029b5053963fb590",
+        "listings/ch13-functional-features/listing-13-12/src/lib.rs": "b3be1672eda53f554296a0b11bf7c535542daaa955e0254422c6aa83c1e7a2cc",
+        "listings/ch13-functional-features/listing-13-13/src/lib.rs": "9b3fbed121a66fc64d8873a9638c4603333d358497332382d68a94081f4e7fda",
+        "listings/ch13-functional-features/listing-13-14/src/main.rs": "736c222a181734f89ecd9ffa67fa597107380b49b1efcc83f085571150d6bb86",
+        "listings/ch13-functional-features/listing-13-14/output.txt": "d5771f10f647d5b0370905c08214231f47f79aea6882fa60982bea34991d552b",
+        "listings/ch13-functional-features/listing-13-15/src/main.rs": "43f51c10eaf7762aa5fe8b9d1892bf25b79ad26dd6e615ece3b1cbb98e0920af",
+        "listings/ch13-functional-features/listing-13-16/src/lib.rs": "1a2488ebebf19c136fa37076ecd48498c802a841f16a5bca52ea33be032f8d58"
+      },
+      "headings": 5,
+      "code_blocks": 9
+    },
+    "ch13-03-improving-our-io-project.md": {
+      "source_sha256": "0764136361ec5fbfd792bf16237e6e94aacfe2b78cd8053f0151de69550c2084",
+      "markdown_sha256": "0ba736d1914be507b6ab06bdd64ede35dc4d5ce57836b09c87dd84c177681cc9",
+      "prose_sha256": "9e762540e2caed462bff66e2bb9699c293a656d7d79ab3292757c137e888efdf",
+      "code_sha256": "76562aa53f139b432474f221486a868ba9eb769d3703670bcfd296bf218a397c",
+      "dependencies": {
+        "listings/ch13-functional-features/listing-12-23-reproduced/src/main.rs": "6bc3aff048ebf735d230b9eaa70b023176fb09ca8c1225fc8731d00e608dd1e2",
+        "listings/ch13-functional-features/listing-12-24-reproduced/src/main.rs": "7860901e729ec508bfe21c9383ce4966a009350bb3a45c3870bbcd167c2585be",
+        "listings/ch13-functional-features/listing-13-18/src/main.rs": "a1fced5749f56d507ddcc2d1554de57c501f2eb597d19925cf1e24d0d9d16378",
+        "listings/ch13-functional-features/listing-13-19/src/main.rs": "b1eaac5470277f0dced5bb50f08c9145dd9463335087bcfeddf02895791a6107",
+        "listings/ch13-functional-features/listing-13-20/src/main.rs": "e76ce2df4fec3ff75b0eefb5ad5724fc6e8fab0f4883a873992e85eb78d3e99f",
+        "listings/ch12-an-io-project/listing-12-19/src/lib.rs": "66bce5bb12c3cdd464707dc25ca2e524037d0a80a7b8aae953f90df4b8cdcdc1",
+        "listings/ch13-functional-features/listing-13-22/src/lib.rs": "bf95cf4ebad8437a38b50e6343c0ef5367aa3302c86a19ae8cb91c675e8ce1d1"
+      },
+      "headings": 6,
+      "code_blocks": 7
+    },
+    "ch13-04-performance.md": {
+      "source_sha256": "655f4a649a4e50951cafedca10572601c095e1b16a582584457339fb366c128b",
+      "markdown_sha256": "200b43a32e2bef5de723b6211bb0e6b6ca01461093ccb5c277bad1954bad0de0",
+      "prose_sha256": "f0870631c2125417deb06853acdc5abbfd97867b333819e54f2fd5308a091a4f",
+      "code_sha256": "d3785705e5b9de16830f46cb5e87450788d3e094b7e593d028cf72988cfb4e3b",
+      "dependencies": {},
+      "headings": 2,
+      "code_blocks": 1
+    },
+    "ch14-00-more-about-cargo.md": {
+      "source_sha256": "39670d3f819df8c3dd810e6790b06a043ef08ce3491120726a66f1421b9101bb",
+      "markdown_sha256": "b65b3d97000dff979a58e111dcdab150284674c21b73d16a7d0745578be243fd",
+      "prose_sha256": "277d9a63e228b71a38298cf2a08d04dec4f0e9914d598b221d540577fe6653fd",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch14-01-release-profiles.md": {
+      "source_sha256": "d291420ad8ba9bed75a9f4a030adbe6a8b15fc36b55463f4abdbf6b453aad8d0",
+      "markdown_sha256": "89c703f79284a38445f136feede175a251d0161b1c0efb3d49aa84344af04bf0",
+      "prose_sha256": "fb5ccc81d9d17afd8b52e8dd13c0451d8f75b8556e3c31ef1bf0d861f73eca48",
+      "code_sha256": "5947e475646ce5ce5454527f6f8d847942f24de03731c7cd8625c5cab1a26572",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 3
+    },
+    "ch14-02-publishing-to-crates-io.md": {
+      "source_sha256": "b49ff4ab4fd31a7682fba4e93aa140d4b3213248e660a0fa00b67f5476bc98db",
+      "markdown_sha256": "dc30b41f9c5d8c5ae3ff2e13d193a7466709483e90ca8d4939b663e39c450a79",
+      "prose_sha256": "c790ca031ee3db13f7ef48b3adfdcbd701b2ee9da64617173e0ecaed88afefb3",
+      "code_sha256": "0c7cfa76f494084a5033ec7c289f15a110a9d1d44245d850b4f56b9bf50bc6c8",
+      "dependencies": {
+        "listings/ch14-more-about-cargo/listing-14-01/src/lib.rs": "9f9a7f26ce33df5340db4aa8688098ddf2fd26aaa819fb02175f5dc5cd839dbb",
+        "src/img/trpl14-01.png": "92c98731fe641694229f5a3987fe138bfd8140401150dcae901ac448c47c96a4",
+        "listings/ch14-more-about-cargo/listing-14-02/src/lib.rs": "8d0ad16c832a3d0cdf8e158fa8bdb2aa1185730e39503d24b36c84150fc411e4",
+        "src/img/trpl14-02.png": "c358af6e959d113b87fdeeaf48366b8d244358b4f978634a5193f4b23b2239e9",
+        "listings/ch14-more-about-cargo/listing-14-03/src/lib.rs": "16e282c070b02c7d88db487f78165476f534c940f20e0c39c0132d61f57a8288",
+        "src/img/trpl14-03.png": "fdcd8e7295875a128fc5dca22e574df2679f362764899030236cc377e88d228d",
+        "listings/ch14-more-about-cargo/listing-14-04/src/main.rs": "c46d8225470d2b4853c01556539d387ed38e08bb46edc595e49271bb6dcfdd3c",
+        "listings/ch14-more-about-cargo/listing-14-05/src/lib.rs": "f6a4e8ab75efab72c40cafb936d3582d9a1e434f9af7138f1efca096bc151e26",
+        "src/img/trpl14-04.png": "7a6b53117942889e9e79e879446fe7f983889a4f42f11c6be2ab51a2af150c25",
+        "listings/ch14-more-about-cargo/listing-14-06/src/main.rs": "84e0a79c5bee555561edd1e52b28e6f8f20950821e7fd99bd019dbaec4b858ff"
+      },
+      "headings": 11,
+      "code_blocks": 15
+    },
+    "ch14-03-cargo-workspaces.md": {
+      "source_sha256": "99bde51d90fa9b2ea3666059207e9160a03d6ecb281b9062960f2dd0ecd37e1f",
+      "markdown_sha256": "309df855d8cc7aeb6481ec604b2043992db9de371f4b0fb34fd52412cce72fcd",
+      "prose_sha256": "af8cb5ade0857b39ca752a79cd51997f724846e5c07113192b0c620afc9fbd3b",
+      "code_sha256": "2eb8ece15a5e0ccfb3a15a161c0b8765f10cda89a07cd4ef532060d7b2ae4e89",
+      "dependencies": {
+        "listings/ch14-more-about-cargo/no-listing-01-workspace/add/Cargo.toml": "573df38a85429a5192c8fc70fa541da9baf4a296daba0813350ddef77ff02db6",
+        "listings/ch14-more-about-cargo/output-only-01-adder-crate/add/Cargo.toml": "5bcbf4085384e04e8208d5a40baf29bb2e4edadf6ef346a383ed884b48494502",
+        "listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/Cargo.toml": "22c215d449e4fcf9d0a8f0ab83c4c750975c6dfa09a2a38d10e52e9c7377a9b7",
+        "listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/add_one/src/lib.rs": "4eae4981c9a799d905614976d2b89fd6a9628740c5f687b471aaf8c15e3db5af",
+        "listings/ch14-more-about-cargo/no-listing-02-workspace-with-two-crates/add/adder/Cargo.toml": "7ae99be89f8dc6ebb1eed8faf76605553730bbc85ae7bd90ac4242e83ec9c3b9",
+        "listings/ch14-more-about-cargo/listing-14-07/add/adder/src/main.rs": "1046ba977a4b56e3dd834a19ca2a73cc64d12d2c44fd5801838ef3a18ca78f74",
+        "listings/ch14-more-about-cargo/no-listing-03-workspace-with-external-dependency/add/add_one/Cargo.toml": "beb9b6d91f6601db664e13ebc6166537d2355bf5543cfb619166c4ed9ad46fb9",
+        "listings/ch14-more-about-cargo/no-listing-04-workspace-with-tests/add/add_one/src/lib.rs": "4707046fd05726ca8aa382878491a966ce589ba381bda1ed94cc5cc88e5cf346"
+      },
+      "headings": 5,
+      "code_blocks": 19
+    },
+    "ch14-04-installing-binaries.md": {
+      "source_sha256": "9b9886e4f8a86b5fe34e48b7a78f091bc9ae8c6db20df9e73de76f55d305cdf4",
+      "markdown_sha256": "5e9d6e61baa315b97a51080bd2dd96acd69690c280e6cb9bc13b4e6b6af82b15",
+      "prose_sha256": "ae0a93a3d57816a29b7e86b9d793a0c808af8d84c898bf0e2d8b37bf75d48eda",
+      "code_sha256": "0d7ad4b21396bb95d1d14545e3845921e7b9ab20401e595f5a9043982ce81d64",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 1
+    },
+    "ch14-05-extending-cargo.md": {
+      "source_sha256": "98a4945174602bc13899ce7fb06c1e78af83c3ed9d2fe82d7c298e3a4a8dd9c4",
+      "markdown_sha256": "1a18d238852672a56de0b521226c4a6ef21946f0a3d6bec7f0ffb11794a4232e",
+      "prose_sha256": "557fe7977a17c7b776e1f30d867bf7a2993a1aeab1aed5ec81d74efb25b19535",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 2,
+      "code_blocks": 0
+    },
+    "ch15-00-smart-pointers.md": {
+      "source_sha256": "c6bb35001ed4755f961ad135fb4ddbcf1d8fa3475dd6772c424944acd981fd63",
+      "markdown_sha256": "adf324198a3eb791ba5828cee69a201f3f2e6f8493280bfb5c897e8b50fca0f1",
+      "prose_sha256": "8ed601bf6deac0c97512b77af16aaa984f1c8bef3ec5b106921c7bd48263f9b6",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch15-01-box.md": {
+      "source_sha256": "c6390f3d4d05017ea0c9606c8dc8635f42ad4cc18b79e109017a008eba7ba9f0",
+      "markdown_sha256": "67822be0c96dcae16057dadf4cb17d685586a8165f42134871c3e0590b5adf09",
+      "prose_sha256": "bf4a7dd9357248299ed746f6cc74550b53c801853f9a5a5b8a80268f959f2c44",
+      "code_sha256": "1b75e307bb88d28f871681c0c4d024b8a43757b7bc8dd928b1ac18e1149b887c",
+      "dependencies": {
+        "listings/ch15-smart-pointers/listing-15-01/src/main.rs": "44ca44110506f1f91073e2b534ba5068138c0b50b67f9913c1dc0c792ad38966",
+        "listings/ch15-smart-pointers/listing-15-02/src/main.rs": "95bf92bebe207515edec5b0ee6e01463e074a99a6b7ffaa101780ddf07408201",
+        "listings/ch15-smart-pointers/listing-15-03/src/main.rs": "b05618ed5c1f156961fc74601c7a8361b76cb472e89308f8e1a96a5663ffb0f0",
+        "listings/ch15-smart-pointers/listing-15-03/output.txt": "56702f80ee96807917981a07630a34de381de64e6fb170cda4aebba6c127c797",
+        "listings/ch06-enums-and-pattern-matching/listing-06-02/src/main.rs": "010ddce2c8dcd59a6e7d4dc654df47dbb85be79167aacdf2a8adad4fb2b0c27c",
+        "src/img/trpl15-01.svg": "8acb018bf29622099bdbdced748b545bb00094314c94ade7acd57580ecf51808",
+        "listings/ch15-smart-pointers/listing-15-05/src/main.rs": "774786728ca8ebbf0f38e141b725f16282c5db40f2a93866977604174aad22d7",
+        "src/img/trpl15-02.svg": "b8a95ade376ae0d2b7f0d40bcf4ce355c91bab3436fc02db0b03bf420089da24"
+      },
+      "headings": 6,
+      "code_blocks": 8
+    },
+    "ch15-02-deref.md": {
+      "source_sha256": "3cb28de0a1345dac74d8f53b4cc9ef1806070540417e37b6ba69d37df45af0a3",
+      "markdown_sha256": "36001d087e5aeabe658ce2689fe7c286c774fc74045841d62f6cf01108d0980e",
+      "prose_sha256": "21e671d37cb71967d2acf317be92edfde05fc646455039ed96dbfde3834052b8",
+      "code_sha256": "e906af42d2905de7606481442bb8131e0d3615f45e6078e786c7366db395a6e9",
+      "dependencies": {
+        "listings/ch15-smart-pointers/listing-15-06/src/main.rs": "bf38826bf8f9ddd008df491c80e8229152e05eaba6028ab88f5caad4fb5c8484",
+        "listings/ch15-smart-pointers/output-only-01-comparing-to-reference/output.txt": "d50d9120b526054ea44baa81866d72a5a0d500ff8f2e9231f0532537933bb9b7",
+        "listings/ch15-smart-pointers/listing-15-07/src/main.rs": "13e7a1b68b8a6f480b16243cc00de4ff05fce40bc2d8e50ba14fdbc88f0a9d15",
+        "listings/ch15-smart-pointers/listing-15-08/src/main.rs": "553ced6cf41cb986742e2cec09f274fe5a0bca19859f995c5b5095da794262ab",
+        "listings/ch15-smart-pointers/listing-15-09/src/main.rs": "f48923a6686be3eac8493061d2c6daa406c7582f77eb333af30924e6891fe11f",
+        "listings/ch15-smart-pointers/listing-15-09/output.txt": "740788e2b76d893d3aab392e92973c95ad42d6e27e90a00e678c13d49f8e0ec8",
+        "listings/ch15-smart-pointers/listing-15-10/src/main.rs": "35cf86fe60fd61c93154cdcdbd47a6f757743b10ae7f9a6688d17dbf869b6c81",
+        "listings/ch15-smart-pointers/listing-15-11/src/main.rs": "79b454df83e0e6dfb4e9de420e9fabc576d3864f92d89a8b06cef80030a4bce8",
+        "listings/ch15-smart-pointers/listing-15-12/src/main.rs": "4ccb6ab1ee885ac929ea7e0ad42901d2c45104b9a67fdb5830f94c3963f8f4bc",
+        "listings/ch15-smart-pointers/listing-15-13/src/main.rs": "b9acca58a8f12231da6da0549b1ce822ca98691a6301e1b51b939b6c4c8bdf11"
+      },
+      "headings": 7,
+      "code_blocks": 11
+    },
+    "ch15-03-drop.md": {
+      "source_sha256": "4d87daaf7f5815b889bc0e3998d2025918043a2d26f4c4ab5a3f18a79b3dd203",
+      "markdown_sha256": "b7be9004339b812131797124d5afc0658b35197e21de39d39ba7af814ad7488c",
+      "prose_sha256": "c7e6fddc2086412d94a4a9bbbf5804c8fa23aad97c9946e4b944226123463569",
+      "code_sha256": "44094e88b505a54148a6caaaab0f5d11ae25c79bcced8a0fe6595a856d265a66",
+      "dependencies": {
+        "listings/ch15-smart-pointers/listing-15-14/src/main.rs": "66530474edda0548dd46c4a94197eb05fde37f7c4df395212294becd25af568f",
+        "listings/ch15-smart-pointers/listing-15-14/output.txt": "be59ed9719f1577da359e63acd4d5dbd7bb8cf8fcffbab252f1bc0e9bbde96f6",
+        "listings/ch15-smart-pointers/listing-15-15/src/main.rs": "6cf26c80f2c72c0169412019ba8ca784cb12039a6df23461e70bbf259f939119",
+        "listings/ch15-smart-pointers/listing-15-15/output.txt": "c4265845df93948a014cb29c5a76ff7b5a59461ec3bee5ecde924c643e2a0a36",
+        "listings/ch15-smart-pointers/listing-15-16/src/main.rs": "f4ee066eabe9f0bdc1cb1e2abbb9e8bd1ae80fafb36891df6d1f1748bfa11126",
+        "listings/ch15-smart-pointers/listing-15-16/output.txt": "bb6b938d286cb0d6646e1ba61b43ba59aacd727ec880ec4af689363dfc15f338"
+      },
+      "headings": 1,
+      "code_blocks": 6
+    },
+    "ch15-04-rc.md": {
+      "source_sha256": "480071ba43b81be07db6a2647dbe1547c1582cc0aaf2d03b2a9f7cf0a1ba4390",
+      "markdown_sha256": "3ef419d9f6d39ad665238bd0ead40f7ad65485e8762a8f8f64dd13d7152e5868",
+      "prose_sha256": "f3a3ebdb43881c3e82ceea939a6688dbbd7387a508517fea2d8cd3feed6d2240",
+      "code_sha256": "f2271e3fa0b5d1331202d541ff2fc9f556b7f4bb5f15a957e08b292deb310219",
+      "dependencies": {
+        "src/img/trpl15-03.svg": "552ce09ecf7b274f4dd3013deb9b5420d46b6a60061b90a09fbdbbede7d3c114",
+        "listings/ch15-smart-pointers/listing-15-17/src/main.rs": "41bb5b28d07f9816c70931508c3722b7fba2d2d4e4e417b76fdcfd421326fa3f",
+        "listings/ch15-smart-pointers/listing-15-17/output.txt": "1fed12dfcd3846ef41380a0b223488af40f685b204f67c84f47a6ca0666b35d0",
+        "listings/ch15-smart-pointers/listing-15-18/src/main.rs": "0da882b7c86b94027242f4e57911b8cb34bbcc09c83cb8f1cf9ae25f768bdcbf",
+        "listings/ch15-smart-pointers/listing-15-19/src/main.rs": "d912825820b492130667853c73cea82eb3a82d5b5cb8213ccc2826107cb816cf",
+        "listings/ch15-smart-pointers/listing-15-19/output.txt": "228d4cfd6c56fb2fbdfa897ca62965a3ef14340fd5c383c0c6c54ccfb90fc152"
+      },
+      "headings": 3,
+      "code_blocks": 5
+    },
+    "ch15-05-interior-mutability.md": {
+      "source_sha256": "cf532d139d0ab827ab7bddb5b94ad766f64578b61563fe63728afed5a3b7ccb4",
+      "markdown_sha256": "44b89630fd7ba91ef3916854e849623118219d900adb94ad1e13a870a3dba8ed",
+      "prose_sha256": "27abe3ce3be82bff52e8a1eb5c417e57ea2b17420efa560b2621d0a1f02a4bbe",
+      "code_sha256": "b3d75baeabcc22a88f124113d0d53785e430b62d4d4e225d29961c7facbd8eea",
+      "dependencies": {
+        "listings/ch15-smart-pointers/no-listing-01-cant-borrow-immutable-as-mutable/src/main.rs": "36110afc8e5bdc6edc70feac22172ca41f17abe2c1a57ae050e7b08eb0994d41",
+        "listings/ch15-smart-pointers/no-listing-01-cant-borrow-immutable-as-mutable/output.txt": "d9644f10c2a811f377331e6b0b2bb30d90e54e12263c8bd3067d84be3ac3ca96",
+        "listings/ch15-smart-pointers/listing-15-20/src/lib.rs": "0a6f7c2f67df934a0528679dcbdc8adbdd506573a316d33c181361f1b0b2d87e",
+        "listings/ch15-smart-pointers/listing-15-21/src/lib.rs": "6917affb3a614d6f127405cdbe4c5f514e862164d7b641382c668968e4e5aad2",
+        "listings/ch15-smart-pointers/listing-15-21/output.txt": "25e9bd4d86386acba919277cc8c80f3d0c73107a4fe648aa95b07d473545604d",
+        "listings/ch15-smart-pointers/listing-15-22/src/lib.rs": "11d0c986794914fa8297d48eb2eda6e4f1e7165bcb3d7182f8b9a526e700eb37",
+        "listings/ch15-smart-pointers/listing-15-23/src/lib.rs": "8b9380fe8ab8088337a344a5b0cfa3ecdd0b944aafefc353697c670e9240c9c1",
+        "listings/ch15-smart-pointers/listing-15-23/output.txt": "02e47ec51034fc4b1ee5f944b3f2a89853d351e0acac0390ef55354450702eb4",
+        "listings/ch15-smart-pointers/listing-15-24/src/main.rs": "ade5cf11964da8d9476b5ec4609bfd169ba47f51c29dc263fd89bc7fb5ff4a75",
+        "listings/ch15-smart-pointers/listing-15-24/output.txt": "b308dd6d153d98e350f84447ed67f332552f7781ac0d5ddd33f87cad0a491a27"
+      },
+      "headings": 6,
+      "code_blocks": 10
+    },
+    "ch15-06-reference-cycles.md": {
+      "source_sha256": "ed5f168de5567cd49dcfec08c5de8a07baa2b355c695aa37c65375b1f587a872",
+      "markdown_sha256": "63e59efb318ea3cf88df11b3f87528bd221abfd25174f8a0388a445c41018e71",
+      "prose_sha256": "ece08f9b0e16637bc55654781e308b1034ea7e72f38c7c7db2a33a991ce1abc2",
+      "code_sha256": "2d5efca4ba599415f2af3d3a2a714170df626e95e9bccf32780a09639d845011",
+      "dependencies": {
+        "listings/ch15-smart-pointers/listing-15-25/src/main.rs": "7b9bf0862cbd983706bfe61b01c2605d2686368dd218f13486852de96e5725eb",
+        "listings/ch15-smart-pointers/listing-15-26/src/main.rs": "32431018fe9046dc189583123d541628e5134b0f9714fdda9e15828f792f70b0",
+        "listings/ch15-smart-pointers/listing-15-26/output.txt": "bc82bd892993eb4d7cee130b370bdf75fe9d778cdd7b68b07ebdf6e9174e6b24",
+        "src/img/trpl15-04.svg": "8e64624821092a7bf919f77e4f6793542436bd2abd0e70c368089ea79fdd9d43",
+        "listings/ch15-smart-pointers/listing-15-27/src/main.rs": "ed53514525e3be61275fd20d9b306c182d53613ff2987b268934600307834956",
+        "listings/ch15-smart-pointers/listing-15-28/src/main.rs": "b076e88dca6a017b1edfee520cc76373b923d725dcc868bcb2380014b8d7ab6a",
+        "listings/ch15-smart-pointers/listing-15-29/src/main.rs": "22e3abe6a9b130a77c3dca95113540d225cc685143b3c09ffe9c49f9a01d67ba"
+      },
+      "headings": 7,
+      "code_blocks": 10
+    },
+    "ch16-00-concurrency.md": {
+      "source_sha256": "eb1464b1d074e5e1900a0aa7528e62baf9bcbb27480b4bb8371b6928cee89e80",
+      "markdown_sha256": "0101c582d4410d0136c4ef46195c3fa382438dc1a667cbe5d754605e2aa89fb2",
+      "prose_sha256": "6d1d8e5a575ea02af86ce9fafe3a5c48a275bf2bf6b9aacf25328ff0e6b00c72",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch16-01-threads.md": {
+      "source_sha256": "d7110b50dbeebbbf1656d0b71a795b3b2a802e72ff47f8f655827e837d49aa23",
+      "markdown_sha256": "84d2e46991bce433f8d50c29479e36fd0c7f62e735758c8a096ab4e1ebe58fe7",
+      "prose_sha256": "f78d68e4a5611bef23dd6b2847c8621a764d2ba37ed10f849f76ca74241cd3ec",
+      "code_sha256": "d06a37ead18a36f12e7fb87e7da9199946a37cdda4bcd27a798c44033f681eba",
+      "dependencies": {
+        "listings/ch16-fearless-concurrency/listing-16-01/src/main.rs": "23d5a6e320103ac42371d9a73ea969c9e03c1b5a7efb48feec0a8db7f01cdac3",
+        "listings/ch16-fearless-concurrency/listing-16-02/src/main.rs": "31ed1e3701dc39349c454607f25877d3672215ac7ebb91753329105590752fc4",
+        "listings/ch16-fearless-concurrency/no-listing-01-join-too-early/src/main.rs": "749612a24b4b436134bed9f58e73ef9398b5cfa2285be09e82370d4f62500858",
+        "listings/ch16-fearless-concurrency/listing-16-03/src/main.rs": "e23593da7620913df0dbae84b38562a25a0825810b0377613acf0dd107bceb1a",
+        "listings/ch16-fearless-concurrency/listing-16-03/output.txt": "624d0185c67f75fa71720ba1892e130659a6a9124f6ddf9d0a2853ed1ee24bda",
+        "listings/ch16-fearless-concurrency/listing-16-04/src/main.rs": "8b64016b8ebcb3a4c86ed844a6d96f25e60b3a36768bd2c25889c8e73c91bec7",
+        "listings/ch16-fearless-concurrency/listing-16-05/src/main.rs": "5154fd7307d394629e7b7f7bf857b2e230948481fc07544dd0fb1394c6809c8a",
+        "listings/ch16-fearless-concurrency/output-only-01-move-drop/output.txt": "eb04c1a9adf39570b01fe2f88ae6bedac09f5936d90f5b21c3f7642fed9b210d"
+      },
+      "headings": 4,
+      "code_blocks": 12
+    },
+    "ch16-02-message-passing.md": {
+      "source_sha256": "8387bb4d0a9ec598a441cc4435c9df9f317c39d9902e145a94596ed38e097a2a",
+      "markdown_sha256": "883ed745d87151fa820cd337420a24f59cf8391d4ce87d2ee22af3bd278e05d1",
+      "prose_sha256": "6457a6be2810021c638f5dc430d3ac7f4a76242467dfbce646201f8689f24281",
+      "code_sha256": "d5c200939d6c852646d0be57883a2595491ba92d9eccdfcb5ac46d3c742281cc",
+      "dependencies": {
+        "listings/ch16-fearless-concurrency/listing-16-06/src/main.rs": "57a68460d7bc402d5382f9b783d03efdd26e8d4220332c0b7ad631079e2938b7",
+        "listings/ch16-fearless-concurrency/listing-16-07/src/main.rs": "2783f3ba3f0e511fe39af4a97c4df579f4b74cc0bc1f8593888f1cbe35046b88",
+        "listings/ch16-fearless-concurrency/listing-16-08/src/main.rs": "d2e16c8d49a499601b5f262a84cc4b1fe9f4a64b389cb4135a496696d0d4c46c",
+        "listings/ch16-fearless-concurrency/listing-16-09/src/main.rs": "fd2419d39a3ddcb20def8b349b307039d38b7a09e2af06b09883e67efde65a2e",
+        "listings/ch16-fearless-concurrency/listing-16-09/output.txt": "e585388d449b9ce25a609421bb84c74fabc51fb3157b28a28e1be1a7f8b97b31",
+        "listings/ch16-fearless-concurrency/listing-16-10/src/main.rs": "73d22c50261e621dbb8921f727286ac5876d1941d9f9a2d4515b10981d684346",
+        "listings/ch16-fearless-concurrency/listing-16-11/src/main.rs": "2f542bbed2e2da768efa624e86322c8ca1c5104fdafe349f4302b12e9f9e7e8a"
+      },
+      "headings": 4,
+      "code_blocks": 10
+    },
+    "ch16-03-shared-state.md": {
+      "source_sha256": "c77a18b0ecc7d31b6d31aa3acbb01cb745e8a8618f6c235eca7cb47616b07207",
+      "markdown_sha256": "9aa8adf23ccf6ceaf7586b9aac35c30769bd13ebfbb8950a185d9b136104f10b",
+      "prose_sha256": "6941d5f30bb2bba65316a2d52737207efc75617b26f3aa4bd2144bc59101e596",
+      "code_sha256": "8a8df56695e457f3d4f047335c9c3a1bf276d25fb184358d0dd38234a99fec9b",
+      "dependencies": {
+        "listings/ch16-fearless-concurrency/listing-16-12/src/main.rs": "eeaba4486f81028b1ea64a2c9a9e7372b987e1b438fe73e2c99ea63e466570bc",
+        "listings/ch16-fearless-concurrency/listing-16-13/src/main.rs": "b928bcfacdd8f0233989e96f7656be807955018de90c829459a1672acf35e90b",
+        "listings/ch16-fearless-concurrency/listing-16-13/output.txt": "29728315563edeb11186a9d8259d2aa9e8de8ff391ae59bcd8f7597d0f2d1acf",
+        "listings/ch16-fearless-concurrency/listing-16-14/src/main.rs": "398a0ec0c966619968b95cf2e93cebdb2f205d1101192dc4affe56084b21bfe6",
+        "listings/ch16-fearless-concurrency/listing-16-14/output.txt": "a52b9d37037633ae1500d0403dbeda14454a4b0452ef34b7ef3ad8459e490823",
+        "listings/ch16-fearless-concurrency/listing-16-15/src/main.rs": "23099c89b926567d87ec4d4a40d43ca6228727a23c65a079ee4e98145802ffdc"
+      },
+      "headings": 7,
+      "code_blocks": 7
+    },
+    "ch16-04-extensible-concurrency-sync-and-send.md": {
+      "source_sha256": "acf14a76d53885776ce37a983f3e8ad29dd4cc5371a9aaf1ed3ff6ff9f9b382d",
+      "markdown_sha256": "0f8675202aba9f931af209bb9a4cce659af4686719ba54e9c9904ac6fd8264f4",
+      "prose_sha256": "2b36c20190a66f60a24cc043227d3f45e4a4b873df10ac35fa7d00d37f774f9e",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 5,
+      "code_blocks": 0
+    },
+    "ch17-00-async-await.md": {
+      "source_sha256": "a131aaff96da361c80efb6380af3b4baa9f223e95b44f81fbce9dae6f72a2d9c",
+      "markdown_sha256": "f9cd7f4b2e03b4be88231c9dd2d6d0e10a4b770dc4f3033cf3e33a6e6a69550e",
+      "prose_sha256": "b8c9bd6b1583de4b816fbd293eba261feba4f1f516eda8953e2d1aa23c92cdec",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {
+        "src/img/trpl17-01.svg": "bc398c71c89d705d6a9b3097ed9985d57068f4c5dff309c89d094f4fbcc4115b",
+        "src/img/trpl17-02.svg": "22f511c8e20639c3cdc52f81984cc4d4d997b7280c2ba56471db6431bd9ecf88",
+        "src/img/trpl17-03.svg": "286e0f9fe7f9873df0b2ddfbc09ec6c49f203859bfb0d0ccf2c3c4f2d6174f56"
+      },
+      "headings": 2,
+      "code_blocks": 0
+    },
+    "ch17-01-futures-and-syntax.md": {
+      "source_sha256": "7266255f374aef8caeb0fbcc08d5d3ec6df71fb241b5deecc450678c750212b5",
+      "markdown_sha256": "dff0af8b0374b505748ded80c3f7656742a8d3a219a6e276ce69478e82f06633",
+      "prose_sha256": "401c282ab369ea646338d67506083064076f968c637815cdebcc4c5ae8f4857f",
+      "code_sha256": "3dd7304b5a36def746e0647d0f9f1631e0b9d3144cbb08661acdd0a4a3d7c6e1",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-01/src/main.rs": "cf50fd826ae48180f096a5271256000ed0daf75117c231f0525692e115acc1ad",
+        "listings/ch17-async-await/listing-17-02/src/main.rs": "41f592543686dc17ba221e56f26d00da9b90d7630d94bc7974ac61ebcb5af21b",
+        "listings/ch17-async-await/listing-17-03/src/main.rs": "1bc33ad969e71703dee421d02d49f3fd128caefdece11e52f6ba0e8620815fd1",
+        "listings/ch17-async-await/listing-17-04/src/main.rs": "8d9a871455f7b6bb1db55399df2b31f7fd62b3f4eb72d4f907eada1cc4991a95",
+        "listings/ch17-async-await/no-listing-state-machine/src/lib.rs": "52f1f023878e5a842d90b5eabaf260fef40a738fa85c5117f70eefd2ad6f2d27",
+        "listings/ch17-async-await/listing-17-05/src/main.rs": "70f00fe4c5ada770d38a7fc3e426e45ad159c74ec18eb629f5821e34b69327b9"
+      },
+      "headings": 5,
+      "code_blocks": 11
+    },
+    "ch17-02-concurrency-with-async.md": {
+      "source_sha256": "2e7d934d9c7430e4bd65fdd986fa5ae03dde3b6f792b545136b6ac8258894991",
+      "markdown_sha256": "c839d2eb1a7051a3719a948f4aa972577bd6e3def82e08c6d903931dcb29cad5",
+      "prose_sha256": "bef3f9a24b9776cdfce50e98466dd117cec1446901efe01d492af1d8840c14d4",
+      "code_sha256": "8df015863f5ec485eb2faa416acd8aaf0ca14a8642a6b9cf140bfd5cf6679fcd",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-06/src/main.rs": "05c57005dfcb99852c6a93cf947e1131d4eefde81445836930409948d0740be5",
+        "listings/ch17-async-await/listing-17-07/src/main.rs": "b45e14a096433a90956ed3e209408488c3470ff09f036ea9cab9b12958d046cb",
+        "listings/ch17-async-await/listing-17-08/src/main.rs": "9769cdf0062effc31211a9aad618ee75390d8641b97312ced8394fc6dfff9fe7",
+        "listings/ch17-async-await/listing-17-09/src/main.rs": "18914d64cc8c06f0af8cec23f98950830498934fc4d7b6d85180016e872a77b3",
+        "listings/ch17-async-await/listing-17-10/src/main.rs": "d4bd1115702f253bbef5483ec049a3329e0288bc30215bcffd282a1ddb98d24b",
+        "listings/ch17-async-await/listing-17-11/src/main.rs": "b2596882c19f3ad93ffc0d68ffd12db525b076009875c54ba85a8ce27fe9e445",
+        "listings/ch17-async-await/listing-17-12/src/main.rs": "ab74c5ded19425f74123fbcdb7d272fffaf494bcf701f0b75e7a304b807d07c4",
+        "listings/ch17-async-await/listing-17-13/src/main.rs": "1af7bd59c2dfca24b9e01a87e9233a1eb4040abf87a4d8f731a464077cc350cf"
+      },
+      "headings": 6,
+      "code_blocks": 12
+    },
+    "ch17-03-more-futures.md": {
+      "source_sha256": "9edd3529eed56b27ebb63b3ae16a01e6a6018abd6d4c75bce7256f64b14fd3f2",
+      "markdown_sha256": "f9ab52571b5926c51076018f6b0657f75e6b14d40afac769bf79f883ec12ec4d",
+      "prose_sha256": "165b7fb91d985570236c78042c3b9360d301d8cf06b3ee7947a1d08fdb527573",
+      "code_sha256": "191e4379fae620ad621d43953ed12c183b3af3892a059ac2854657e01a8c40ad",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-14/src/main.rs": "846be80a70be93d9d5b4316721b3e2d52c743e44ebf4e7c308c01887e994ae12",
+        "listings/ch17-async-await/listing-17-15/src/main.rs": "125cf3629bd84a5ed2219b7a00a28bef342b8750c7ba73c9963c731410779f31",
+        "listings/ch17-async-await/listing-17-16/src/main.rs": "0a3ce20bcf54b59d1a8448a5cea255cb6e83be4936eca368279fa11df189ed66",
+        "listings/ch17-async-await/listing-17-17/src/main.rs": "442a962d11ba95dbf5ca54b5f08668f9033331f465d58d17e4e935b18ca016b4",
+        "listings/ch17-async-await/listing-17-18/src/main.rs": "cc4f1656e9060c38c1d975e0df1b0bf297f7601c6c088d9909ecbe9a723a7c09",
+        "listings/ch17-async-await/listing-17-19/src/main.rs": "929a79244d37f66c7426ce790c058a9ec70658fa09cf7e38d46d28e45721363e",
+        "listings/ch17-async-await/listing-17-20/src/main.rs": "2f24c36376c3654bf3b3364e26cf3ca31fd129843d625730cf3a28decc1f90c3"
+      },
+      "headings": 2,
+      "code_blocks": 10
+    },
+    "ch17-04-streams.md": {
+      "source_sha256": "1b7b3c11dd1ff7b91033a43c383049c5fbdbbff88a187cfc7c592487732081c2",
+      "markdown_sha256": "b494f9019a1e9a79992db4c056377995227764d2822bb8cd0f86d51ce4a08655",
+      "prose_sha256": "b878dbcaddc98be1d088b96ba01c8c882e9b8dc8d014ac15259576ce93ed182f",
+      "code_sha256": "63847f618bf5fc1628d6f993127f58bb3fe5ee751bb1b75d79e1715940f4063b",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-21/src/main.rs": "0968c650d32ab9d9b169f7b0b132124a8a5886772838844b6be72547d2ddfcaf",
+        "listings/ch17-async-await/listing-17-22/src/main.rs": "793d927f1450d76b6a8ab7893c54c5f002742c92b49392c986d24bf23e012776"
+      },
+      "headings": 1,
+      "code_blocks": 3
+    },
+    "ch17-05-traits-for-async.md": {
+      "source_sha256": "dbae1b0a0689a6f37460f0c0751cdf47e7930166fbc8afde413e35719b5d5e70",
+      "markdown_sha256": "be42c58afa827ff8212031e08903faa4a1730116331d86b72d3d73b2ebe80ec8",
+      "prose_sha256": "182e2947491e38c8f2bef5148000f5139ec82c9413f4ee7500eae17739b41186",
+      "code_sha256": "bd8e8b9f0cf73c737d68b8f658907892d168c326dea3f8303a1d062e6ffee768",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-23/src/main.rs": "b6750f094ccd3003c56d5b502cff90096f026fc9bfb295bbced5e55251dbc169",
+        "src/img/trpl17-04.svg": "7da012b1be16513957733a276b675065319099164fbaa8cfbda5ec27a920e465",
+        "src/img/trpl17-05.svg": "9d20b5d0aa8747126dfa005215caf88800f39dbf1d06542bb35987da51816e20",
+        "src/img/trpl17-06.svg": "b62908d098d094a27ab9f1a63c89415206ad72b66a2dabbc5f01f73b8e8cb99c",
+        "src/img/trpl17-07.svg": "1490943621afca41abba7ccdcd4a2eed4fe7a910f314361e44a85f5e25503b63",
+        "src/img/trpl17-08.svg": "2f8fc1250fe7c335f2ad176ed9d0bf840b909d06def9b2578c245c7b1738addf",
+        "src/img/trpl17-09.svg": "31b246b6c5c25869fbb3c3913d720bdc975302db03835c719bdaed53b3ee2dc4",
+        "listings/ch17-async-await/listing-17-24/src/main.rs": "a9097b3c31c1c7e715c53d57c65e73ec4ebf84890a4a0dd2a0acce202c4db4d8",
+        "listings/ch17-async-await/no-listing-stream-ext/src/lib.rs": "17753e4c822c7a3e8ee6de837c08ef30ea7e608fdf9a57bcbe541ebc9b9a2c93"
+      },
+      "headings": 4,
+      "code_blocks": 11
+    },
+    "ch17-06-futures-tasks-threads.md": {
+      "source_sha256": "f3cffdabeef8edf045d0f278eb725f1df057717089a7f951afff580b994c7731",
+      "markdown_sha256": "1d6018f020d01dc2f9d460765e995e587025029ef66c41a64b98dd61926b74cd",
+      "prose_sha256": "47e565bbba6157959234a89d56638e04ce7458bd635ccdbfef785c13adc1ccb6",
+      "code_sha256": "7b9f342195bbb62bd196b7e2e25381f804de3c918f261a2d80fa25bed5350e0f",
+      "dependencies": {
+        "listings/ch17-async-await/listing-17-25/src/main.rs": "b1f89bfee4d989bba61046c841ef2628848fe53964469261965f39deab4a39f5"
+      },
+      "headings": 2,
+      "code_blocks": 1
+    },
+    "ch18-00-oop.md": {
+      "source_sha256": "0019fdbff19e4ebcd2eeb7570143c956d219b988548718dda5b7e3158415e05a",
+      "markdown_sha256": "422a0ab9c4e755eb30c3b057632d51cd76ee3b4983239bc215ae65e9a2d850c7",
+      "prose_sha256": "023f4f60903303697e0ca7c3a7913aa9d7c76f6ffd19468cb7550b71f1a05e34",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch18-01-what-is-oo.md": {
+      "source_sha256": "c39d10d366c67257cacfd73a7ac79a6d14b02ed95e44bd8a2c8fd0665fdccd14",
+      "markdown_sha256": "09efdf84fb2fd7197a221e8bdd8df24fb7b0a25468b2c84a01a9d71e537f6526",
+      "prose_sha256": "964ac1c2591a3bf122909dade365d7ded0682ad19a1594e6664f4ae9769906e6",
+      "code_sha256": "e0952957fd47dcea4edb344920553d39fd3c7968805dca52136fd00dd0c3725f",
+      "dependencies": {
+        "listings/ch18-oop/listing-18-01/src/lib.rs": "a80c9565083e13c6531c87bbe4d4b411a90f72840552c9e6bb680a1ec3a4150b",
+        "listings/ch18-oop/listing-18-02/src/lib.rs": "53960a75cf52b09d38528cfd6afd61fa2c4091e29060ebd6a235fcaf18d218a0"
+      },
+      "headings": 5,
+      "code_blocks": 2
+    },
+    "ch18-02-trait-objects.md": {
+      "source_sha256": "527b31509970fe6187b5cbc6be2607c5581a559f5e9a099e09683a7cbf777934",
+      "markdown_sha256": "be159095c388554e8bdd41791f73f86cb4ecad440ee78f6226bbf556bff865ba",
+      "prose_sha256": "c5e93de762d1d3f35d76c590ef72cabaa3fd65a9673b53090a222eb58bb0ce07",
+      "code_sha256": "3601c49fe63114edbf3feba0ec659933f07ebb1f3a35f641b710d60231b2aef5",
+      "dependencies": {
+        "listings/ch18-oop/listing-18-03/src/lib.rs": "3bf64245bd7e616685025ee1cda3eef91b0b7ace01fc1729a30d90ca868b4028",
+        "listings/ch18-oop/listing-18-04/src/lib.rs": "142e53b78bd2d1ddffc4dffc5d4731db4dd95095a779a48c272dbcc9e5341820",
+        "listings/ch18-oop/listing-18-05/src/lib.rs": "4973e934b7e2e58c0f9c03eda33d803aff2eb1c6f06a631b9203a475a8bffcf1",
+        "listings/ch18-oop/listing-18-06/src/lib.rs": "e0de20f686e0eccdf64187b0c0e54ca0902d1c14480bc644738941427e76b6ef",
+        "listings/ch18-oop/listing-18-07/src/lib.rs": "27c40c72e28fc2743a6d0584c236b90e6429f030949864981f58e84dcfc21158",
+        "listings/ch18-oop/listing-18-08/src/main.rs": "66e7a35cb59fee5292d1bd16c654df0b856c731a205ed597e8d0c825047c1438",
+        "listings/ch18-oop/listing-18-09/src/main.rs": "34bf43a3d8f4efcd3c31b6e6d389c649a81f9b7d55cca5a907ffc45e26a85041",
+        "listings/ch18-oop/listing-18-10/src/main.rs": "36fc1dd20c0a81e77319d6c779b73a982ade0399284c5f722f6709e9c6a2fec3",
+        "listings/ch18-oop/listing-18-10/output.txt": "5a96d6402d712c829214b724b60c59530dd3dee2aeb44972cfb1c65da3322603"
+      },
+      "headings": 4,
+      "code_blocks": 9
+    },
+    "ch18-03-oo-design-patterns.md": {
+      "source_sha256": "b54d2a7973c6d4e7f25852b785f9936d9677a3bd2619763f03792026b8a209d9",
+      "markdown_sha256": "2f87e2bda9a748c973642b0c7f9ded2ac0467059a708aecabe7bd11e08eb305a",
+      "prose_sha256": "f85958efc4bcb5e6291ed4b37d497e0c2554d9358f42cfdfd9a1027c31e5bd54",
+      "code_sha256": "4ebf8379d1ba3ea51fdc5a37e2341611e52c8d0071cff77e92763a920cd9bdab",
+      "dependencies": {
+        "listings/ch18-oop/listing-18-11/src/main.rs": "9f58fd4539b546ca482b59d9da6bfb411ceb651c29e7b815a33d7e428dc2bcfd",
+        "listings/ch18-oop/listing-18-12/src/lib.rs": "f33dff82abea504a077579785daab57a2841997c680265ebc62b42bfe83fc6e5",
+        "listings/ch18-oop/listing-18-13/src/lib.rs": "097554acfaa24ca3b363ddc66c6d034bb288d3729a4e51b9325dcf9e6b8b7b2e",
+        "listings/ch18-oop/listing-18-14/src/lib.rs": "38df601de603af97365ea9265e34910bb8341901dd04d4de8366fbc5d7ac5017",
+        "listings/ch18-oop/listing-18-15/src/lib.rs": "b008044cd8de31f951e106bf4a2f14a91a92d3b67a86ecca24f8597af42762f1",
+        "listings/ch18-oop/listing-18-16/src/lib.rs": "5715082a510933179b5fc51a9460b71bf624e7ae18ec3a39294fdf32433960ef",
+        "listings/ch18-oop/listing-18-17/src/lib.rs": "e310ca9de31ff03acd7570269d32ecc9f07952f8aefaa4838e7b4bebecad2644",
+        "listings/ch18-oop/listing-18-18/src/lib.rs": "f30d082cab8870b17dec92e4e61f3c461a46421015cab0ed7585a3347a50e3f7",
+        "listings/ch18-oop/listing-18-19/src/lib.rs": "2560070e0b82fbd2116f3aa370a2634e0177054a18e00b84aec40b6c726fbf78",
+        "listings/ch18-oop/listing-18-20/src/lib.rs": "b7e85d3522b60632c15fe505a053fdef7b062b354da28cf7660f4d4f45bc5787",
+        "listings/ch18-oop/listing-18-21/src/main.rs": "bddad66c88e3e5bfa04dd076611f54e8bc7f2aa576cc6158080ba598f4d72ed1"
+      },
+      "headings": 11,
+      "code_blocks": 12
+    },
+    "ch19-00-patterns.md": {
+      "source_sha256": "1e64b5b1eb842852c70817cca48ad6662e2597d43591a3b6f40ee04c573ee016",
+      "markdown_sha256": "6fcb23c2cc53ff1a4ea10ae3ba914a75678fa6b3cfc56645b22b1893b4fabb6d",
+      "prose_sha256": "f35355cf98e45028bf7a52d345ba1dfbdab5cd903ee3052407f3659c6998b478",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch19-01-all-the-places-for-patterns.md": {
+      "source_sha256": "d5f6633f0f0260d3cf52a0b9b7d2765dc96d2ff962bceffe978fb07a4e14cab2",
+      "markdown_sha256": "6d7fcf955b94ce6424d13e912688b6ba4536fb9c2cb7c5d08b8384f44d090921",
+      "prose_sha256": "cbd92d3ec35f0e0bc53a63e300d17774eeff5016d1536b9af02f8cfbc853d9cf",
+      "code_sha256": "077d887cae21c0ec4a0e5d27e40decc01ceef1528e163736f1311e2488234723",
+      "dependencies": {
+        "listings/ch19-patterns-and-matching/listing-19-01/src/main.rs": "6f06b1807aeddd46c29e1e13d22ae57fc84b2c3c2d9f2ed3662113c6f31aa18f",
+        "listings/ch19-patterns-and-matching/listing-19-02/src/main.rs": "acc0850c394257621f305cce96287e2b132ba547be62e6774070ca69f086467f",
+        "listings/ch19-patterns-and-matching/listing-19-02/output.txt": "79eedc69690dc64c7df56be25105d85e827599d46128dcac487d7d109406c4ab",
+        "listings/ch19-patterns-and-matching/listing-19-03/src/main.rs": "b51739ad5aea7257aada1522d39df548e714a36c5b234fe1e4f6656474e220be",
+        "listings/ch19-patterns-and-matching/listing-19-04/src/main.rs": "eeb36efe06beb3c460893b075fefd4259f2de44bb08f60a3cc373eb4da16edd2",
+        "listings/ch19-patterns-and-matching/listing-19-05/src/main.rs": "ca754475b2d1a34b4d436c40f837027c1f0aec207edd2e6c7bbff3bea170c89f",
+        "listings/ch19-patterns-and-matching/listing-19-05/output.txt": "28885ddace3f963154eaf48a8bca3210787257ecddff2d3e566f3b5e77b5a4ec",
+        "listings/ch19-patterns-and-matching/listing-19-06/src/main.rs": "f4b6aa8e1c6570c95eb8b6bad7508dcd79a624c765a9e27176c7adbd732454ff",
+        "listings/ch19-patterns-and-matching/listing-19-07/src/main.rs": "84155d5bb0204825ebf6746241da3abd176c2ff0845902f97a7d4743327a2c96"
+      },
+      "headings": 7,
+      "code_blocks": 11
+    },
+    "ch19-02-refutability.md": {
+      "source_sha256": "32190daedd513ec059edd3a8128b6bcdd02eb34121c0e6f37513cd944282f973",
+      "markdown_sha256": "815644eaa08948e0adb23fe62c64d1359cd1f6eddbb923af294f7028f5b9e5e2",
+      "prose_sha256": "93e42f82f882843b6f66dc0a2bab213c357e087da78c7d9601ea95604a0b4f9b",
+      "code_sha256": "d30f79818ce12e63697f2986bb3015072b6c60ce8ac2193a8d1cb7d578345d14",
+      "dependencies": {
+        "listings/ch19-patterns-and-matching/listing-19-08/src/main.rs": "e0712ee2141d6dee82e5b5d1838bc3d59867dbe717f57a8fd6cc8081a87ef516",
+        "listings/ch19-patterns-and-matching/listing-19-08/output.txt": "0c08ebec78d6ba0514be4e36d1ed4bbab533dc4323793c9e2c1d5e2a77e1e1e5",
+        "listings/ch19-patterns-and-matching/listing-19-09/src/main.rs": "2b0aaa3c1e13357bc29ee4e83be69e56cdd421da20da6f31e5f8f6cd8533c336",
+        "listings/ch19-patterns-and-matching/listing-19-10/src/main.rs": "0effb77efa91df0c3b29ae08e6f0573b738254dae95f2a2ba998947acc14bfe9",
+        "listings/ch19-patterns-and-matching/listing-19-10/output.txt": "95ac2492910a81f5f6a3aae62a25bca857263b3234ac2baa528bf589eb0e21d1"
+      },
+      "headings": 1,
+      "code_blocks": 5
+    },
+    "ch19-03-pattern-syntax.md": {
+      "source_sha256": "1988beac7b6d2e1ddaa5bcf6c03bb018df1bb3c023346a27764d5c5938a63758",
+      "markdown_sha256": "cc8b098538391d5e5f28e66c126209262e9aaf55d12f99056950be043d748679",
+      "prose_sha256": "a77478f787eea6dd450fe2d8a3a76bc89c81d515d59e38089f339a014f63ff59",
+      "code_sha256": "1cc6189e8a9e8c923e9a905be0e3a05ce9cc76cbd963d055b788b3d386a2b793",
+      "dependencies": {
+        "listings/ch19-patterns-and-matching/no-listing-01-literals/src/main.rs": "50754fee29d30a8801b8e455c58fee825a400e3cfe370a3dc68e130a64cac0a4",
+        "listings/ch19-patterns-and-matching/listing-19-11/src/main.rs": "75e0e2890c257690b688659213719a1ba6df92aacab69928152b685870e351be",
+        "listings/ch19-patterns-and-matching/no-listing-02-multiple-patterns/src/main.rs": "a18f7ee4308934d0af2f8debff1f1703811b00c64f0109e8e251af72edf6e1ba",
+        "listings/ch19-patterns-and-matching/no-listing-03-ranges/src/main.rs": "ea2a934be76c6b7e0da87cca65fe9a67f8153c2489a5d15840cc86c82cb5b1f3",
+        "listings/ch19-patterns-and-matching/no-listing-04-ranges-of-char/src/main.rs": "41a7ccf2d87c867ecb3357ea1dd726e0798862b7cc96d2950e8612b4bf5239da",
+        "listings/ch19-patterns-and-matching/listing-19-12/src/main.rs": "110685554ac24912bafbf8dca90b60fd6864bdcb1335291f5031465db892c17f",
+        "listings/ch19-patterns-and-matching/listing-19-13/src/main.rs": "fe6c05e4ba0b6f5758d6bba3f95f6ea6586c8f2bff6e994030cb63051a97d655",
+        "listings/ch19-patterns-and-matching/listing-19-14/src/main.rs": "e4604cef5ec20c5fa106b0d1b87aae449833977ec05b44e1084cd2382d53be03",
+        "listings/ch19-patterns-and-matching/listing-19-15/src/main.rs": "8555eefbfbfdc2e0178fb7e8345d8a9976d920b95c436c51a538feb5718ab3f2",
+        "listings/ch19-patterns-and-matching/listing-19-16/src/main.rs": "fd92c5113deb5f7f00c71a7d4956607517817d3f84233690ed387dd73707f0ee",
+        "listings/ch19-patterns-and-matching/no-listing-05-destructuring-structs-and-tuples/src/main.rs": "0885d764f751baddf1c610cb972d777c4694342965e9d9102c58556d629b10e5",
+        "listings/ch19-patterns-and-matching/listing-19-17/src/main.rs": "231832483caf1647d59d823ad29becda41924904de916720352d6b84f024d252",
+        "listings/ch19-patterns-and-matching/listing-19-18/src/main.rs": "f8d28609e577eb96440b4886608ad29244cc4a8ae6596dc18f5850de3c297c8f",
+        "listings/ch19-patterns-and-matching/listing-19-19/src/main.rs": "9403a9513cf943744aa221bf9b6dd56759fe7bb4a86adf92d70980829ad73d43",
+        "listings/ch19-patterns-and-matching/listing-19-20/src/main.rs": "0b9bb018e373f7f33559617bd45614928c3faf196cea121efc1a4038e8f65b95",
+        "listings/ch19-patterns-and-matching/listing-19-21/src/main.rs": "b16297b1cac4865ca255e784c4926cafaf59d93a447aeb700904a0a425f7d3c9",
+        "listings/ch19-patterns-and-matching/listing-19-22/src/main.rs": "60472b07f64908f760fbf1bdcfd0f992604490b265b72c00a4b77dc603908028",
+        "listings/ch19-patterns-and-matching/listing-19-23/src/main.rs": "5a5c079f543f0d6fd90d9a6e0ffc1c977731b8764e794a9b6ba4fa41f66ff9c6",
+        "listings/ch19-patterns-and-matching/listing-19-24/src/main.rs": "a77cd858be13faf3234b2d54aff818f9c9ec85775a63bd5aa73a869424df338f",
+        "listings/ch19-patterns-and-matching/listing-19-25/src/main.rs": "fbe8a0fe4709242774edec6d8aa6e287ce3bd13f6e827cfb89bd630121e9fefc",
+        "listings/ch19-patterns-and-matching/listing-19-25/output.txt": "163387181dc8bd55ecc2c1ed07c7c75d9715a50de472bfa9375206c72dbc1474",
+        "listings/ch19-patterns-and-matching/listing-19-26/src/main.rs": "4428b518d7df6d485515ba0288a852f27e9a495305b90c8ee541ef69567b97bf",
+        "listings/ch19-patterns-and-matching/listing-19-27/src/main.rs": "bd3f65b51087d512dc7658e4dee213e5f97f6a3752e9c72c63220f522bfd6b6d",
+        "listings/ch19-patterns-and-matching/listing-19-28/src/main.rs": "91cdcf74959fc6be3d3052f0b1d0af5070b6eab53143ca6bc6b16b732a63dba9",
+        "listings/ch19-patterns-and-matching/listing-19-29/src/main.rs": "d97e60c856a3cdf7f9b152fbb1c184970bac625ac104950bc1932edaf7007c56"
+      },
+      "headings": 18,
+      "code_blocks": 27
+    },
+    "ch20-00-advanced-features.md": {
+      "source_sha256": "d7aed2d2ede0adbc884f16f22d2404cb359fce0d12388ecaf02d0786d34db940",
+      "markdown_sha256": "dc250ffa5f82d92ee01e7a6bf46ac6fb7b1f71f0ae368bbb5fe88d71b1f6e5e5",
+      "prose_sha256": "9d745ebbeeebb00641e015b3bd69a16e1ec454627dad062de3e8e0eb7fbd0947",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch20-01-unsafe-rust.md": {
+      "source_sha256": "9c687bea915840180323f98a7c3c72c96d78f27285563f02b518975308ab39d0",
+      "markdown_sha256": "5d91b909eec72d9a9438ed2f9d6db65cfa1243e607109d4f152e0be8e2295d7b",
+      "prose_sha256": "ed01f306cea36c71d9a551b3ba0354b8bc3211d955dd5ea7b526bbd468028981",
+      "code_sha256": "08c076ca6725c7c18370913a7eca138abca4353fe3cb2d4e90ae86295e9ccdeb",
+      "dependencies": {
+        "listings/ch20-advanced-features/listing-20-01/src/main.rs": "62c6e2dff39948e4e569b46cc2295d92ebbee2c50f8d5e2353f316c069c252e3",
+        "listings/ch20-advanced-features/listing-20-02/src/main.rs": "83dcb5288cd00ec5b47d7e8812b84507871a2478a6b311b73f6be9fa69cefd77",
+        "listings/ch20-advanced-features/listing-20-03/src/main.rs": "ca04ce8aee956a04a62f1158b3b4e86c0904f45146d79300084724a2c0d0b077",
+        "listings/ch20-advanced-features/no-listing-01-unsafe-fn/src/main.rs": "b2a3ddf7945897452e8ec2762443a912a873873aaaaeb9ffa166d268bac64569",
+        "listings/ch20-advanced-features/output-only-01-missing-unsafe/output.txt": "0947bc905690183bde6c1409957abcadc21ce9a552944a3d6c0832f349363e11",
+        "listings/ch20-advanced-features/listing-20-04/src/main.rs": "0d26c2055bac4f8905c49241df3dacfa91625bdf071e06bd2ad3c61afd63d835",
+        "listings/ch20-advanced-features/listing-20-05/src/main.rs": "be272994b504ce6568abda5805ac48c95f94a3e592effdf19c24d2e562c3451e",
+        "listings/ch20-advanced-features/listing-20-05/output.txt": "047cca68b84c9944513f28a19b4220d18e6ba57fba58cd5595d6a649fc214296",
+        "listings/ch20-advanced-features/listing-20-06/src/main.rs": "4cb5ce3bd4336c1f98a01e345cc23dd1bbd1d95d585001652311d1f52773e599",
+        "listings/ch20-advanced-features/listing-20-07/src/main.rs": "52d5e9b78f2a3d90e3951cf4b906719b64c5f89c94b066de648826c665a4bfbc",
+        "listings/ch20-advanced-features/listing-20-08/src/main.rs": "b4eccf40ea3e83120aca858a89e71c97cac7e0c2bf68aa9e528f319cab72c611",
+        "listings/ch20-advanced-features/listing-20-09/src/main.rs": "67fb126b248a972e2d32e20716d139ac4c7f092a4d879af970f6d746795519d4",
+        "listings/ch20-advanced-features/listing-20-10/src/main.rs": "4c1e39c84e71baefd5e28912a66b5d64c5f95d8de9932e42f0b064ec340e9fa2",
+        "listings/ch20-advanced-features/listing-20-11/src/main.rs": "b7e1819bebd437879c5bdb1243a3a14d86b7ed62307477fb080ec7463e09cef3",
+        "listings/ch20-advanced-features/listing-20-12/src/main.rs": "42cd9acc97457e622966c0758ec2dd32adbce0bc42af0ab8b6f7c4f3423fcbf1",
+        "listings/ch20-advanced-features/listing-20-07/output.txt": "900d3e0154a60aeb78f5d8ba67c53b1f9c7e562a618f73dbb5eefb347c11b979"
+      },
+      "headings": 12,
+      "code_blocks": 17
+    },
+    "ch20-02-advanced-traits.md": {
+      "source_sha256": "1c97c0dd3c0ae4419bb0c87ab353dd33473da628c865a4f343c93c8cabb45f1f",
+      "markdown_sha256": "f544ee583a8c59cfaad510536590be8723547c299c39b44a7bad22b7eb1acdea",
+      "prose_sha256": "d8ad9bfbd02eb030396da6bb4620fc7b1cb780e8288f47d47a5854a5ef6b591f",
+      "code_sha256": "e4b0f4ba22cb3fe81dad867c73e3a8ac9c85f0865f3f170c9b4e5db72088b480",
+      "dependencies": {
+        "listings/ch20-advanced-features/listing-20-13/src/lib.rs": "c200c2527a13b1534f7ada77fab69233cc4317a99626f489e773446ac3bd40c5",
+        "listings/ch20-advanced-features/no-listing-22-iterator-on-counter/src/lib.rs": "de59bc1cde84134fbcbec87ca1c54ef4c813971762204ee516e496c2a3594eba",
+        "listings/ch20-advanced-features/listing-20-14/src/lib.rs": "683243361e3e6f5ce3a2896d2d802e1787e4e30496b21b9acfb73896ed4bea8d",
+        "listings/ch20-advanced-features/listing-20-15/src/main.rs": "91c2f9baac701f5e07168bc55ff13dcb7607dd4f7934cd65e65086eec3ff1778",
+        "listings/ch20-advanced-features/listing-20-16/src/lib.rs": "42cf23397e82922b4cf8bc788957790388c1a6b19c6c6d6cf78c6437edd6fdb1",
+        "listings/ch20-advanced-features/listing-20-17/src/main.rs": "358a550d3bcb42dfb25e5444c3ad0ea22a6b7921d3bfe537ef375c8bcca03e92",
+        "listings/ch20-advanced-features/listing-20-18/src/main.rs": "975e1ef4746092ae34e6c4a67fc787e7561384747dacd0149a362bb83fc60fad",
+        "listings/ch20-advanced-features/listing-20-19/src/main.rs": "76b5c5be5eeba1b60fb3f019a0b192909d6b6adf31271a96f450727e02ecb5f7",
+        "listings/ch20-advanced-features/listing-20-19/output.txt": "158274e44b03853606e79371e8824193f175ed72271f76fe2131097182c5f909",
+        "listings/ch20-advanced-features/listing-20-20/src/main.rs": "23b59c437a568d4f1d005f3e26259755da31c5a91471788032eb1b46a4010161",
+        "listings/ch20-advanced-features/listing-20-20/output.txt": "fa40c59e9ed46b0c685fac7357cf38ea941846184d56ca450db59fbf842eb245",
+        "listings/ch20-advanced-features/listing-20-21/src/main.rs": "b987f0471f8b4abf4f934458e9838b79fda3ecfd0cece333a4535a1858c21fb3",
+        "listings/ch20-advanced-features/listing-20-21/output.txt": "86c340688cc2b3cc1665cd60e880ff881128b257e5aec1f314a44a408f9847c6",
+        "listings/ch20-advanced-features/listing-20-22/src/main.rs": "608f56a6cc532cf3e3de18a9fbe9deabd92c0c1f663d695814d27729790929e3",
+        "listings/ch20-advanced-features/listing-20-22/output.txt": "8b11060dea7a1fb4eb5f2c7e401fdb05da747364f431a3a442522f71a2e2b550",
+        "listings/ch20-advanced-features/listing-20-23/src/main.rs": "f80225a51397f169e8d937477eb2011cab1caff9493b3bc0ef9f95629454e9d2",
+        "listings/ch20-advanced-features/no-listing-02-impl-outlineprint-for-point/src/main.rs": "7e57917cdfcf7b6bd8837692d491e14a0ffcac632d5c90eddb62f1732f12f808",
+        "listings/ch20-advanced-features/no-listing-02-impl-outlineprint-for-point/output.txt": "7b7841c107a8e5ae352ca105ffa20e52e2c5806992cb9b962f4bd643489c0db4",
+        "listings/ch20-advanced-features/no-listing-03-impl-display-for-point/src/main.rs": "813b3b56c57331da3b3560e6dfc0f361fe2182267613b3cf41e558462ed12639",
+        "listings/ch20-advanced-features/listing-20-24/src/main.rs": "e14db49ac7ed7639c8b3f903411d417502f288ad23ca9b9e7f61a423dc04db0d"
+      },
+      "headings": 6,
+      "code_blocks": 23
+    },
+    "ch20-03-advanced-types.md": {
+      "source_sha256": "6db0398e45aa760f131312e8d499ea04efb499065c1f13c58fe3fcb1af561e59",
+      "markdown_sha256": "640f8f52f31cf573a6a1f64dbbdebfe7f36f54a3f42a8cf22c42e7658e75960e",
+      "prose_sha256": "af8dd83d7385968d5751e7f80cecb23b97f939d42dd3dc05dee6fdc010f1146d",
+      "code_sha256": "51a890c85298749f086022b144149cbf87a17fe08cdd3f10dc6791d5dff47e4b",
+      "dependencies": {
+        "listings/ch20-advanced-features/no-listing-04-kilometers-alias/src/main.rs": "00aff7e899c6d64e8a580f857c4cabd25cbd282dc50a723d3b2eb5cf185182ef",
+        "listings/ch20-advanced-features/listing-20-25/src/main.rs": "36191df43dff2b78d6f1e50e50ff3b53bbf6e5cfd257c9bbd03a164754978e6d",
+        "listings/ch20-advanced-features/listing-20-26/src/main.rs": "db5846f75834d7dcc6f38e90b5a073cbb99f70395881597d6346ac4339430632",
+        "listings/ch20-advanced-features/no-listing-05-write-trait/src/lib.rs": "ef94a9c1856774fc1b41dc07ff29205347ffe822b82ec21401c1bab2fe596eb9",
+        "listings/ch20-advanced-features/no-listing-06-result-alias/src/lib.rs": "de8c1ddb43a15420fd4d51ad33dcc19d3bc538bbcbdd2c356bfed6d224016a7c",
+        "listings/ch20-advanced-features/no-listing-07-never-type/src/lib.rs": "a5b66aa801080a74704f1dadcbc6d4a38a26aa7e0ab5b90f3e987c1a28389e54",
+        "listings/ch02-guessing-game-tutorial/listing-02-05/src/main.rs": "a52d7f472dcabf50b6c245823f7b0bf5d15d3d9e0330bcdaf064e832632be644",
+        "listings/ch20-advanced-features/no-listing-08-match-arms-different-types/src/main.rs": "d7107f920f174650901fbd8d4fa121b2d7035e4eb490861427479da0e3c36c02",
+        "listings/ch20-advanced-features/no-listing-09-unwrap-definition/src/lib.rs": "d6513b0fe161a6d07581086807f4502fcd9159f9adbe11fc3003aa01d2d33eb9",
+        "listings/ch20-advanced-features/no-listing-10-loop-returns-never/src/main.rs": "6075a7157d13001e0cf106741b2357035901478670401b8155bd9a25e0667de4",
+        "listings/ch20-advanced-features/no-listing-11-cant-create-str/src/main.rs": "78d13f94bcfd8787c402189fbed53eb0e7aac991b3abd3dba8403b69257fd827",
+        "listings/ch20-advanced-features/no-listing-12-generic-fn-definition/src/lib.rs": "ec84c60848f832c8ebf5f1f570aa3c750a6870081f1c645f5c032e23ed0e752f",
+        "listings/ch20-advanced-features/no-listing-13-generic-implicit-sized-bound/src/lib.rs": "8a83944c9f63002f57b1a3727c777f57648dbb5f0f4efb50b49ec5c1c509f7a3",
+        "listings/ch20-advanced-features/no-listing-14-generic-maybe-sized/src/lib.rs": "b8dda8c761a9ac4253444525455b0e7905907be27c1cdcfa5691c393001f0514"
+      },
+      "headings": 5,
+      "code_blocks": 17
+    },
+    "ch20-04-advanced-functions-and-closures.md": {
+      "source_sha256": "ec76510392bdfe9690244f1dc0fc5ef7a3cea3f1ddd6052e3c813c800637aec8",
+      "markdown_sha256": "cfbbca957a9a1657c75e2d61a511643b06ffffbbb57da101ab2da6eccca97bf4",
+      "prose_sha256": "3afb452de0ced5e27aa71590e5ebfb57af935a7aa8ef712a0a1b2a881478f613",
+      "code_sha256": "00060c2ea9de6402692a056567a5f600226187be65643ca4ab55384e5c38d79c",
+      "dependencies": {
+        "listings/ch20-advanced-features/listing-20-28/src/main.rs": "9c4709cbad6191e23ed19a369c31abd8029ff0a6e4ca4f4f8444905f4a8c1f5b",
+        "listings/ch20-advanced-features/listing-20-29/src/main.rs": "5287201e6ea6f14f449f3bf35476a19fdb1adeb7cc1dc0e9cadede40cba66a5f",
+        "listings/ch20-advanced-features/listing-20-30/src/main.rs": "82918513f447e45f29424f2ebe662a101a7e54dc3c29fbcd9aaea5595845c9f3",
+        "listings/ch20-advanced-features/listing-20-31/src/main.rs": "19706df9715726828ad5ba0a12b4c7f527cf1e7c4c4dfe3007bd27521bdcd164",
+        "listings/ch20-advanced-features/listing-20-32/src/lib.rs": "c166b5cf1437a553a13502a89816c2c3c8daf8e0963e56ffd23be9cf18969838",
+        "listings/ch20-advanced-features/listing-20-33/src/main.rs": "f0f3dfd65f6e785411cf69a58294d63f805e8f1e276553a2509fb9fc5462b4af",
+        "listings/ch20-advanced-features/listing-20-33/output.txt": "003faf792bc6ff6717076231cb5b65922a7ca7d30922935b8a485aebf019f45e",
+        "listings/ch20-advanced-features/listing-20-34/src/main.rs": "0acfafa24ceffe0346a84610e2ccd053ef94c4dee5e28a2a3a44981fb4c9c9de"
+      },
+      "headings": 3,
+      "code_blocks": 8
+    },
+    "ch20-05-macros.md": {
+      "source_sha256": "f708f046f7ae2ca5dc0e56d449f56b4f9e13ac4292f873fa8341a17259011c36",
+      "markdown_sha256": "403fb3429c4c11ef118a31477aae7ce73cfcc0a2776289faac1a797c7f57f173",
+      "prose_sha256": "cd0b23bef0f3ee34267b398f6ecbd7aa07fa95e00de1ca6e5d65c9876b4f7860",
+      "code_sha256": "82da852c9c1e8b4620d0d30bbc60c46afc3c19c6b8bf6954de77ec6d249f4d95",
+      "dependencies": {
+        "listings/ch20-advanced-features/listing-20-35/src/lib.rs": "1ff1334ed59537f3719f203485c3a36bae8b5bc849f3a4f264cfbb76944f2b21",
+        "listings/ch20-advanced-features/listing-20-37/src/main.rs": "616a1014eef52e37b275132ca731fce71b13e624cbc12101a869be84f4c0972c",
+        "listings/ch20-advanced-features/listing-20-38/hello_macro/src/lib.rs": "93e79d1db0b3ef9e06eadbc30d6a4fadb8679b2c9e3de47be3eb0b86d3409c46",
+        "listings/ch20-advanced-features/listing-20-39/pancakes/src/main.rs": "c89bcc1969edb5d54544966a80c5d1dd5f9178bec0b3c73f19eb3d83f293de68",
+        "listings/ch20-advanced-features/listing-20-40/hello_macro/hello_macro_derive/Cargo.toml": "76609169c9bcf0a747f1d3ceb82a814643b86cb20e97906f2d366d74914e2def",
+        "listings/ch20-advanced-features/listing-20-40/hello_macro/hello_macro_derive/src/lib.rs": "fa9582baa1dd17eef3b7d76804ceabfa50453d77d9c7137f1f452cb43280319e",
+        "listings/ch20-advanced-features/listing-20-42/hello_macro/hello_macro_derive/src/lib.rs": "651b36aea6f69f854f2a718ce72f4e7670d305227c4525ac0f3ac6994dea522e",
+        "listings/ch20-advanced-features/no-listing-21-pancakes/pancakes/Cargo.toml": "5c35cd8aa9de852400509a4c8514c6545c7202ffd4abc8acf1c5f2fdc193c059"
+      },
+      "headings": 8,
+      "code_blocks": 18
+    },
+    "ch21-00-final-project-a-web-server.md": {
+      "source_sha256": "9298e067ebc26b1772a9b7773fe9f14ce26ee94d2ee586fd9222ccee15428832",
+      "markdown_sha256": "2a0e9ef98893b80390e0c428b109ad90bc200852c6bc0151144bcdf6843f2abd",
+      "prose_sha256": "f029fb9760ed2bf766385fd97e3e2079e0698946a658d0038e3cb2f432b7bba4",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {
+        "src/img/trpl21-01.png": "a9974283e76f80f6dedf0e438f4d778ce9103971638e8cc7067baa4774c187b4"
+      },
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "ch21-01-single-threaded.md": {
+      "source_sha256": "6fe781801f7407b0663c0872ba64e3ee30737d9a0b9293f00e33a8646df9eca5",
+      "markdown_sha256": "899122a94a52c45f4c934e1967460a36c7803fcc1b6a933b790e610a9376f04f",
+      "prose_sha256": "e80405dea872cb2f9830dd04ac15a229a3a2f435e8f98d4afba6bdeeb452853e",
+      "code_sha256": "3e528df00582044103492e101f03db77f8461132dfd15a0f9be6c49d1b48955d",
+      "dependencies": {
+        "listings/ch21-web-server/listing-21-01/src/main.rs": "7b28a1c93702e3d481623289ece3cc7eefbbe9b7686bd422d711c530a519a9de",
+        "listings/ch21-web-server/listing-21-02/src/main.rs": "0ec5064f436182b62f3feef76234a8057bbc075e6b0a02c24deb4444e999f7ed",
+        "listings/ch21-web-server/listing-21-03/src/main.rs": "dd3f779d8b426814d0d932b6cc5e8d2ba9a9a0f258e1e73f963d1422cb141ae9",
+        "listings/ch21-web-server/listing-21-05/hello.html": "9117aa30c6c450f43d28ceb1c43b3c98c3ebea95e0900c21ee06fcd78ae13b82",
+        "listings/ch21-web-server/listing-21-05/src/main.rs": "32d98a77d342d9ac644975bb4aac37bbcc20a4ff331fc71a71000eb351e9d165",
+        "listings/ch21-web-server/listing-21-06/src/main.rs": "7455d9549b075048cd9b5d7b3fa6a5cf20c8ce9ed8a1cc7a6d1b60daa10cd869",
+        "listings/ch21-web-server/listing-21-07/src/main.rs": "50c46a3a953c663db477bd1e13a145d73888b7b380fd169aba86493a082fd568",
+        "listings/ch21-web-server/listing-21-07/404.html": "87e51fe03de15e900e5e0225075505c4c4235d75c19b4dd6bdc7fcc3f7d11d40",
+        "listings/ch21-web-server/listing-21-09/src/main.rs": "0bf6902afc698e2ae1a65bc14e1c704410143fdd91c7578e1fa1525685de6651"
+      },
+      "headings": 8,
+      "code_blocks": 15
+    },
+    "ch21-02-multithreaded.md": {
+      "source_sha256": "18d62061445b10fd449875819482985a0c302243866ab479e72d8a6b040f6e86",
+      "markdown_sha256": "ea94b0a16b87464290058c5c650d4e859d3d5d796af955742068a915ee97cd14",
+      "prose_sha256": "8d03549c7fbd90cfa7330cf29bd45e729c7145ff29dc4335b6f01c7a7faeac08",
+      "code_sha256": "90394ac8dbab42367ada47edbf9664dfa1bc96ed6256e32eedabd32abf94d293",
+      "dependencies": {
+        "listings/ch21-web-server/listing-21-10/src/main.rs": "ae6ae9bea464342091f87d32b68afd77174a98a938385e93f696e870bd23bbf4",
+        "listings/ch21-web-server/listing-21-11/src/main.rs": "475564aa2a639f309d978ab340708a2308e401c9a2fb983218ba26dd3dd9cc12",
+        "listings/ch21-web-server/listing-21-12/src/main.rs": "cbb4018e448c27b8644555c654423736e58ee24854db3a3b895362923c1eef28",
+        "listings/ch21-web-server/listing-21-12/output.txt": "0d7e9e3126ab5efc5c1f3e52d63678e38d273f398d04529bdb06d17a26f7dee4",
+        "listings/ch21-web-server/no-listing-01-define-threadpool-struct/src/lib.rs": "b07123b2dff7930e5896ef317d44f77a19714de7539eacd2826b6105a9bcc5c2",
+        "listings/ch21-web-server/no-listing-01-define-threadpool-struct/src/main.rs": "fbb0475839be41d4748243f809200e775ba6d859ee093df34b01426de62664a5",
+        "listings/ch21-web-server/no-listing-01-define-threadpool-struct/output.txt": "e9e9c68b38895047a7b22de522fa0fd23136a09d939c3da65dcfa5e8ca4dc3c6",
+        "listings/ch21-web-server/no-listing-02-impl-threadpool-new/src/lib.rs": "72df0f7a4a9189242b71407b0724452bcdc8276300a8fd8c9a1e7c7c63c14b87",
+        "listings/ch21-web-server/no-listing-02-impl-threadpool-new/output.txt": "a0f6a35ed905b9183b918a5c921e7ac260af8b03246fd3a88915ba17501d7288",
+        "listings/ch21-web-server/no-listing-03-define-execute/src/lib.rs": "deb40ce06ddf99e5f06aa3a18443afa7ffec254efb79c3575c1ddac2a2893509",
+        "listings/ch21-web-server/no-listing-03-define-execute/output.txt": "5f2d3d73cbe6adadc27c6a947783d0d5e6eb9e838a52a46f21ea968a927a8304",
+        "listings/ch21-web-server/listing-21-13/src/lib.rs": "0dedef394c947b3edb0aa9ce23a01bdfaae26a4a0f05f464cbbe878a2870e49c",
+        "listings/ch21-web-server/listing-21-14/src/lib.rs": "c9ab4e43d08881f0e34bb6a7cd019f86a1de5416d0368b9daca317e919163762",
+        "listings/ch21-web-server/listing-21-15/src/lib.rs": "87462a26c7b7816f32201a009331ddef41638a657cd4fac3f5cdfa3a51e5c165",
+        "listings/ch21-web-server/listing-21-16/src/lib.rs": "6bf55ec789de5fce2b822035abd9e5fc6fbe33a64e9ba66005a27b06c0405b26",
+        "listings/ch21-web-server/listing-21-17/src/lib.rs": "2213a0c683dd28d5b409bf7cb2906fbaeb84bb998dd69de29d9938c724d1786a",
+        "listings/ch21-web-server/listing-21-17/output.txt": "0bdb595f5f0a2b72fb67b4bd1ab87c6717c51fa60310f0561b92ee75dec686c9",
+        "listings/ch21-web-server/listing-21-18/src/lib.rs": "01aa8bf62d823c507091e417fe90283065569c106050ba4970a224e5c18ea5fb",
+        "listings/ch21-web-server/listing-21-19/src/lib.rs": "d1b23dc5fc20bd07c2c4ea3c029923548d687bbb9fcca9fda6cb63678114c7e2",
+        "listings/ch21-web-server/listing-21-20/src/lib.rs": "02fcb21f9b7933dc4bc8f0c0cd80b3d8126c9e9cd1437532030540249fbae4a0",
+        "listings/ch21-web-server/listing-21-21/src/lib.rs": "0629372be1e921ed97d82d1189df2b24127ff20a877b9203572403f48f7a14fe"
+      },
+      "headings": 11,
+      "code_blocks": 25
+    },
+    "ch21-03-graceful-shutdown-and-cleanup.md": {
+      "source_sha256": "11bc7af7dad3a0e38573d4b9b213e3c6fd4228fd40c71fb54068e4ec0be3ce36",
+      "markdown_sha256": "e4c2abaaa676697bc84f66443a4f10ee3ebd19f305e5edcda888e5872ab7ff92",
+      "prose_sha256": "f247cea8112b38bc7480b2a08e58a47323e8d08b7e47d41c203b8f3ce7a4a263",
+      "code_sha256": "bc1e98523ab546b9b31857aecfb90ec3c5114413b4dd78450bfec7e1e5671eef",
+      "dependencies": {
+        "listings/ch21-web-server/listing-21-22/src/lib.rs": "4ce1865f15627da08e7f645b47804eef9318b457a0f4fc97b365a30a1b6bfa70",
+        "listings/ch21-web-server/listing-21-22/output.txt": "39c4d752d9174646b1ef812d15cd10d932e56a90259caf5ef7f67e0c29c142bd",
+        "listings/ch21-web-server/no-listing-04-update-drop-definition/src/lib.rs": "9831920cca3f376e4bd23b8a3565158bb051ba575c811974040e759df4676153",
+        "listings/ch21-web-server/listing-21-23/src/lib.rs": "d30193575d86790258eaeb5cb5d5d951b01d3dd1f2cb3cce05ab256e91b99153",
+        "listings/ch21-web-server/listing-21-24/src/lib.rs": "dfa85d36d3e9fda8ff4e39929a420454a4d4b38ce9fac70700fb1981245e9b39",
+        "listings/ch21-web-server/listing-21-25/src/main.rs": "1d6b1f3199f35f6768279d7540c6a86a8c2f3664acb47eed3fc7d0d79975b3bd",
+        "listings/ch21-web-server/no-listing-07-final-code/src/main.rs": "06e718f14bcae3cab64533061538ce12d28a12540ab7c29f9ca2dde2710c3e8b",
+        "listings/ch21-web-server/no-listing-07-final-code/src/lib.rs": "6c7788a0e4d1ea12f81c2095f9286303f085462303a7c1b5236cde3221d37918"
+      },
+      "headings": 4,
+      "code_blocks": 9
+    },
+    "appendix-00.md": {
+      "source_sha256": "191e62f7c9c258a1654dc8f7770ee9cf5be8c3226f65298ca557bae07d7c59ad",
+      "markdown_sha256": "40d28cc6e2850568c1f627748ef35fcce0afe898b3ad1b326e075a843ebb0d38",
+      "prose_sha256": "ee7c7f60e0f488c2a44d0de59d52fccc2c33d11c7787de0b25af107dad4c82af",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "appendix-01-keywords.md": {
+      "source_sha256": "f42ae0b44e738fdde8d08d7cafe50abe6b918e48dfe1319afb40f7c9e4e93dad",
+      "markdown_sha256": "9178c0420eb760c7c8fc7dd3a5c6d790c133f66968a9cac90f71c743c65ed8d6",
+      "prose_sha256": "8aa2d2254160038d2f3ff2b774059941c772546a0eed624ae040a1a3c20740fe",
+      "code_sha256": "dc0f7ab11b25bc60e4425de4e646282a3a9feea3e5fd39cc9e1055602774eeae",
+      "dependencies": {},
+      "headings": 4,
+      "code_blocks": 3
+    },
+    "appendix-02-operators.md": {
+      "source_sha256": "63ffd6bf192c1a1b3845d340916c017739844102f47099bbfa3f454428eb34e6",
+      "markdown_sha256": "bc33afa09cd57576dacd399d348950fa5bc8a3642818c1bc05ddbc088c0c5514",
+      "prose_sha256": "0f4e1077c7cc08b78fa9d14bf89fccf7a3061c06fdd2d4126b0928c20ddf21e3",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 3,
+      "code_blocks": 0
+    },
+    "appendix-03-derivable-traits.md": {
+      "source_sha256": "62e9c886624984217e3f7bf3bdc9a96467e411bf7bd4f45a8268c8f5a4a0c583",
+      "markdown_sha256": "5ea4664c1cda3c660cf77a247296c730f0d4e3734d702c0f02726cd690474d8e",
+      "prose_sha256": "6138a4c5b4104ab6cf27d17ad63aa316e3cd34b32e098aa6d57a5f5f26df901c",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 7,
+      "code_blocks": 0
+    },
+    "appendix-04-useful-development-tools.md": {
+      "source_sha256": "9267f5514f75c2842dd1f566067c64b29f62b98dc85970fc186bde798a8ae9f6",
+      "markdown_sha256": "528432253e5d52f4bd0b08de53b634026f85ff993200639f378af9a82295408b",
+      "prose_sha256": "653da74cbbd64c02730c2aa152970bb41237f217f14598f5020ded9c0cf65219",
+      "code_sha256": "2d88d47efba17337b70f0546053368765f497a9603d2f1dc65678e5734a46a98",
+      "dependencies": {},
+      "headings": 5,
+      "code_blocks": 9
+    },
+    "appendix-05-editions.md": {
+      "source_sha256": "83649f1a5fc3eb6920804908ea8b4933dffa762f897d8636b701d495e18db713",
+      "markdown_sha256": "4f116f147d8f51119240b8aa235be830b86cf1d5f12ebca21c8ceeaa7bcfa73f",
+      "prose_sha256": "846e31b85c9405b598e96a5c072ff0bc6c96c0f918bcf373947a7dcbe5903183",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "appendix-06-translation.md": {
+      "source_sha256": "64aabfc19b430ffbe4e10a3297106fd7044bfc67dec1d95de2b6c645fba10c22",
+      "markdown_sha256": "abaff80fa1c28b88d5e48518f3954b72b320135787abe542d9b7f09ac51336a2",
+      "prose_sha256": "055b622d2792ec1a44f6415b178e571286a754a3f65e1d2314f4f4a4256535ec",
+      "code_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "dependencies": {},
+      "headings": 1,
+      "code_blocks": 0
+    },
+    "appendix-07-nightly-rust.md": {
+      "source_sha256": "f2ef3430dfb3025501aad797bc7cd48d7637e6852271e0da74d8c231202b0eae",
+      "markdown_sha256": "87fcdd7cc2df1a8430a9044369e077ac60eda4a0902999542a984dc92a2ddc0c",
+      "prose_sha256": "d240ddcd7412ee364e7daff93efab8fea8b36b90183777bfc332fcda2bd91c67",
+      "code_sha256": "6019f954a5cdfdfd6f920995787ad667dd007897d4bd5d4a0db59e546d754893",
+      "dependencies": {},
+      "headings": 7,
+      "code_blocks": 9
+    }
+  },
+  "structure": [
+    [
+      0,
+      false,
+      "title-page.md"
+    ],
+    [
+      0,
+      false,
+      "foreword.md"
+    ],
+    [
+      0,
+      false,
+      "ch00-00-introduction.md"
+    ],
+    [
+      0,
+      true,
+      "ch01-00-getting-started.md"
+    ],
+    [
+      2,
+      true,
+      "ch01-01-installation.md"
+    ],
+    [
+      2,
+      true,
+      "ch01-02-hello-world.md"
+    ],
+    [
+      2,
+      true,
+      "ch01-03-hello-cargo.md"
+    ],
+    [
+      0,
+      true,
+      "ch02-00-guessing-game-tutorial.md"
+    ],
+    [
+      0,
+      true,
+      "ch03-00-common-programming-concepts.md"
+    ],
+    [
+      2,
+      true,
+      "ch03-01-variables-and-mutability.md"
+    ],
+    [
+      2,
+      true,
+      "ch03-02-data-types.md"
+    ],
+    [
+      2,
+      true,
+      "ch03-03-how-functions-work.md"
+    ],
+    [
+      2,
+      true,
+      "ch03-04-comments.md"
+    ],
+    [
+      2,
+      true,
+      "ch03-05-control-flow.md"
+    ],
+    [
+      0,
+      true,
+      "ch04-00-understanding-ownership.md"
+    ],
+    [
+      2,
+      true,
+      "ch04-01-what-is-ownership.md"
+    ],
+    [
+      2,
+      true,
+      "ch04-02-references-and-borrowing.md"
+    ],
+    [
+      2,
+      true,
+      "ch04-03-slices.md"
+    ],
+    [
+      0,
+      true,
+      "ch05-00-structs.md"
+    ],
+    [
+      2,
+      true,
+      "ch05-01-defining-structs.md"
+    ],
+    [
+      2,
+      true,
+      "ch05-02-example-structs.md"
+    ],
+    [
+      2,
+      true,
+      "ch05-03-method-syntax.md"
+    ],
+    [
+      0,
+      true,
+      "ch06-00-enums.md"
+    ],
+    [
+      2,
+      true,
+      "ch06-01-defining-an-enum.md"
+    ],
+    [
+      2,
+      true,
+      "ch06-02-match.md"
+    ],
+    [
+      2,
+      true,
+      "ch06-03-if-let.md"
+    ],
+    [
+      0,
+      true,
+      "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md"
+    ],
+    [
+      2,
+      true,
+      "ch07-01-packages-and-crates.md"
+    ],
+    [
+      2,
+      true,
+      "ch07-02-defining-modules-to-control-scope-and-privacy.md"
+    ],
+    [
+      2,
+      true,
+      "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md"
+    ],
+    [
+      2,
+      true,
+      "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md"
+    ],
+    [
+      2,
+      true,
+      "ch07-05-separating-modules-into-different-files.md"
+    ],
+    [
+      0,
+      true,
+      "ch08-00-common-collections.md"
+    ],
+    [
+      2,
+      true,
+      "ch08-01-vectors.md"
+    ],
+    [
+      2,
+      true,
+      "ch08-02-strings.md"
+    ],
+    [
+      2,
+      true,
+      "ch08-03-hash-maps.md"
+    ],
+    [
+      0,
+      true,
+      "ch09-00-error-handling.md"
+    ],
+    [
+      2,
+      true,
+      "ch09-01-unrecoverable-errors-with-panic.md"
+    ],
+    [
+      2,
+      true,
+      "ch09-02-recoverable-errors-with-result.md"
+    ],
+    [
+      2,
+      true,
+      "ch09-03-to-panic-or-not-to-panic.md"
+    ],
+    [
+      0,
+      true,
+      "ch10-00-generics.md"
+    ],
+    [
+      2,
+      true,
+      "ch10-01-syntax.md"
+    ],
+    [
+      2,
+      true,
+      "ch10-02-traits.md"
+    ],
+    [
+      2,
+      true,
+      "ch10-03-lifetime-syntax.md"
+    ],
+    [
+      0,
+      true,
+      "ch11-00-testing.md"
+    ],
+    [
+      2,
+      true,
+      "ch11-01-writing-tests.md"
+    ],
+    [
+      2,
+      true,
+      "ch11-02-running-tests.md"
+    ],
+    [
+      2,
+      true,
+      "ch11-03-test-organization.md"
+    ],
+    [
+      0,
+      true,
+      "ch12-00-an-io-project.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-01-accepting-command-line-arguments.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-02-reading-a-file.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-03-improving-error-handling-and-modularity.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-04-testing-the-librarys-functionality.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-05-working-with-environment-variables.md"
+    ],
+    [
+      2,
+      true,
+      "ch12-06-writing-to-stderr-instead-of-stdout.md"
+    ],
+    [
+      0,
+      true,
+      "ch13-00-functional-features.md"
+    ],
+    [
+      2,
+      true,
+      "ch13-01-closures.md"
+    ],
+    [
+      2,
+      true,
+      "ch13-02-iterators.md"
+    ],
+    [
+      2,
+      true,
+      "ch13-03-improving-our-io-project.md"
+    ],
+    [
+      2,
+      true,
+      "ch13-04-performance.md"
+    ],
+    [
+      0,
+      true,
+      "ch14-00-more-about-cargo.md"
+    ],
+    [
+      2,
+      true,
+      "ch14-01-release-profiles.md"
+    ],
+    [
+      2,
+      true,
+      "ch14-02-publishing-to-crates-io.md"
+    ],
+    [
+      2,
+      true,
+      "ch14-03-cargo-workspaces.md"
+    ],
+    [
+      2,
+      true,
+      "ch14-04-installing-binaries.md"
+    ],
+    [
+      2,
+      true,
+      "ch14-05-extending-cargo.md"
+    ],
+    [
+      0,
+      true,
+      "ch15-00-smart-pointers.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-01-box.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-02-deref.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-03-drop.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-04-rc.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-05-interior-mutability.md"
+    ],
+    [
+      2,
+      true,
+      "ch15-06-reference-cycles.md"
+    ],
+    [
+      0,
+      true,
+      "ch16-00-concurrency.md"
+    ],
+    [
+      2,
+      true,
+      "ch16-01-threads.md"
+    ],
+    [
+      2,
+      true,
+      "ch16-02-message-passing.md"
+    ],
+    [
+      2,
+      true,
+      "ch16-03-shared-state.md"
+    ],
+    [
+      2,
+      true,
+      "ch16-04-extensible-concurrency-sync-and-send.md"
+    ],
+    [
+      0,
+      true,
+      "ch17-00-async-await.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-01-futures-and-syntax.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-02-concurrency-with-async.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-03-more-futures.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-04-streams.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-05-traits-for-async.md"
+    ],
+    [
+      2,
+      true,
+      "ch17-06-futures-tasks-threads.md"
+    ],
+    [
+      0,
+      true,
+      "ch18-00-oop.md"
+    ],
+    [
+      2,
+      true,
+      "ch18-01-what-is-oo.md"
+    ],
+    [
+      2,
+      true,
+      "ch18-02-trait-objects.md"
+    ],
+    [
+      2,
+      true,
+      "ch18-03-oo-design-patterns.md"
+    ],
+    [
+      0,
+      true,
+      "ch19-00-patterns.md"
+    ],
+    [
+      2,
+      true,
+      "ch19-01-all-the-places-for-patterns.md"
+    ],
+    [
+      2,
+      true,
+      "ch19-02-refutability.md"
+    ],
+    [
+      2,
+      true,
+      "ch19-03-pattern-syntax.md"
+    ],
+    [
+      0,
+      true,
+      "ch20-00-advanced-features.md"
+    ],
+    [
+      2,
+      true,
+      "ch20-01-unsafe-rust.md"
+    ],
+    [
+      2,
+      true,
+      "ch20-02-advanced-traits.md"
+    ],
+    [
+      2,
+      true,
+      "ch20-03-advanced-types.md"
+    ],
+    [
+      2,
+      true,
+      "ch20-04-advanced-functions-and-closures.md"
+    ],
+    [
+      2,
+      true,
+      "ch20-05-macros.md"
+    ],
+    [
+      0,
+      true,
+      "ch21-00-final-project-a-web-server.md"
+    ],
+    [
+      2,
+      true,
+      "ch21-01-single-threaded.md"
+    ],
+    [
+      2,
+      true,
+      "ch21-02-multithreaded.md"
+    ],
+    [
+      2,
+      true,
+      "ch21-03-graceful-shutdown-and-cleanup.md"
+    ],
+    [
+      0,
+      true,
+      "appendix-00.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-01-keywords.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-02-operators.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-03-derivable-traits.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-04-useful-development-tools.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-05-editions.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-06-translation.md"
+    ],
+    [
+      2,
+      true,
+      "appendix-07-nightly-rust.md"
+    ]
+  ],
+  "images": {
+    "img/trpl17-01.svg": "bc398c71c89d705d6a9b3097ed9985d57068f4c5dff309c89d094f4fbcc4115b",
+    "img/trpl17-02.svg": "22f511c8e20639c3cdc52f81984cc4d4d997b7280c2ba56471db6431bd9ecf88",
+    "img/trpl14-03.png": "fdcd8e7295875a128fc5dca22e574df2679f362764899030236cc377e88d228d",
+    "img/trpl15-03.svg": "552ce09ecf7b274f4dd3013deb9b5420d46b6a60061b90a09fbdbbede7d3c114",
+    "img/trpl14-04.png": "7a6b53117942889e9e79e879446fe7f983889a4f42f11c6be2ab51a2af150c25",
+    "img/trpl04-06.svg": "8ade0cb026100c6551d616797110fe0ea95010f1e53de49ac2352e73cd80e6e2",
+    "img/trpl15-01.svg": "8acb018bf29622099bdbdced748b545bb00094314c94ade7acd57580ecf51808",
+    "img/trpl17-07.svg": "1490943621afca41abba7ccdcd4a2eed4fe7a910f314361e44a85f5e25503b63",
+    "img/trpl15-02.svg": "b8a95ade376ae0d2b7f0d40bcf4ce355c91bab3436fc02db0b03bf420089da24",
+    "img/trpl17-05.svg": "9d20b5d0aa8747126dfa005215caf88800f39dbf1d06542bb35987da51816e20",
+    "img/trpl14-02.png": "c358af6e959d113b87fdeeaf48366b8d244358b4f978634a5193f4b23b2239e9",
+    "img/trpl21-01.png": "a9974283e76f80f6dedf0e438f4d778ce9103971638e8cc7067baa4774c187b4",
+    "img/trpl14-01.png": "92c98731fe641694229f5a3987fe138bfd8140401150dcae901ac448c47c96a4",
+    "img/trpl17-04.svg": "7da012b1be16513957733a276b675065319099164fbaa8cfbda5ec27a920e465",
+    "img/trpl04-04.svg": "040f910e94b35fb7df8eae5dbdb36a7e3ff916703fc7a1097a5e439b1a60b650",
+    "img/trpl15-04.svg": "8e64624821092a7bf919f77e4f6793542436bd2abd0e70c368089ea79fdd9d43",
+    "img/trpl17-06.svg": "b62908d098d094a27ab9f1a63c89415206ad72b66a2dabbc5f01f73b8e8cb99c",
+    "img/trpl04-03.svg": "c8ee5708ea30eaeb0b0affadf32a58b7645b4ce0ab78de9f3ec6f7a90d3cc8f3",
+    "img/trpl17-03.svg": "286e0f9fe7f9873df0b2ddfbc09ec6c49f203859bfb0d0ccf2c3c4f2d6174f56",
+    "img/trpl04-02.svg": "bb682764358406b00f0019cc94b701482846bd8e41ea7715a1e1514c6c8c1b70",
+    "img/trpl04-01.svg": "6a1fa64ab777ad341b944bf7e81a2f2ba0591c02749018a840ef634c644f6ee3",
+    "img/trpl04-07.svg": "2004bd5639b8dfed0d49610323283801daa0b3dc7e6ea474045a4ebb54f661b7",
+    "img/trpl17-09.svg": "31b246b6c5c25869fbb3c3913d720bdc975302db03835c719bdaed53b3ee2dc4",
+    "img/trpl04-05.svg": "0127475aaaef05dc09db16a9bb20fe35de60842295790a91aca6bc2c8c17ed10",
+    "img/trpl17-08.svg": "2f8fc1250fe7c335f2ad176ed9d0bf840b909d06def9b2578c245c7b1738addf",
+    "img/ferris/does_not_compile.svg": "36ccf9f4bacd571f6e09d9a67b6e4b42a9f015bac8923ee6658c547ca330e4d1",
+    "img/ferris/not_desired_behavior.svg": "47b7adac4986fcc948d56a2bccea0226724a842ac0ca25bfba1ade2cc099b333",
+    "img/ferris/panics.svg": "27f1dd68bde067c25be6468bbffe42bec9e908d522e68fbc4e632f0ce07838a5"
+  }
+}

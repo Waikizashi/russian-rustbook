@@ -1,0 +1,29 @@
+[book]
+title = "Биты, байты и двоичные данные в Rust"
+authors = ["Evgenii Panarin", "Участники проекта"]
+language = "ru"
+description = "Практическое дополнение к Rust Book: от двоичной записи до проверяемого парсера."
+src = ".book-src"
+
+[rust]
+edition = "2024"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = false
+git-repository-url = "https://github.com/Waikizashi/russian-rustbook"
+edit-url-template = "https://github.com/Waikizashi/russian-rustbook/edit/main/extras/bits-bytes/docs/{path}"
+additional-css = ["assets/book.css"]
+
+[output.html.playground]
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 20

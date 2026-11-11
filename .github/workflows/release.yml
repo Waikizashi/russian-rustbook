@@ -1,0 +1,38 @@
+name: Выпуск книги
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Проверить
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y pandoc epubcheck
+          python3 -m unittest discover -s tests -v
+          python3 scripts/check_book.py
+          python3 scripts/check_language.py
+          python3 scripts/build_ebooks.py
+          python3 scripts/verify_epub.py
+          epubcheck dist/*.epub
+          python3 -m pip install 'PyMuPDF==1.26.6'
+          python3 scripts/build_pdf.py
+          cd extras/bits-bytes
+          python3 scripts/build_ebooks.py
+          python3 scripts/verify_epub.py
+          epubcheck dist/*.epub
+          cp dist/*.epub dist/Rust_Book_Bits_Bytes_RU_2026.md ../../downloads/
+          cd ../..
+          cd downloads
+          sha256sum *.epub *.pdf *.md *.zip > SHA256SUMS
+      - name: Опубликовать файлы
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: gh release create "$TAG" --verify-tag --title "Русская Rust Book — $TAG" --notes-file CHANGELOG.md downloads/*.epub downloads/*.pdf downloads/*.md downloads/*.zip downloads/SHA256SUMS

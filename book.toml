@@ -1,0 +1,27 @@
+[book]
+title = "Язык программирования Rust"
+authors = ["Steve Klabnik", "Carol Nichols", "Chris Krycho", "Rust Community"]
+language = "ru"
+description = "Полная русская Rust Book: 21 глава, приложения и практическое дополнение о битах и байтах."
+src = "src"
+
+[rust]
+edition = "2024"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/Waikizashi/russian-rustbook"
+edit-url-template = "https://github.com/Waikizashi/russian-rustbook/edit/main/src/{path}"
+additional-css = ["assets/book.css"]
+
+[output.html.playground]
+runnable = false
+
+[output.html.search]
+enable = true
+limit-results = 20

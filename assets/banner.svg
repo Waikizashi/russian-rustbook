@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Russian Rustbook — полная книга о Rust на русском</title>
+<desc id="desc">21 глава, все приложения, Rust 2024 и практическое дополнение о битах и байтах.</desc>
+<rect width="1200" height="370" rx="22" fill="#18252b"/>
+<path d="M1050 0h150v370H860z" fill="#21363d"/>
+<rect x="48" y="40" width="230" height="29" rx="14" fill="#d58550"/>
+<text x="64" y="60" font-family="sans-serif" font-size="14" font-weight="700" fill="#17262b">RUSSIAN RUSTBOOK</text>
+<text x="48" y="133" font-family="sans-serif" font-size="46" font-weight="700" fill="#faf4e9">Язык программирования Rust</text>
+<text x="48" y="190" font-family="sans-serif" font-size="40" font-weight="700" fill="#faf4e9">Полностью на русском</text>
+<text x="50" y="231" font-family="sans-serif" font-size="19" fill="#a7c1c1">От первой программы — до async и многопоточного сервера.</text>
+<text x="48" y="303" font-family="sans-serif" font-size="18" fill="#faf4e9">21 глава</text>
+<text x="180" y="303" font-family="sans-serif" font-size="18" fill="#faf4e9">Все приложения</text>
+<text x="385" y="303" font-family="sans-serif" font-size="18" fill="#faf4e9">Rust 2024</text>
+<text x="565" y="303" font-family="sans-serif" font-size="18" fill="#d58550">+ Биты и байты</text>
+<path d="M937 264h70c20 0 30 10 30 20v50c-10-10-22-13-40-13h-60z" fill="#d58550"/>
+<path d="M1037 284c0-10 10-20 30-20h70v57h-60c-18 0-30 3-40 13z" fill="#a7c1c1"/>
+</svg>

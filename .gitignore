@@ -1,0 +1,15 @@
+/book/
+/dist/
+/.tools/
+/.cache/
+/.updates/
+/upstream-status.md
+**/target/
+**/.tools/
+**/.book-src/
+**/book/
+**/dist/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

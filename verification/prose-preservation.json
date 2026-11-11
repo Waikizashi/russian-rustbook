@@ -1,0 +1,679 @@
+{
+  "note": "Russian letter sequence compared to the prior complete edition; the title-page release date and one grammar correction are accounted for. Six English image descriptions in four files were subsequently translated into Russian; original prose remains preserved.",
+  "files": [
+    {
+      "file": "title-page.md",
+      "russian_letters": 647,
+      "preserved": true,
+      "sha256": "1c4e945af3a218543ce16964f054a1b232948c91e6ef85f61daf350fda22bb48"
+    },
+    {
+      "file": "foreword.md",
+      "russian_letters": 2199,
+      "preserved": true,
+      "sha256": "ac60e03c52836646251b866cd4878bdf85400732426116843285e4ff819d099a"
+    },
+    {
+      "file": "ch00-00-introduction.md",
+      "russian_letters": 7825,
+      "preserved": true,
+      "conversion_check_sha256": "c4114aebaebd5f12cc370b3f4a63e1b4b88714fb518fe2c2e160178635c5e3f5",
+      "final_file_sha256": "38a28705016f051585ace93445639a9488a6c36375aa88092b1a1da6991594b5",
+      "subsequent_edit": "Translated English image descriptions into Russian."
+    },
+    {
+      "file": "ch01-00-getting-started.md",
+      "russian_letters": 207,
+      "preserved": true,
+      "sha256": "f89a5d2d214c2f5777bb2d786ad206e7a4c7275fca52fe3d2c6bb7a86dc9e167"
+    },
+    {
+      "file": "ch01-01-installation.md",
+      "russian_letters": 4054,
+      "preserved": true,
+      "sha256": "2cb66d792396ff82e1146259babf893b458ec44fb7860ad026fd0acd9cb82df6"
+    },
+    {
+      "file": "ch01-02-hello-world.md",
+      "russian_letters": 4578,
+      "preserved": true,
+      "sha256": "42ae894275ca23ee2746e8e6660a3f209db04e64336275269c4efb921ea9094e"
+    },
+    {
+      "file": "ch01-03-hello-cargo.md",
+      "russian_letters": 7112,
+      "preserved": true,
+      "sha256": "a5e0c6573eb0bb2e8210325aa64dc145979ec41438054f951d187d11566aabab"
+    },
+    {
+      "file": "ch02-00-guessing-game-tutorial.md",
+      "russian_letters": 22052,
+      "preserved": true,
+      "sha256": "4829dd196e4ab3dc0d09dc34104a351ecd68a556753772c7fbace212ff85c73b"
+    },
+    {
+      "file": "ch03-00-common-programming-concepts.md",
+      "russian_letters": 964,
+      "preserved": true,
+      "sha256": "135ed55e3b3d26385ea9c8193f8c687557e0c46e679d6913cec62cd5d5e1afe2"
+    },
+    {
+      "file": "ch03-01-variables-and-mutability.md",
+      "russian_letters": 6058,
+      "preserved": true,
+      "sha256": "a669e327fd1fb12e3de2d9b4c559b010c4937172b98938107d9b726f6e07a9c5"
+    },
+    {
+      "file": "ch03-02-data-types.md",
+      "russian_letters": 10656,
+      "preserved": true,
+      "sha256": "e47c758898a263916102b6f0d1314a97f4fd19964b07ebe6cf49b9ba75b45a8a"
+    },
+    {
+      "file": "ch03-03-how-functions-work.md",
+      "russian_letters": 6269,
+      "preserved": true,
+      "sha256": "4b064f06ea803838ca338db86919be4c6ee41e8de138071b98fa9455c51217a0"
+    },
+    {
+      "file": "ch03-04-comments.md",
+      "russian_letters": 752,
+      "preserved": true,
+      "sha256": "dfe484f388a0926c358c2ee23c7b0a5bb60300371ea1142861c1b49cf5ab8451"
+    },
+    {
+      "file": "ch03-05-control-flow.md",
+      "russian_letters": 9927,
+      "preserved": true,
+      "sha256": "449f31b3c61697d6925f13890daf3f0adaf499a78feb18eadf16a1b95c89959e"
+    },
+    {
+      "file": "ch04-00-understanding-ownership.md",
+      "russian_letters": 333,
+      "preserved": true,
+      "sha256": "3fcee524660ebd1c156c3bf640551dbf8f8c17ad39ccc058cdc6235d610672cd"
+    },
+    {
+      "file": "ch04-01-what-is-ownership.md",
+      "russian_letters": 17419,
+      "preserved": true,
+      "conversion_check_sha256": "5c0d7c443d9356b485650eeec40b5028f432285047132f0901e1903b0ac76db8",
+      "final_file_sha256": "cde1122f152af68c929451991fc994f9a0cd757ba98d4d36f0f3b1d56bfc75f2",
+      "subsequent_edit": "Translated English image descriptions into Russian."
+    },
+    {
+      "file": "ch04-02-references-and-borrowing.md",
+      "russian_letters": 6458,
+      "preserved": true,
+      "conversion_check_sha256": "b3232d4d9f2431115dbc8cdd3ced143fd3aefc9a080123e549000f9a78fb0099",
+      "final_file_sha256": "cfbe333c8f9b893e3385a6c98afd453c381e39c116f7878bca0480a16aa0c537",
+      "subsequent_edit": "Translated English image descriptions into Russian."
+    },
+    {
+      "file": "ch04-03-slices.md",
+      "russian_letters": 7450,
+      "preserved": true,
+      "conversion_check_sha256": "35f353ff77c940070636197a5d739d6b7d8ce1a77af0d97e9723c6dbab553f10",
+      "final_file_sha256": "ac64d8bf2a33054af2b935db4a4fed97faaa0fdfedf96c4c730136f4ba84a0f5",
+      "subsequent_edit": "Translated English image descriptions into Russian."
+    },
+    {
+      "file": "ch05-00-structs.md",
+      "russian_letters": 836,
+      "preserved": true,
+      "sha256": "c138cbc116221482f114e20816860857d14425db1d128fca574915b6bba3fa0d"
+    },
+    {
+      "file": "ch05-01-defining-structs.md",
+      "russian_letters": 7406,
+      "preserved": true,
+      "sha256": "95d25496a72b3280e5ccc80d63d2d739585ce9494a9a96d6c1c6b1a1d347c9d4"
+    },
+    {
+      "file": "ch05-02-example-structs.md",
+      "russian_letters": 6653,
+      "preserved": true,
+      "sha256": "95cac4ad893080d85dd09bf1df56108fe66691a948770df28034ccf5f0b94d3d"
+    },
+    {
+      "file": "ch05-03-method-syntax.md",
+      "russian_letters": 7360,
+      "preserved": true,
+      "sha256": "45e7cb4bffae7a388f4f1dcad600ee5a1e6dd3a6dafd871114ea7c30dd44bfc5"
+    },
+    {
+      "file": "ch06-00-enums.md",
+      "russian_letters": 554,
+      "preserved": true,
+      "sha256": "8ed035b04ef9f046dec07b16e2718782dddc36862670593f652a0456955292a1"
+    },
+    {
+      "file": "ch06-01-defining-an-enum.md",
+      "russian_letters": 10877,
+      "preserved": true,
+      "sha256": "6de6fd954a2a5428edc7caf670d5424d094db3a2f4355f0d1c2cb209578b77a5"
+    },
+    {
+      "file": "ch06-02-match.md",
+      "russian_letters": 8615,
+      "preserved": true,
+      "sha256": "8b8f3061586189d0bc0f3e5841b79c51c45c90ec3df6da2ab49f8c53fb08657c"
+    },
+    {
+      "file": "ch06-03-if-let.md",
+      "russian_letters": 4040,
+      "preserved": true,
+      "sha256": "9daf27480e06e3bf3e54db24505b45c17c7a667871efecfaefaff8daea9592e4"
+    },
+    {
+      "file": "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md",
+      "russian_letters": 2704,
+      "preserved": true,
+      "sha256": "1b935812879a156053307b833cf858072bdbe9faba3cafd1fceca421aceaea6b"
+    },
+    {
+      "file": "ch07-01-packages-and-crates.md",
+      "russian_letters": 2715,
+      "preserved": true,
+      "sha256": "34cee3f27c2f3e87e7f247ab142aa4497b77da8ba3b72f2636c55b3f5565b241"
+    },
+    {
+      "file": "ch07-02-defining-modules-to-control-scope-and-privacy.md",
+      "russian_letters": 5107,
+      "preserved": true,
+      "sha256": "11146033deea48aecbd70388b3327cedf13c8b66a7ab1887ee33f2bd1d7ff495"
+    },
+    {
+      "file": "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md",
+      "russian_letters": 10506,
+      "preserved": true,
+      "sha256": "21c0c275a8cb3dc02ba33dd310ae573f4843fc6df61b734291efe95ecf8e26b6"
+    },
+    {
+      "file": "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md",
+      "russian_letters": 8090,
+      "preserved": true,
+      "sha256": "7a201405f504b4d4e5bea08a2bbdd73f76ab21534d36c52e667e3cc828bdecb7"
+    },
+    {
+      "file": "ch07-05-separating-modules-into-different-files.md",
+      "russian_letters": 3804,
+      "preserved": true,
+      "sha256": "6d07b4a30503337a2e106dc6f18f4878e46d1d59fb6e528736f4ac212efddc44"
+    },
+    {
+      "file": "ch08-00-common-collections.md",
+      "russian_letters": 1173,
+      "preserved": true,
+      "sha256": "c3cde3b3fc5160c20e2594cc56535c4da8cf0cc23a5dcd8c0fb3dc0e620c79a4"
+    },
+    {
+      "file": "ch08-01-vectors.md",
+      "russian_letters": 8506,
+      "preserved": true,
+      "sha256": "eee29bcbe4f81859f74b5095e3f671356458c1bb2d6d461beda1b27d0e4a7e74"
+    },
+    {
+      "file": "ch08-02-strings.md",
+      "russian_letters": 11481,
+      "preserved": true,
+      "sha256": "bffedbb6e6f6a9af3104750f75872b9457876c23c00ffee7334e3d2d2e865bce"
+    },
+    {
+      "file": "ch08-03-hash-maps.md",
+      "russian_letters": 7706,
+      "preserved": true,
+      "sha256": "6551dc33ce4147b2674027b153b690e684ac230be678397096d097fe45ef2642"
+    },
+    {
+      "file": "ch09-00-error-handling.md",
+      "russian_letters": 1223,
+      "preserved": true,
+      "sha256": "f7fa2120c841cf428967e85f692a44a0310b8d5860f9a02140ffb38f0d181b4c"
+    },
+    {
+      "file": "ch09-01-unrecoverable-errors-with-panic.md",
+      "russian_letters": 4725,
+      "preserved": true,
+      "sha256": "135b0ca77567a346b93987b73efc045a3ce94bf38bf5a2bc0049415f6df3ed31"
+    },
+    {
+      "file": "ch09-02-recoverable-errors-with-result.md",
+      "russian_letters": 15823,
+      "preserved": true,
+      "sha256": "b74a76446165dbf0cae27d1f9a29db2017f5b51117829226b5acb584dfcb3d55"
+    },
+    {
+      "file": "ch09-03-to-panic-or-not-to-panic.md",
+      "russian_letters": 9850,
+      "preserved": true,
+      "sha256": "c1349b0a533bfbb034eba926ccecbf2537ce768451a9bb0093b329823a3d9851"
+    },
+    {
+      "file": "ch10-00-generics.md",
+      "russian_letters": 4537,
+      "preserved": true,
+      "sha256": "498a3803f3bb04e95462c80afb7b5264caf8890197b2e6ad9c1e2ab638702b18"
+    },
+    {
+      "file": "ch10-01-syntax.md",
+      "russian_letters": 10154,
+      "preserved": true,
+      "sha256": "1674bb5b67c5e4ca2c6fe4b7e5b6b55f724d8cb4974ce79062383020497a1ff7"
+    },
+    {
+      "file": "ch10-02-traits.md",
+      "russian_letters": 11617,
+      "preserved": true,
+      "sha256": "c1da7943dce38660dec9292de6a58bffe25fb74d4390ae12a2ff2ac338bae3a7"
+    },
+    {
+      "file": "ch10-03-lifetime-syntax.md",
+      "russian_letters": 21834,
+      "preserved": true,
+      "sha256": "d668401bb93e1d10fe6bc1a4ced6a96f4feb355dab369e25c924a20af9281c1c"
+    },
+    {
+      "file": "ch11-00-testing.md",
+      "russian_letters": 1595,
+      "preserved": true,
+      "sha256": "4910ff7003ea5b054cde5f1e672c546b18bd3950c42fc6ddec054c3ab2fe8e9b"
+    },
+    {
+      "file": "ch11-01-writing-tests.md",
+      "russian_letters": 14731,
+      "preserved": true,
+      "sha256": "256603e71c1365a95e38c8b49d1e34b8f4d170aa5456bfb70bed2ea76821cf23"
+    },
+    {
+      "file": "ch11-02-running-tests.md",
+      "russian_letters": 5206,
+      "preserved": true,
+      "sha256": "3efa0f34ee8d435873eba412db30d48a13094646f3952165789fe1a2bad0cca6"
+    },
+    {
+      "file": "ch11-03-test-organization.md",
+      "russian_letters": 8595,
+      "preserved": true,
+      "sha256": "f3582a08f919ed2503dc701e3b73daa028c0dd2b0ca6442d7f687b0fb83fc85c"
+    },
+    {
+      "file": "ch12-00-an-io-project.md",
+      "russian_letters": 1694,
+      "preserved": true,
+      "sha256": "3f492bdfcf935dcb70dddf1d039aecb4d0963fae9119cbe12ab113c3f71fe761"
+    },
+    {
+      "file": "ch12-01-accepting-command-line-arguments.md",
+      "russian_letters": 4243,
+      "preserved": true,
+      "sha256": "372bff4f1459d34080aa4546df57c2df6691d0b12f56e8a2c61bd5e87f2a5030"
+    },
+    {
+      "file": "ch12-02-reading-a-file.md",
+      "russian_letters": 1543,
+      "preserved": true,
+      "sha256": "086d4d267918fbd0bfa78cc77349d8695e9816db33ef9b58d600862aa5f706f2"
+    },
+    {
+      "file": "ch12-03-improving-error-handling-and-modularity.md",
+      "russian_letters": 15996,
+      "preserved": true,
+      "sha256": "753fe04c793f20ced329db7aee52de3c87b941b7ad0dd9f8a93c31da307df4c5"
+    },
+    {
+      "file": "ch12-04-testing-the-librarys-functionality.md",
+      "russian_letters": 5814,
+      "preserved": true,
+      "sha256": "d5d9996c4cb421762552cc5d52b606d6930dacf79cd4d95038f71a07077a2fc5"
+    },
+    {
+      "file": "ch12-05-working-with-environment-variables.md",
+      "russian_letters": 5957,
+      "preserved": true,
+      "sha256": "27cf9dbef0f04911bed2fa34fa4df18775bac4ebea120944ff2308058d2c3269"
+    },
+    {
+      "file": "ch12-06-writing-to-stderr-instead-of-stdout.md",
+      "russian_letters": 3175,
+      "preserved": true,
+      "sha256": "96743352f4dc69273a1b94351838a30d541b94dfe892a85e1470d52c212f6ec2"
+    },
+    {
+      "file": "ch13-00-functional-features.md",
+      "russian_letters": 1057,
+      "preserved": true,
+      "sha256": "57bf8e6a32bccb6e43de21282a4258bb5031adfdee25f3d51199f155934f3abb"
+    },
+    {
+      "file": "ch13-01-closures.md",
+      "russian_letters": 13277,
+      "preserved": true,
+      "sha256": "b8089c1c1b5582ea4dc9a7d8ccbfdfc4b8f2dbe5660be2df902a89d03523c2bf"
+    },
+    {
+      "file": "ch13-02-iterators.md",
+      "russian_letters": 6854,
+      "preserved": true,
+      "sha256": "913fed9914a8e8836549b54e2c8552b9c66288e8a692fdfd765e3824270c982b"
+    },
+    {
+      "file": "ch13-03-improving-our-io-project.md",
+      "russian_letters": 5211,
+      "preserved": true,
+      "sha256": "a9708779da5c57aee943d312027a52eca48797ffbf9c0926e56629bbda9c0ab6"
+    },
+    {
+      "file": "ch13-04-performance.md",
+      "russian_letters": 1952,
+      "preserved": true,
+      "sha256": "9e48aac94bbb64ad9cda2498cfb1b1d2d0949f699ed42d0f50f302cf75623d76"
+    },
+    {
+      "file": "ch14-00-more-about-cargo.md",
+      "russian_letters": 522,
+      "preserved": true,
+      "sha256": "b9587d112bce6204ae6b23581416b1a1e44e5b4ad7ae523be527807d9bbd7036"
+    },
+    {
+      "file": "ch14-01-release-profiles.md",
+      "russian_letters": 1975,
+      "preserved": true,
+      "sha256": "24b82420a366ccf7451081c9d7a3411f1b6cca9d04b4bb50b3167fba96ab621d"
+    },
+    {
+      "file": "ch14-02-publishing-to-crates-io.md",
+      "russian_letters": 12286,
+      "preserved": true,
+      "sha256": "95757f242191c5ce0b38a0b63489c202ae6b667164eeac25e263c784d77afeb7"
+    },
+    {
+      "file": "ch14-03-cargo-workspaces.md",
+      "russian_letters": 5413,
+      "preserved": true,
+      "sha256": "db6d7d3200000757d059cd8c3c2ea213d972b22909f96eee8c68a2c96381c1d6"
+    },
+    {
+      "file": "ch14-04-installing-binaries.md",
+      "russian_letters": 1206,
+      "preserved": true,
+      "sha256": "de3ab090c2ba67cd778eb14621815afd32318d207eecfd3fa864744474c660ff"
+    },
+    {
+      "file": "ch14-05-extending-cargo.md",
+      "russian_letters": 735,
+      "preserved": true,
+      "sha256": "07660ec27f180a9b81c16e05cd203921d5f4f80df8404cbe2865d4c49c2056e9"
+    },
+    {
+      "file": "ch15-00-smart-pointers.md",
+      "russian_letters": 2270,
+      "preserved": true,
+      "sha256": "ebd748117c951d0bc849e1cf5aebd6b266022898f3119aca36e4ed1f32d2722a"
+    },
+    {
+      "file": "ch15-01-box.md",
+      "russian_letters": 8337,
+      "preserved": true,
+      "sha256": "87a5a80532807c9c5d3518ffce3a83b7e29b8cda2ecb5f2e4b99efb6590b17af"
+    },
+    {
+      "file": "ch15-02-deref.md",
+      "russian_letters": 8926,
+      "preserved": true,
+      "sha256": "010249cf05924d6e914819c8531f66ce85bbb524a1c8756c01fa6209a3920f74"
+    },
+    {
+      "file": "ch15-03-drop.md",
+      "russian_letters": 4898,
+      "preserved": true,
+      "sha256": "afd63122562abcaa73a868c40e708dfc4ecdc58f1d983571fb23728777f315ac"
+    },
+    {
+      "file": "ch15-04-rc.md",
+      "russian_letters": 5594,
+      "preserved": true,
+      "sha256": "15a88c53920382c3ab07dc9587860679f34acfb065e650dde2760d08cb6ab1d9"
+    },
+    {
+      "file": "ch15-05-interior-mutability.md",
+      "russian_letters": 13174,
+      "preserved": true,
+      "sha256": "47f359fd8f2b37c6d5fa7da42b1303fb86a929c8af68f8d90def384a974ac807"
+    },
+    {
+      "file": "ch15-06-reference-cycles.md",
+      "russian_letters": 10320,
+      "preserved": true,
+      "sha256": "6f2ecf2888eb71ed7081c2ca7fa48b9c357012c68ae83b64b00f4244ea3a5dfb"
+    },
+    {
+      "file": "ch16-00-concurrency.md",
+      "russian_letters": 2619,
+      "preserved": true,
+      "sha256": "fd22551bde02463c59c3194c59bd7b8d0403724c9152709dd2ba205fab5a6d96"
+    },
+    {
+      "file": "ch16-01-threads.md",
+      "russian_letters": 7382,
+      "preserved": true,
+      "sha256": "c34277f0b2045f871e2400f110f44e4ea67c759a41bf6d369bb7606e73e765dc"
+    },
+    {
+      "file": "ch16-02-message-passing.md",
+      "russian_letters": 7814,
+      "preserved": true,
+      "sha256": "408d96a560bc49f06e66bc36b3f658cf7e807c41993060cbf487c7dd4f4ef7d6"
+    },
+    {
+      "file": "ch16-03-shared-state.md",
+      "russian_letters": 9340,
+      "preserved": true,
+      "sha256": "64b9a2682c28779027b53a4397ce7956babf683ae51bb6322898d95eb2d60532"
+    },
+    {
+      "file": "ch16-04-extensible-concurrency-sync-and-send.md",
+      "russian_letters": 3511,
+      "preserved": true,
+      "sha256": "bdc95b4056ee529091d721816035d8c999b9364b3b90e2db8f6c6fbdf8b89adc"
+    },
+    {
+      "file": "ch17-00-async-await.md",
+      "russian_letters": 6250,
+      "preserved": true,
+      "sha256": "7c249fdbae1be38864fdb304042807caf0a8740cdd3a1a02fefacfe03a4a10bf"
+    },
+    {
+      "file": "ch17-01-futures-and-syntax.md",
+      "russian_letters": 10163,
+      "preserved": true,
+      "sha256": "188f641fe68e9948157c9833619da2cdcb51f56aef652dff10715964d3343184"
+    },
+    {
+      "file": "ch17-02-concurrency-with-async.md",
+      "russian_letters": 9137,
+      "preserved": true,
+      "sha256": "2d9699f375c190ea66f0f9c46923ce64c9c374a59e595e65c32b50f6ae30ac35"
+    },
+    {
+      "file": "ch17-03-more-futures.md",
+      "russian_letters": 5248,
+      "preserved": true,
+      "sha256": "2423fe3bb30df71b82f54a2565dd24fbd0393ba6e8faa35ae8010875a34e0682"
+    },
+    {
+      "file": "ch17-04-streams.md",
+      "russian_letters": 2100,
+      "preserved": true,
+      "sha256": "49506ab15b8441da7a3919d22bb8cd4d6832997de1532e80aefe768a1694913e"
+    },
+    {
+      "file": "ch17-05-traits-for-async.md",
+      "russian_letters": 13206,
+      "preserved": true,
+      "sha256": "3559e56bb19f9113bc5ce28b13d02b1a898649b61cf7d824a9d2f07a7088f4a3"
+    },
+    {
+      "file": "ch17-06-futures-tasks-threads.md",
+      "russian_letters": 4340,
+      "preserved": true,
+      "sha256": "87455ca17f004aceea4f37e83ecbbe67b7568f4a62645dc69d0b12e56373ecba"
+    },
+    {
+      "file": "ch18-00-oop.md",
+      "russian_letters": 779,
+      "preserved": true,
+      "sha256": "3f9127a3ea48682b2eefee245da3ddf3cc21a42f6ae85fc25528448074fd98ce"
+    },
+    {
+      "file": "ch18-01-what-is-oo.md",
+      "russian_letters": 6299,
+      "preserved": true,
+      "sha256": "11d2f5f261364d876f7b478d8b1148c1deff0ba9c0e0161bc3bd6e40433d87b9"
+    },
+    {
+      "file": "ch18-02-trait-objects.md",
+      "russian_letters": 9007,
+      "preserved": true,
+      "sha256": "6183dab857e9cdaf00634c3699d6745eff6efa16ec4eaf9d6a814c5a54c0e39f"
+    },
+    {
+      "file": "ch18-03-oo-design-patterns.md",
+      "russian_letters": 19408,
+      "preserved": true,
+      "sha256": "96354528ce4472904588507559c26addc10d535ffe52995e02ac0a2f1f87927d"
+    },
+    {
+      "file": "ch19-00-patterns.md",
+      "russian_letters": 1266,
+      "preserved": true,
+      "sha256": "9f1dfa8b8a349c36c6adbfbb3d7f3f470314fb29cd82ed59a0c7ae84fe738e3c"
+    },
+    {
+      "file": "ch19-01-all-the-places-for-patterns.md",
+      "russian_letters": 6750,
+      "preserved": true,
+      "sha256": "fc0299eb7132d49a03ab6d6452f30f71e007c10c1a6e822420c1fad3d4c38733"
+    },
+    {
+      "file": "ch19-02-refutability.md",
+      "russian_letters": 2923,
+      "preserved": true,
+      "sha256": "04559e306a2f6ee75482667286f115861faf7ceecd54731d0a03a3a9907c464f"
+    },
+    {
+      "file": "ch19-03-pattern-syntax.md",
+      "russian_letters": 18012,
+      "preserved": true,
+      "sha256": "b1589ec3406249a04bb14b319477b604ae2127059f89c35abf372101bdc1c48a"
+    },
+    {
+      "file": "ch20-00-advanced-features.md",
+      "russian_letters": 994,
+      "preserved": true,
+      "sha256": "9872e8d48a65448d38014dfec7fbffc7acd975ab1b2179a05ff4b46aebbe2b3f"
+    },
+    {
+      "file": "ch20-01-unsafe-rust.md",
+      "russian_letters": 19846,
+      "preserved": true,
+      "sha256": "1345ab2b23128acdeeb694f3520bb8aa9358a2dda30bc97a350ed5098c9fe55c"
+    },
+    {
+      "file": "ch20-02-advanced-traits.md",
+      "russian_letters": 12754,
+      "preserved": true,
+      "sha256": "75b4c7c2ee0dc91ceb8758fbf29b2d8edcad28e3b8098f2a64681fa4fd253895"
+    },
+    {
+      "file": "ch20-03-advanced-types.md",
+      "russian_letters": 8287,
+      "preserved": true,
+      "sha256": "22ef989afee21d6283a5d212be1ce039c3e67c9e2d8f8319b8723ea42f019247"
+    },
+    {
+      "file": "ch20-04-advanced-functions-and-closures.md",
+      "russian_letters": 5019,
+      "preserved": true,
+      "sha256": "ae03f8c3a2ece828c6971fc27937cc4bb8ebecd682586a9b17aa637ff36673b2"
+    },
+    {
+      "file": "ch20-05-macros.md",
+      "russian_letters": 16485,
+      "preserved": true,
+      "sha256": "955c83e1c6bc84ea9b1f82e140d506dde4f58a7ac699398a8b27fca2af4144fc"
+    },
+    {
+      "file": "ch21-00-final-project-a-web-server.md",
+      "russian_letters": 1363,
+      "preserved": true,
+      "sha256": "218dee93760e8f2aaa077884c8259f63d0fb18c4a82fff605c923e7773a09a2f"
+    },
+    {
+      "file": "ch21-01-single-threaded.md",
+      "russian_letters": 14109,
+      "preserved": true,
+      "sha256": "26a4fc67c5475cc5a5ad9c328e699227900a5f8a85863865be9542259d89b2b4"
+    },
+    {
+      "file": "ch21-02-multithreaded.md",
+      "russian_letters": 21573,
+      "preserved": true,
+      "sha256": "25c3223b46ed405cdc2a437a2eec00de306ba8496b2f11a36b966ad88fec010a"
+    },
+    {
+      "file": "ch21-03-graceful-shutdown-and-cleanup.md",
+      "russian_letters": 6414,
+      "preserved": true,
+      "sha256": "6dda4cf9d21a3ca35430d045f82faf334119a0256cfc58f223df4f0599b05f6d"
+    },
+    {
+      "file": "appendix-00.md",
+      "russian_letters": 116,
+      "preserved": true,
+      "sha256": "09e09b7664d757e0be8953e5e8332429b55301fcf5240e6ab56ad2bf854bfca4"
+    },
+    {
+      "file": "appendix-01-keywords.md",
+      "russian_letters": 3636,
+      "preserved": true,
+      "sha256": "8b0c7ffbe90d8d5612535330f36cf2b27efc4d1fb217a06b6424a9f65c12b57d"
+    },
+    {
+      "file": "appendix-02-operators.md",
+      "russian_letters": 5538,
+      "preserved": true,
+      "sha256": "bda6d25a8ccda3aad80a910197403f2a519d7b5ccf4e05ae4ac96edc6afebbed"
+    },
+    {
+      "file": "appendix-03-derivable-traits.md",
+      "russian_letters": 6602,
+      "preserved": true,
+      "sha256": "c84ae8a9b66c76954478eafef25992a9687c9b3d73ebee4517dbc6b122cf1765"
+    },
+    {
+      "file": "appendix-04-useful-development-tools.md",
+      "russian_letters": 2509,
+      "preserved": true,
+      "sha256": "3ebb46592f3c2bb6111e994a890103f50a39f08c82795676f689ea7e5b1b6d6d"
+    },
+    {
+      "file": "appendix-05-editions.md",
+      "russian_letters": 2528,
+      "preserved": true,
+      "sha256": "ee486643b9aed4a3415323e528f109825e6964a8a501a7cdbe9aeebef7f3f155"
+    },
+    {
+      "file": "appendix-06-translation.md",
+      "russian_letters": 264,
+      "preserved": true,
+      "sha256": "be75f8f2bdd37470b6c0e355ad0d108fde992755e918664549b9e79e115f584d"
+    },
+    {
+      "file": "appendix-07-nightly-rust.md",
+      "russian_letters": 6348,
+      "preserved": true,
+      "sha256": "c61db7ea86a47f7cbcd74647cf375b7bd0633a31b7768d27d7fda9e6c79c2bec"
+    }
+  ]
+}

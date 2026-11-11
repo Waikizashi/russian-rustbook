@@ -1,0 +1,9 @@
+:root { --content-max-width: 860px; }
+.content { font-size: 1.7rem; line-height: 1.65; }
+.content h1 { margin-top: 1.7em; }
+.content h2 { margin-top: 2em; }
+.content table { width: 100%; font-size: .92em; }
+.content table td, .content table th { padding: .55em .7em; }
+.content pre { border-radius: 8px; }
+.content :not(pre) > code { border-radius: 4px; padding: .1em .25em; }
+.content img { border-radius: 12px; }

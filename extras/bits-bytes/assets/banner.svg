@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+  <title id="title">Биты, байты и двоичные данные в Rust</title>
+  <desc id="desc">Русскоязычное практическое дополнение к Rust Book: 12 разделов, 27 примеров и один сквозной проект.</desc>
+  <rect width="1200" height="370" rx="22" fill="#18252b"/>
+  <path d="M1050 0h150v370H860z" fill="#21363d"/>
+  <path d="M1160 0h40v370h-180z" fill="#2a4449"/>
+  <rect x="48" y="40" width="270" height="29" rx="14" fill="#d58550"/>
+  <text x="64" y="60" font-family="sans-serif" font-size="14" font-weight="700" fill="#17262b">ДОПОЛНЕНИЕ К RUST BOOK</text>
+  <text x="48" y="130" font-family="sans-serif" font-size="44" font-weight="700" fill="#faf4e9">Биты, байты</text>
+  <text x="48" y="185" font-family="sans-serif" font-size="44" font-weight="700" fill="#faf4e9">и двоичные данные в Rust</text>
+  <text x="50" y="223" font-family="sans-serif" font-size="19" fill="#a7c1c1">От одного бита — до проверяемого парсера.</text>
+  <g font-family="monospace" font-size="25" text-anchor="middle">
+    <rect x="690" y="260" width="46" height="46" rx="7" fill="#29424a"/><text x="713" y="291" fill="#a7c1c1">0</text>
+    <rect x="744" y="260" width="46" height="46" rx="7" fill="#29424a"/><text x="767" y="291" fill="#a7c1c1">0</text>
+    <rect x="798" y="260" width="46" height="46" rx="7" fill="#d58550"/><text x="821" y="291" fill="#18252b">1</text>
+    <rect x="852" y="260" width="46" height="46" rx="7" fill="#29424a"/><text x="875" y="291" fill="#a7c1c1">0</text>
+    <rect x="906" y="260" width="46" height="46" rx="7" fill="#d58550"/><text x="929" y="291" fill="#18252b">1</text>
+    <rect x="960" y="260" width="46" height="46" rx="7" fill="#d58550"/><text x="983" y="291" fill="#18252b">1</text>
+    <rect x="1014" y="260" width="46" height="46" rx="7" fill="#29424a"/><text x="1037" y="291" fill="#a7c1c1">0</text>
+    <rect x="1068" y="260" width="46" height="46" rx="7" fill="#d58550"/><text x="1091" y="291" fill="#18252b">1</text>
+  </g>
+  <text x="48" y="294" font-family="sans-serif" font-size="18" fill="#faf4e9">12 разделов</text>
+  <text x="205" y="294" font-family="sans-serif" font-size="18" fill="#faf4e9">27 примеров</text>
+  <text x="365" y="294" font-family="sans-serif" font-size="18" fill="#faf4e9">1 сквозной проект</text>
+  <text x="690" y="339" font-family="monospace" font-size="16" fill="#a7c1c1">0x2D = 45</text>
+</svg>

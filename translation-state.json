@@ -1,0 +1,671 @@
+{
+  "schema_version": 1,
+  "chapters": {
+    "title-page.md": {
+      "source_sha256": "528bc5d3a02b43d635d2c5e7f5f2acef66a9522f20408d7912c61bf34dc66b23",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "60d7c3599959abd89c8b2a981a73ea7d9d37cc22f424e8daee3792a371966723"
+    },
+    "foreword.md": {
+      "source_sha256": "4f46d1385cf30780919a031ccfe36d23417d214d7d72168cbacdaa1977e24662",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "64c9c101a3a39a2cee2ac7d3518fc56f1dc20a940fd92835dd229e1750f87f40"
+    },
+    "ch00-00-introduction.md": {
+      "source_sha256": "bad13cd06ffc4fc2017b3ae99992ab7b4ad7dfc32afed7d6931525ce0a0c6296",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "38a28705016f051585ace93445639a9488a6c36375aa88092b1a1da6991594b5"
+    },
+    "ch01-00-getting-started.md": {
+      "source_sha256": "80d46298cc27d81989f75f7c5b13546f1b021086092bff141fea49c3aeb837a8",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "bfda81fc769157d6c46724adf61260da5f7fb08504cca3e952a7ba0b9e56c01d"
+    },
+    "ch01-01-installation.md": {
+      "source_sha256": "907a27ee34e5eb55a71c0cc6a2710d0055c6a1ca99b3b2414f7ca4c4a60313c6",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "4cf92f4ece13e0317b0a71f363257bfc1154fd54f849c61a8247013c0a87bf14"
+    },
+    "ch01-02-hello-world.md": {
+      "source_sha256": "dcfed2ad44566f82d19e93fbd8551af60254a9fe4222666b14aca0d1711f8678",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1f21682dc7bfc8e720b7ca3563e19d87417ba77c2f840669db97103610f60658"
+    },
+    "ch01-03-hello-cargo.md": {
+      "source_sha256": "9b01b83fd47ade6dc918989da0fcb943ba09f3a5a6a5fcf38c7943df1d28c3a5",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "3344ff407794d7226cbda5af8529b19a49c229f5810c8d1b9b0476ae9d8ec834"
+    },
+    "ch02-00-guessing-game-tutorial.md": {
+      "source_sha256": "540ed6890f9cfefc1d66ef7eccb43f3cf5b97a7508a1f3fefbbd7978a50f98dd",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "49fcf6cb1ab429b647d8ac133e1875757d216d0468b4a9da53cc2ea1cee297f9"
+    },
+    "ch03-00-common-programming-concepts.md": {
+      "source_sha256": "b8211bb60f385336be7c9ef6484e8c38a5877785eea03244d8697a64044ccab7",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "7dc6c86676bc695b7163ff29969bb118f3ff8d7c50201df05f950b5005badb05"
+    },
+    "ch03-01-variables-and-mutability.md": {
+      "source_sha256": "6fc7f7fda6850f669efa36ca55fb8faa4129c7fbe25fdcd32d81f0ab82e0beb6",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "87999fbd987873b1c96a51d7acb2e98053e885113bd47a955baa133a4288417c"
+    },
+    "ch03-02-data-types.md": {
+      "source_sha256": "6990fc65bcc683e6eac1f67d9b9b339b949ba3372eb6e8e3110d48b042272b95",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "b000b23c2a9bd8eed963e329ad3820033b9a8a6edb0b3b7abfeabdedf7365c9b"
+    },
+    "ch03-03-how-functions-work.md": {
+      "source_sha256": "739b4e27d69469936b83137d68e63748b25ec514760210df3750e117af33c4f1",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "0d31adf18f57af2e79b6ebe72a698e14e25ac7f311618bdaf966104c8c29dee8"
+    },
+    "ch03-04-comments.md": {
+      "source_sha256": "950233df9ae000d0a61e576ff5745eb91302cf9588a6254f287330149ac08ae1",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "712327541f2c0f071a1e9e5845181ea7ee43cfd5431b7cdcbd730fe138b47a6a"
+    },
+    "ch03-05-control-flow.md": {
+      "source_sha256": "f52800091cf12d0d378c9aebbdda3785b4ac241cfd4253a1919b1a075e10bf28",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "4ae1bdc37682c7f30a7c243080ae6d1a6d3485464f3f24a4d1593d0efcc8b7b0"
+    },
+    "ch04-00-understanding-ownership.md": {
+      "source_sha256": "6511432eea3a7a7d37c20d3c0447708a17ae6a8e9f8d65ae51c2a3be6bfd098c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "4580a6810c9c1cc4d835c607464ecf5beb5e6789fec02dc9e370b50205c3bda4"
+    },
+    "ch04-01-what-is-ownership.md": {
+      "source_sha256": "feaafea00707f34db1fe7dfa007627114678acec8b38474d57b56d0421ec032c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "cde1122f152af68c929451991fc994f9a0cd757ba98d4d36f0f3b1d56bfc75f2"
+    },
+    "ch04-02-references-and-borrowing.md": {
+      "source_sha256": "8aa3bdba2fa85f3a23b49d1caedcfffd422eb6dc4f334a54e59e59b20b94666e",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "cfbe333c8f9b893e3385a6c98afd453c381e39c116f7878bca0480a16aa0c537"
+    },
+    "ch04-03-slices.md": {
+      "source_sha256": "00e653de6ecf23bc5ce50930ab4b3593a301566cb96759a9a53fe634c97698a9",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "ac64d8bf2a33054af2b935db4a4fed97faaa0fdfedf96c4c730136f4ba84a0f5"
+    },
+    "ch05-00-structs.md": {
+      "source_sha256": "91f5ce1490f5e610a2758558353b0acf757a50eb06c79ffd1c4b7b0f0ae41eef",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "810e66c8a094d0367027ec37a8dc77fb8df4b85df5ecd5c40c467dd203bb7df7"
+    },
+    "ch05-01-defining-structs.md": {
+      "source_sha256": "74d552d4a0a7e237e53601d2f1dd08182d98b6641f31f373ecb896d14376e41c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "87dd83b56554f07a9b87baae0dc0df65a78a6101ceb0708f9db6d9a67da7cc70"
+    },
+    "ch05-02-example-structs.md": {
+      "source_sha256": "62f7b508e3ff37488cf3bed9c1ef5225a0593a726c7bc0848063546fdc189790",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "175e7836e637de8b945833d79d0fb6834e4f44c0e87d762bc1ac3281b204b63c"
+    },
+    "ch05-03-method-syntax.md": {
+      "source_sha256": "e02657dc5caf6a6b96ce517b6e9a19aa3481747097dffa778ef38def22fd21d5",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "741ac744972076c64a6ce0607fac2afbc9c05430f17880c0490316d91cbd010a"
+    },
+    "ch06-00-enums.md": {
+      "source_sha256": "1a95ee0d738e86d36c37373ba0228c2345706dc177553252b516ebf6e18181e2",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "83105ec113aff50581e2893f137657dee667fa4ac4104d1780b8bf42701576ba"
+    },
+    "ch06-01-defining-an-enum.md": {
+      "source_sha256": "b7be176e144981887d356464a7e750b3ff7eb5d62b0911f5ef4fa9f5ed63edd8",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "d49b30857edaf382c518e3d172a3e810155ee592a1f3fd6a534e5c1b8a3287a1"
+    },
+    "ch06-02-match.md": {
+      "source_sha256": "c59489d6f544ddf70503180dfff3ddf582d548eab114fcbc17a89cf526d70c33",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "0e90e4825a09541301bece18b146323be3baed77f43c6397038075b98dd7f3b2"
+    },
+    "ch06-03-if-let.md": {
+      "source_sha256": "8481cf4a515611101bfabb67b9fa91d1f7f9d9ea0adbe7cbc7963fb1324f3201",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "f6c41e8ab7dbb9c747de7a12b76a735c455c4339745175ac4404b7741236af2b"
+    },
+    "ch07-00-managing-growing-projects-with-packages-crates-and-modules.md": {
+      "source_sha256": "58eac7ff8f659ece67b9b2daff766da35d4b533a009f4914b511dc926cc532e4",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "5388467d94203485893fb1c6cd7906d8a059bcfc0a024151b29e02b18c1429fb"
+    },
+    "ch07-01-packages-and-crates.md": {
+      "source_sha256": "b21fff67bfcd0d72e4873539621322a051227f85c90b9bc4b55332a7f88cf848",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "05d176f921dba5594b06df24b4ccf595a2b0067905861160043c973f3cc10794"
+    },
+    "ch07-02-defining-modules-to-control-scope-and-privacy.md": {
+      "source_sha256": "78f8dfe6dd70449eae49f16f3ced0bdef4c77ee3ba5d75a1213d1a0a0174826b",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "52d6fede49026684e4490896daa0031b2da9b1e6045cf9192a1c36cdb2043bf3"
+    },
+    "ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md": {
+      "source_sha256": "1198702346845603cbe659494853b8de938850ccd6d3abfd9ae7c267f1f326f9",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "af43840fe4812f90d5ec53790b6f9f655d22da6c8266dae80ca9af232f417cb1"
+    },
+    "ch07-04-bringing-paths-into-scope-with-the-use-keyword.md": {
+      "source_sha256": "ec767a0caf20d48ff02db0d11b8195dcd48c6fb2fb479f6cca2280385d36a26d",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "245bc3817b27ea4f781b432650b9a6f13003bff1f02487fbac1432d8360f0457"
+    },
+    "ch07-05-separating-modules-into-different-files.md": {
+      "source_sha256": "2375f748d5d472e379571e96ea2cbb0155b6163320c2a5b5fae7dcc68651f93c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "3d1528a8079cf7c93acfdd7effa7085b474ed89669b50135b513a0375a04a8d0"
+    },
+    "ch08-00-common-collections.md": {
+      "source_sha256": "d2cdd42896a09c1f33cb8df7c9d12102148ad455beb5b4ca492a1ebf6380b2b8",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "a8cbd8e5513be7b0b6c904c421927f44628e2cfbab5294e297667c8e169be94c"
+    },
+    "ch08-01-vectors.md": {
+      "source_sha256": "d32a51bdb6cf08983aff63ba078ec7a4d1ccdfcfc4639a9315724f14b82cfe68",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "9914caa5f099caa483f722bb784ec11686a3980498c458c3adc2d01603f0eca0"
+    },
+    "ch08-02-strings.md": {
+      "source_sha256": "57bdfea5a8ba316b48e1c30a2caa046004b82fe5a9f1ed03cb55b11aef81081a",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "faeb35a6a79ed439d3f94b0c9ed5e939289cde0fb7d9655dbfef18b9fd8a4e5b"
+    },
+    "ch08-03-hash-maps.md": {
+      "source_sha256": "9e80ac0fea99594427d87ac41598ff6f10ab8fce26bce6b39d2bd47becd3f111",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "3e80b20544725f169e1abb066cf2f0068b4f8a795b86903eb3c370813aa7ea71"
+    },
+    "ch09-00-error-handling.md": {
+      "source_sha256": "d56525a5e5bf2d7b11fa93c6d13afa5c21bb7cd627fcf9278ff59d072e46d9b2",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e09378a75611299f64c98218a5d4a2e678603947ed767c157feac3ac063d2ec4"
+    },
+    "ch09-01-unrecoverable-errors-with-panic.md": {
+      "source_sha256": "6cfe4d97f66c2cec22bdb5a9a57901c396705de5ee010b21e8f2b3acc5202eb0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "879943d110daaabc05a745b0deb63d1a89131024d012a19fbf68fd4329407066"
+    },
+    "ch09-02-recoverable-errors-with-result.md": {
+      "source_sha256": "12ae999e3513d4a72afaa3083295be7b002dbfdb89cf4bb08599d6f636bf4c27",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "bfab52e1d99d8dd40a05a8e45f4241d8e0284e6c33f0a09af70f251e680a92f8"
+    },
+    "ch09-03-to-panic-or-not-to-panic.md": {
+      "source_sha256": "bc28a1218baf0a710cfdc27da6b8e217ad6c54e5f057392c8c0797e4a750c24e",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "2c1be7102cd84463034beb7c56d1107329a192e87d46a45809f44fef78c37975"
+    },
+    "ch10-00-generics.md": {
+      "source_sha256": "50e09bd88942945a090b62231008086fe7c90ff53ef06047657cfebbbefab69c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "6bd3441df8be38367c297227ebffd2e43fb677854111c70d0210b1920fdee581"
+    },
+    "ch10-01-syntax.md": {
+      "source_sha256": "a32f3d85e3f91abc768f921fa78f95fa1f06c1b187689e667de9ee264ec46764",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "7324513eecb534076ec5a81bb9ab56caaa0e0e8813a289330e1fc93aa14c4781"
+    },
+    "ch10-02-traits.md": {
+      "source_sha256": "5940600bf4640bfe243aeba093a13c0a9f431e87322cb6937033f99ed0c9db39",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "8df79eb8998865710164f1a1ab60e7fa9eeb0c01cf236e6f25b1a4249b8cacf3"
+    },
+    "ch10-03-lifetime-syntax.md": {
+      "source_sha256": "981342f3ba085f0c024f4d22e18bf28f0c20915e882e88215ff82b9f62096420",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "95cf1622fa5afc36bd7fee88c65edf0eb130905c24294efcc619979363520a0a"
+    },
+    "ch11-00-testing.md": {
+      "source_sha256": "806819032272325aacbe5eb40a1aca97ca227d91e2443f0300ad6f6d336cdcfc",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e32a21dcb46d43facb4533990999acd386a85018a1ed650e2236c396274812a5"
+    },
+    "ch11-01-writing-tests.md": {
+      "source_sha256": "46f6482ec038b1d050b940dd240eb5d92639d6e63e49b4200aa0b6bda68bbee0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e11fbb530ced99dc1609312fadaabcc74887e9a6d0603bfa03d56781ce072f6f"
+    },
+    "ch11-02-running-tests.md": {
+      "source_sha256": "1f65006c5ecd07ce5ba246d787d34a20ef9bc9ff25dbaffb18bc55ec555c0206",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "8a93f5a26a7679656b663f665470876ab17d1206de6f0b1943f7dc2537b3acdb"
+    },
+    "ch11-03-test-organization.md": {
+      "source_sha256": "bfcb7f30d2adbd48eb9973055050d6fb6f0eb0d5a2bde86ae7f63a7c40bfc949",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "d71b522ae5669d8f920dda3b4f31c2e1b0a2fe46f0055a147d2467e8340347e3"
+    },
+    "ch12-00-an-io-project.md": {
+      "source_sha256": "eecfc981435ecd94558e2cb089780751a0d7dfe8d3736851e430b6ad19669bb5",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "49e3862a1403b5759c46c40f9f2bc668a7220addcf5a202df460a7613b095176"
+    },
+    "ch12-01-accepting-command-line-arguments.md": {
+      "source_sha256": "49433c070a62762824de5a8f7a45ca7e50870459b7fef2163503991600ea9c4e",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "997df8a7a7bc174c7b883eb2b3570089d3fab1c0c0e13a4bc740ed799b84796d"
+    },
+    "ch12-02-reading-a-file.md": {
+      "source_sha256": "d2ee23fef6df62d704a915118345a04504bb6e97291af1ea8cc9f5cec403a757",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "cac0a1ad09388a70f33daa216652c38288d1e79b77989ea471ebbe19f6126188"
+    },
+    "ch12-03-improving-error-handling-and-modularity.md": {
+      "source_sha256": "905d8aef8545f78487a87477702b411ca033c6dab6f06c02edca71445d0138cb",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e1072eede9c6745ab563e2c056395a541ec8279019209d626b7142fefe03bb89"
+    },
+    "ch12-04-testing-the-librarys-functionality.md": {
+      "source_sha256": "6e9aefdff08ec4f5c910ed3ecc9108b68c57828d62e8cccf0a867ae0621ee3f0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "a6dd04a543fcf15cf5fee0486563e564433d34989de95797d921912c5ed36c7f"
+    },
+    "ch12-05-working-with-environment-variables.md": {
+      "source_sha256": "6211796c74143546ef7ccdea3e4de37cabfa9ca87a2396aac20beffa3fd4fa20",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "9df95729ac0758cfa57ed81f541d5ba0362fb0a5e80ed27775939386b4d1a7bb"
+    },
+    "ch12-06-writing-to-stderr-instead-of-stdout.md": {
+      "source_sha256": "c0564dbc533c25d167c577e812e3bd2941e6e95cfc68536ffd6eeaa3536b7396",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "2c1fddf58bfb7d833ce7e1372acfe8dea3c8adeccd9729f204ae1c25dd894f78"
+    },
+    "ch13-00-functional-features.md": {
+      "source_sha256": "3176792b9abd64b9a22b4489742438ba653422fcc44d55828dfb77b3deef625a",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "8ccb849630f4b3985c21ee5ab96800fc737c4f8888cb74f600a74a82289e04a3"
+    },
+    "ch13-01-closures.md": {
+      "source_sha256": "4ac1d34fd3d2bd395ecc9e7c91cc1c106b99574cd1369049f054762ca71c0b1a",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "97e2bdeae90d8c1542aedaa5da9a3aca22f5039159a0f2ac4f4242166165cc84"
+    },
+    "ch13-02-iterators.md": {
+      "source_sha256": "7236a4327ffda5d70d9d3a3e1ec0a255107234801af9b30292abdaf1dd52c022",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "9218fe4d85b266ea3ecca28808006cdaa67eceaad11adc4bb166e4c51f7283f3"
+    },
+    "ch13-03-improving-our-io-project.md": {
+      "source_sha256": "0764136361ec5fbfd792bf16237e6e94aacfe2b78cd8053f0151de69550c2084",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "25b58d8655590cdb50f6a05370f5a3ba114f4d65d58db42c20ce3231b15ffc70"
+    },
+    "ch13-04-performance.md": {
+      "source_sha256": "655f4a649a4e50951cafedca10572601c095e1b16a582584457339fb366c128b",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "54c2884df4a73fe5a6cabe03a83e37b7f9f9dfa541e8be7d582c09cdf336b0a3"
+    },
+    "ch14-00-more-about-cargo.md": {
+      "source_sha256": "39670d3f819df8c3dd810e6790b06a043ef08ce3491120726a66f1421b9101bb",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1a16173ffdab6b6c9a1a3f62d55e97629f454ff3cc49a1d8d02c77857336acd6"
+    },
+    "ch14-01-release-profiles.md": {
+      "source_sha256": "d291420ad8ba9bed75a9f4a030adbe6a8b15fc36b55463f4abdbf6b453aad8d0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "ebeddee74cc908c7aa3c622c0a4337f8dc3e06dc46bda99eb254a349e6081f33"
+    },
+    "ch14-02-publishing-to-crates-io.md": {
+      "source_sha256": "b49ff4ab4fd31a7682fba4e93aa140d4b3213248e660a0fa00b67f5476bc98db",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e89b683ba4a8ba503104b977109dd30e86b07e11a6bb9a6cd68b27148018af7b"
+    },
+    "ch14-03-cargo-workspaces.md": {
+      "source_sha256": "99bde51d90fa9b2ea3666059207e9160a03d6ecb281b9062960f2dd0ecd37e1f",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "de8c4aadf07086bb5bce34f48e33bd1e3a7685262ff3bb1d4edf978e258c79a9"
+    },
+    "ch14-04-installing-binaries.md": {
+      "source_sha256": "9b9886e4f8a86b5fe34e48b7a78f091bc9ae8c6db20df9e73de76f55d305cdf4",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "bea29a8284b0d47534863d4adc4f426b5782ac5a8934572edc6317b4cd36762a"
+    },
+    "ch14-05-extending-cargo.md": {
+      "source_sha256": "98a4945174602bc13899ce7fb06c1e78af83c3ed9d2fe82d7c298e3a4a8dd9c4",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "db8975cd43438159bd46e255d3957c735e6bce04a00e50b72804a34ce666f2d9"
+    },
+    "ch15-00-smart-pointers.md": {
+      "source_sha256": "c6bb35001ed4755f961ad135fb4ddbcf1d8fa3475dd6772c424944acd981fd63",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "544149fe97296d01e2cfb2c5da8ed71b1315c60eefe3dee3cdb7dcf09227b749"
+    },
+    "ch15-01-box.md": {
+      "source_sha256": "c6390f3d4d05017ea0c9606c8dc8635f42ad4cc18b79e109017a008eba7ba9f0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "9120e4b396b67969442d92e959eba6496082e406d2eecf70b92491e151d1d919"
+    },
+    "ch15-02-deref.md": {
+      "source_sha256": "3cb28de0a1345dac74d8f53b4cc9ef1806070540417e37b6ba69d37df45af0a3",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1854ab21c9454c55e1aeb04ccb9f589dfd074f2e636bd4b0105ccc3cbaf4f095"
+    },
+    "ch15-03-drop.md": {
+      "source_sha256": "4d87daaf7f5815b889bc0e3998d2025918043a2d26f4c4ab5a3f18a79b3dd203",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "554dc6ddab640f8301a418faf508bf4a12d2778cd54908477d7146d4423ff41f"
+    },
+    "ch15-04-rc.md": {
+      "source_sha256": "480071ba43b81be07db6a2647dbe1547c1582cc0aaf2d03b2a9f7cf0a1ba4390",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "910a07fe97de7c0920f1024e04d5a44a3194d49de8cf06e5b243a340eacdb897"
+    },
+    "ch15-05-interior-mutability.md": {
+      "source_sha256": "cf532d139d0ab827ab7bddb5b94ad766f64578b61563fe63728afed5a3b7ccb4",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e9588b63014192fbb2d7ce5a1f9976cfeedfc89b28449fa31c17b6050563d998"
+    },
+    "ch15-06-reference-cycles.md": {
+      "source_sha256": "ed5f168de5567cd49dcfec08c5de8a07baa2b355c695aa37c65375b1f587a872",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "34005becd5105bb497e63caf88e4a63d58e3d2b99f4c6e16fdc7a348bf3d42a5"
+    },
+    "ch16-00-concurrency.md": {
+      "source_sha256": "eb1464b1d074e5e1900a0aa7528e62baf9bcbb27480b4bb8371b6928cee89e80",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "5a904eda576e5e79af520663e02d34391a643ef820e944ef49d1a997d708cbc5"
+    },
+    "ch16-01-threads.md": {
+      "source_sha256": "d7110b50dbeebbbf1656d0b71a795b3b2a802e72ff47f8f655827e837d49aa23",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "43d56e6bcbe978a2925e569d358898b5a93e845523043339b8974bbe280d64b5"
+    },
+    "ch16-02-message-passing.md": {
+      "source_sha256": "8387bb4d0a9ec598a441cc4435c9df9f317c39d9902e145a94596ed38e097a2a",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "b0e037e2c1522ffcf479158ddc2e6e46e529a846beaf9efa7a8d76ebe36c170a"
+    },
+    "ch16-03-shared-state.md": {
+      "source_sha256": "c77a18b0ecc7d31b6d31aa3acbb01cb745e8a8618f6c235eca7cb47616b07207",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "fc5ecf1658576ebbd46a2cb286d1dde748ad87d35309b02f77a9698d67e32331"
+    },
+    "ch16-04-extensible-concurrency-sync-and-send.md": {
+      "source_sha256": "acf14a76d53885776ce37a983f3e8ad29dd4cc5371a9aaf1ed3ff6ff9f9b382d",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "30126e499561137db6d0ced45541cb8c8fbb65e2e3429a0e5285e88f0ccb96a5"
+    },
+    "ch17-00-async-await.md": {
+      "source_sha256": "a131aaff96da361c80efb6380af3b4baa9f223e95b44f81fbce9dae6f72a2d9c",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "29c4c793c7e23024ad7b639fa2ad23b6823e72ac6eb4524cedc5c30a05e98d7f"
+    },
+    "ch17-01-futures-and-syntax.md": {
+      "source_sha256": "7266255f374aef8caeb0fbcc08d5d3ec6df71fb241b5deecc450678c750212b5",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "2e927cbe4967dc81f9e65c4fc56eb3439744baa49d45aee06d0089a3a25d9177"
+    },
+    "ch17-02-concurrency-with-async.md": {
+      "source_sha256": "2e7d934d9c7430e4bd65fdd986fa5ae03dde3b6f792b545136b6ac8258894991",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "ff61fc0d29270483fff6b2b289c0e7b1bc7048eeb2c4838f1e35dc64f8a32ddc"
+    },
+    "ch17-03-more-futures.md": {
+      "source_sha256": "9edd3529eed56b27ebb63b3ae16a01e6a6018abd6d4c75bce7256f64b14fd3f2",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "7d5c7578dd62ab9403ab3cbf46ffb23b101f5f942776530c5d70ff0cfb1fe440"
+    },
+    "ch17-04-streams.md": {
+      "source_sha256": "1b7b3c11dd1ff7b91033a43c383049c5fbdbbff88a187cfc7c592487732081c2",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "c35f431fa83fa8e70c38371f697a46efa304a58e25e69121f43872efbffdcea4"
+    },
+    "ch17-05-traits-for-async.md": {
+      "source_sha256": "dbae1b0a0689a6f37460f0c0751cdf47e7930166fbc8afde413e35719b5d5e70",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e615a2ce6f1e1443173491311223c0c1d260d515b6da2019ca90c7f109813351"
+    },
+    "ch17-06-futures-tasks-threads.md": {
+      "source_sha256": "f3cffdabeef8edf045d0f278eb725f1df057717089a7f951afff580b994c7731",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "bff92a70824b1703ddc62bc7e5c9f391df3b79851bd6e41e794eba4daf858579"
+    },
+    "ch18-00-oop.md": {
+      "source_sha256": "0019fdbff19e4ebcd2eeb7570143c956d219b988548718dda5b7e3158415e05a",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "6bf2e335b4ed12c7a41769b54beffb389b57461bffd426cee2510c8839b2c253"
+    },
+    "ch18-01-what-is-oo.md": {
+      "source_sha256": "c39d10d366c67257cacfd73a7ac79a6d14b02ed95e44bd8a2c8fd0665fdccd14",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "df4ca6e0ec283e51b93191a1a03c7b32460798f65229f07bef9a99da5b5d7954"
+    },
+    "ch18-02-trait-objects.md": {
+      "source_sha256": "527b31509970fe6187b5cbc6be2607c5581a559f5e9a099e09683a7cbf777934",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "715f9214e14bff26722afce886614f1676110e8c78e00bcabb417cc4fe49cb02"
+    },
+    "ch18-03-oo-design-patterns.md": {
+      "source_sha256": "b54d2a7973c6d4e7f25852b785f9936d9677a3bd2619763f03792026b8a209d9",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1a901ad097a317cc586dad1e64cb3358393f7e3fffe9a3a25cc8c927070204d4"
+    },
+    "ch19-00-patterns.md": {
+      "source_sha256": "1e64b5b1eb842852c70817cca48ad6662e2597d43591a3b6f40ee04c573ee016",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "3fc2565c982fefd813501db204d83824914eec958a780b7899c52c8768bfbca2"
+    },
+    "ch19-01-all-the-places-for-patterns.md": {
+      "source_sha256": "d5f6633f0f0260d3cf52a0b9b7d2765dc96d2ff962bceffe978fb07a4e14cab2",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "e843b5492d18daf5d36f5ff662768f75286c81075c03f3933abb870071b112df"
+    },
+    "ch19-02-refutability.md": {
+      "source_sha256": "32190daedd513ec059edd3a8128b6bcdd02eb34121c0e6f37513cd944282f973",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "a084d173ef0eb1b0e32d74849d2386ccf028655f726c6e9d3f687a4ad55f491d"
+    },
+    "ch19-03-pattern-syntax.md": {
+      "source_sha256": "1988beac7b6d2e1ddaa5bcf6c03bb018df1bb3c023346a27764d5c5938a63758",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "eb89fc17b44cc8cd8db76345458181cb045865ae51a77be09dd4867e219f964a"
+    },
+    "ch20-00-advanced-features.md": {
+      "source_sha256": "d7aed2d2ede0adbc884f16f22d2404cb359fce0d12388ecaf02d0786d34db940",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "d6eefcf44cbb32d03acf8470e58bea252d4b07342f872e89eb9098358d894d26"
+    },
+    "ch20-01-unsafe-rust.md": {
+      "source_sha256": "9c687bea915840180323f98a7c3c72c96d78f27285563f02b518975308ab39d0",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "0a4bcc582a6ab95ce9fb9ab32dfd00a7e021ae11042e1cf13c4ddce26264ea6d"
+    },
+    "ch20-02-advanced-traits.md": {
+      "source_sha256": "1c97c0dd3c0ae4419bb0c87ab353dd33473da628c865a4f343c93c8cabb45f1f",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1cc37098f7357cd42e02d5936eb53da390336434ce68e933c82b90854ea031ba"
+    },
+    "ch20-03-advanced-types.md": {
+      "source_sha256": "6db0398e45aa760f131312e8d499ea04efb499065c1f13c58fe3fcb1af561e59",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "f5202422829b1dbc89384287f5f9355c48a946fa267d7ff3e7e9cde6cd9b1a55"
+    },
+    "ch20-04-advanced-functions-and-closures.md": {
+      "source_sha256": "ec76510392bdfe9690244f1dc0fc5ef7a3cea3f1ddd6052e3c813c800637aec8",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "1c1ee9a9462d9d9a6416e48cd039924a4083b826532fb6dac7f4261b82940b2b"
+    },
+    "ch20-05-macros.md": {
+      "source_sha256": "f708f046f7ae2ca5dc0e56d449f56b4f9e13ac4292f873fa8341a17259011c36",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "ee26178de68b4cfb4d7d62d19aca28a6eeb67040577fba049fdf4d3f8a53070f"
+    },
+    "ch21-00-final-project-a-web-server.md": {
+      "source_sha256": "9298e067ebc26b1772a9b7773fe9f14ce26ee94d2ee586fd9222ccee15428832",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "26a22d69ff7e95fd542a55abf35ef093bb7070c1ac2ade14d207e93c583f9112"
+    },
+    "ch21-01-single-threaded.md": {
+      "source_sha256": "6fe781801f7407b0663c0872ba64e3ee30737d9a0b9293f00e33a8646df9eca5",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "acdc7509cf3ca8f0807397f891f82fd951ce29769a1fa917be3f92cc6159c1a8"
+    },
+    "ch21-02-multithreaded.md": {
+      "source_sha256": "18d62061445b10fd449875819482985a0c302243866ab479e72d8a6b040f6e86",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "b12b61be4bd3f23739ecae71e412c8059a67e6d63449d53116bfcfcf2f4bda47"
+    },
+    "ch21-03-graceful-shutdown-and-cleanup.md": {
+      "source_sha256": "11bc7af7dad3a0e38573d4b9b213e3c6fd4228fd40c71fb54068e4ec0be3ce36",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "f8c5139a8fd30898133e7362b7cbfb5d9d5162a3fd1e144937b0d944a27b7ed2"
+    },
+    "appendix-00.md": {
+      "source_sha256": "191e62f7c9c258a1654dc8f7770ee9cf5be8c3226f65298ca557bae07d7c59ad",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "4070539e11d168eaa00f42e3672d64a4c024835354bada0449ec47c0af778ac6"
+    },
+    "appendix-01-keywords.md": {
+      "source_sha256": "f42ae0b44e738fdde8d08d7cafe50abe6b918e48dfe1319afb40f7c9e4e93dad",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "55e20d7bb55cf1c1483145b75cd7cfbcdb3a77c1b7cb068c0170e8bedf9772cd"
+    },
+    "appendix-02-operators.md": {
+      "source_sha256": "63ffd6bf192c1a1b3845d340916c017739844102f47099bbfa3f454428eb34e6",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "a974414fbe3f59daa005bd059c3faffaf91dcf064b9944aee6cb512be10d6cb9"
+    },
+    "appendix-03-derivable-traits.md": {
+      "source_sha256": "62e9c886624984217e3f7bf3bdc9a96467e411bf7bd4f45a8268c8f5a4a0c583",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "02f720ae6e375835f137f626783d96282ec083cff0341a00e1d4b2a8b96a116d"
+    },
+    "appendix-04-useful-development-tools.md": {
+      "source_sha256": "9267f5514f75c2842dd1f566067c64b29f62b98dc85970fc186bde798a8ae9f6",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "bf6d73ea1707c9bc86f5381f0739f36a96675729e801ee1a2d67d4703b71e1b7"
+    },
+    "appendix-05-editions.md": {
+      "source_sha256": "83649f1a5fc3eb6920804908ea8b4933dffa762f897d8636b701d495e18db713",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "5752df6de7249714c3db2d4a92c8f0a9f125c5a26f49afbbeb084855378669d0"
+    },
+    "appendix-06-translation.md": {
+      "source_sha256": "64aabfc19b430ffbe4e10a3297106fd7044bfc67dec1d95de2b6c645fba10c22",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "b5c87e8efd181e2e031133aa4f848a0bcd1557383b659a538c46ba33a7841c72"
+    },
+    "appendix-07-nightly-rust.md": {
+      "source_sha256": "f2ef3430dfb3025501aad797bc7cd48d7637e6852271e0da74d8c231202b0eae",
+      "reviewed_commit": "2771df165f092a4fbb9f46b5b2e7450f19010adb",
+      "reviewed_at": "2026-11-10",
+      "translation_sha256": "c63a2cf673ceb64745953a10f4788c0a207dc5a8ec9a84170ad09731887838e8"
+    }
+  }
+}
