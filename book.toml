@@ -13,10 +13,11 @@ build-dir = "book"
 create-missing = false
 
 [output.html]
+site-url = "/russian-rustbook/"
 default-theme = "light"
 preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/Waikizashi/russian-rustbook"
-edit-url-template = "https://github.com/Waikizashi/russian-rustbook/edit/main/src/{path}"
+edit-url-template = "https://github.com/Waikizashi/russian-rustbook/edit/main/{path}"
 additional-css = ["assets/book.css"]
 
 [output.html.playground]

@@ -13,6 +13,7 @@ build-dir = "book"
 create-missing = false
 
 [output.html]
+site-url = "/russian-rustbook/extras/bits-bytes/"
 default-theme = "light"
 preferred-dark-theme = "navy"
 smart-punctuation = true

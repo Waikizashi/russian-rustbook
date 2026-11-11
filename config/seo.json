@@ -1,0 +1,22 @@
+{
+  "base_url": "https://waikizashi.github.io/russian-rustbook/",
+  "site_name": "Russian Rust Book",
+  "verification": {"google": "", "bing": ""},
+  "pages": {
+    "title-page.html": {
+      "title": "Rust Book на русском — Язык программирования Rust",
+      "description": "Бесплатная Rust Book на русском: изучение Rust с нуля, владение и заимствование, многопоточность и async/await. Главы, примеры кода и дополнение о битах и байтах."
+    },
+    "ch00-00-introduction.html": {"description": "Введение в Rust Book на русском: кому подходит учебник, что нужно знать перед началом и как изучать язык Rust по главам и практическим проектам."},
+    "ch04-00-understanding-ownership.html": {"description": "Владение (ownership) в Rust: как язык управляет памятью без сборщика мусора. Обзор правил владения, ссылок, заимствования и срезов с примерами."},
+    "ch04-01-what-is-ownership.html": {"description": "Как работает ownership в Rust: стек и куча, область видимости, перемещение значений, Clone и Copy. Разбираем правила владения на примерах кода."},
+    "ch04-02-references-and-borrowing.html": {"description": "Ссылки и заимствование (borrowing) в Rust: неизменяемые и изменяемые ссылки, ограничения заимствования и защита от висячих ссылок. Примеры и объяснения."},
+    "ch16-00-concurrency.html": {"description": "Многопоточность в Rust: потоки, передача сообщений через каналы, разделяемое состояние и типажи Send и Sync. Введение в безопасное конкурентное выполнение."},
+    "ch17-00-async-await.html": {"description": "Асинхронное программирование в Rust: async/await, Future, задачи и потоки значений. Как выбирать между асинхронностью и потоками операционной системы."},
+    "supplement.html": {"description": "Дополнение к Rust Book о битах, байтах и двоичных данных: маски, endian, UTF-8, varint, парсеры и кадрирование TCP. Упражнения и учебный проект Byte Note."},
+    "extras/bits-bytes/00-about.html": {
+      "title": "Биты и байты в Rust — практическое дополнение к Rust Book",
+      "description": "Работа с битами и байтами в Rust: от двоичной записи и масок до UTF-8, парсеров и протоколов. Практические примеры, упражнения и проект Byte Note."
+    }
+  }
+}

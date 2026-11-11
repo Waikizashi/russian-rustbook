@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Install pinned official ebook tools without depending on Ubuntu mirrors."""
+import argparse
 import hashlib
 import io
 from pathlib import Path
@@ -21,6 +22,9 @@ def download(url, expected):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--pandoc-only", action="store_true")
+    args = parser.parse_args()
     BIN.mkdir(parents=True, exist_ok=True)
     pandoc = download(
         "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-linux-amd64.tar.gz",
@@ -30,6 +34,9 @@ def main():
         binary = BIN / "pandoc"
         binary.write_bytes(archive.extractfile("pandoc-3.13/bin/pandoc").read())
         binary.chmod(0o755)
+    if args.pandoc_only:
+        print("Installed verified Pandoc 3.13 in .tools/bin/.")
+        return
     epubcheck = download(
         "https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip",
         "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c",
