@@ -34,9 +34,11 @@ jobs:
           python3 -m http.server 8765 --bind 127.0.0.1 --directory "$RUNNER_TEMP/site-preview" > "$RUNNER_TEMP/site-preview.log" 2>&1 &
           SERVER_PID=$!
           trap 'kill "$SERVER_PID"' EXIT
-          node scripts/browser_check.cjs
+          BROWSER_STATUS=0
+          node scripts/browser_check.cjs || BROWSER_STATUS=$?
           "$QA_NODE_MODULES/.bin/lighthouse" http://127.0.0.1:8765/russian-rustbook/ --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage" --output=json --output=html --output-path=dist/lighthouse-mobile --quiet
           python3 scripts/check_lighthouse.py
+          exit "$BROWSER_STATUS"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: always()
         with:
@@ -45,6 +47,7 @@ jobs:
             dist/*verification.json
             dist/lighthouse-mobile.*
             dist/*home.png
+            dist/browser-failure.png
             dist/desktop-borrowing.png
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'

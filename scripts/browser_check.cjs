@@ -1,8 +1,10 @@
 const {chromium} = require(process.env.QA_NODE_MODULES+'/playwright');
 const fs = require('fs');
+let lastPage;
 (async()=>{
  const browser = await chromium.launch({executablePath:process.env.CHROME_PATH,headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
  const page = await browser.newPage({viewport:{width:390,height:844},isMobile:true,deviceScaleFactor:1});
+ lastPage=page;
  const base='http://127.0.0.1:8765/russian-rustbook/';
  const errors=[],failed=[],overflow=[];
  page.on('pageerror',e=>errors.push(e.message));
@@ -23,7 +25,7 @@ const fs = require('fs');
  const darkTheme=await page.locator('html').getAttribute('class');
  // mdBook keeps the theme menu open after selecting a theme.
  await page.getByRole('menuitem',{name:'Light',exact:true}).click();
- await page.getByRole('menuitem',{name:'Light',exact:true}).press('Escape');
+ await page.keyboard.press('Escape');
  const github=await page.locator('a[href="https://github.com/Waikizashi/russian-rustbook"]').count();
  const edit=await page.locator('a[href$="/edit/main/src/title-page.md"]').count();
  await page.locator('a.mobile-nav-chapters.next').click();
@@ -48,4 +50,11 @@ const fs = require('fs');
  const report={keyboardFocus,pages:urls.length,mobileViewport:390,overflow,errors,failed,mainSearch,extraSearch,darkTheme,github,edit,navigation};
  fs.writeFileSync('dist/browser-verification.json',JSON.stringify(report,null,2)+'\n'); console.log(report);
  await browser.close(); if(!darkTheme.includes('navy')||errors.length||failed.length||overflow.length||!navigation||!mainSearch||!extraSearch||!github||!edit)process.exitCode=1;
-})().catch(e=>{console.error(e);process.exit(1)});
+})().catch(async e=>{
+ console.error(e);
+ if(lastPage){
+  await lastPage.screenshot({path:'dist/browser-failure.png',fullPage:true}).catch(()=>{});
+  console.error(await lastPage.locator('body').innerText().catch(()=>''));
+ }
+ process.exit(1);
+});
