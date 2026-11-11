@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Проверить
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y pandoc epubcheck
+          python3 scripts/install_ebook_tools.py
+          export PATH="$PWD/.tools/bin:$PATH"
           python3 -m unittest discover -s tests -v
           python3 scripts/check_book.py
           python3 scripts/check_language.py
