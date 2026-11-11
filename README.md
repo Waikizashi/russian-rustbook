@@ -79,7 +79,7 @@ cargo run --manifest-path extras/bits-bytes/Cargo.toml -p byte-note --example de
 
 ## Собрать и проверить
 
-Для общего сайта нужны Python 3.11.8+ и mdBook 0.5.4; для проверки исходников и EPUB — Pandoc 3.13. Для PDF дополнительно нужен PyMuPDF; для запуска примеров дополнения — стабильный Rust с Cargo.
+Для общего сайта нужны Python 3.11.8+, Node.js 24.11.1 и mdBook 0.5.4; для проверки исходников и EPUB — Pandoc 3.13. Для PDF дополнительно нужен PyMuPDF; для запуска примеров дополнения — стабильный Rust с Cargo.
 
 ```sh
 python3 scripts/check_book.py

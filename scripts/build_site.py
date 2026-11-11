@@ -24,6 +24,7 @@ def main():
     extra = ROOT / "extras/bits-bytes"
     run(sys.executable, "scripts/prepare_book.py", cwd=extra)
     run(str(mdbook), "build", "--dest-dir", str(ROOT / "book/extras/bits-bytes"), cwd=extra)
+    run("node", str(ROOT / "scripts/search_index.cjs"))
     for script in ["site_seo.py", "check_site.py", "check_seo.py"]:
         run(sys.executable, str(ROOT / "scripts" / script))
 

@@ -19,10 +19,10 @@ jobs:
           persist-credentials: false
       - run: bash scripts/install_mdbook.sh
       - run: python3 -m unittest discover -s tests -p test_site.py -v
-      - run: python3 scripts/build_site.py
       - uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # v6.0.0
         with:
           node-version: '24.11.1'
+      - run: python3 scripts/build_site.py
       - name: Браузер и Lighthouse
         env:
           QA_NODE_MODULES: ${{ runner.temp }}/site-audit/node_modules

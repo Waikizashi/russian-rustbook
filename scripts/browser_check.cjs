@@ -14,7 +14,7 @@ const fs = require('fs');
  await page.goto(base,{waitUntil:'networkidle'});
  await page.screenshot({path:'dist/mobile-home.png',fullPage:true});
  await page.locator('#mdbook-search-toggle').click();
- const input=page.locator('#mdbook-searchbar');await input.fill('владение');
+ const input=page.locator('#mdbook-searchbar');await input.pressSequentially('владение');
  await page.locator('#mdbook-searchresults a').first().waitFor();
  const mainSearch=await page.locator('#mdbook-searchresults a').count();
  await input.press('Escape');
@@ -28,7 +28,7 @@ const fs = require('fs');
  await page.locator('a.mobile-nav-chapters.next').click();
  const navigation=page.url().endsWith('/foreword.html');
  await page.goto(base+'extras/bits-bytes/',{waitUntil:'networkidle'});
- await page.locator('#mdbook-search-toggle').click();await input.fill('байты');
+ await page.locator('#mdbook-search-toggle').click();await input.pressSequentially('байты');
  await page.locator('#mdbook-searchresults a').first().waitFor();
  const extraSearch=await page.locator('#mdbook-searchresults a').count();
  for (const width of [320,768]) {
